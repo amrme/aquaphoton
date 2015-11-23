@@ -42,7 +42,7 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: ['index.html', 'js/main.js', 'css/main.css', 'css/bootstrap.css', 'bower_components/components-bootstrap/less/bootstrap.less'],
+        files: ['index.html', 'js/main.js', 'less/main.less', 'less/mixins.less', 'css/bootstrap.css', 'bower_components/components-bootstrap/less/bootstrap.less'],
         tasks: ['uglify', 'cssmin', 'less'],
         options: {
           spawn: false,
