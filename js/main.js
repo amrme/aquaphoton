@@ -1,1 +1,1 @@
-//  main js file for Aquaphoton's website
+// main js code for AquaPhoton's website
