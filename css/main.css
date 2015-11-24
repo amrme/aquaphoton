@@ -1,9 +1,9 @@
-/* line 1, less/main.less */
+/* line 3, less/main.less */
 body {
   overflow: hidden;
 }
 /* Preloader */
-/* line 6, less/main.less */
+/* line 9, less/main.less */
 #preloader {
   position: fixed;
   top: 0;
@@ -15,7 +15,7 @@ body {
   z-index: 99;
   /* makes sure it stays on top */
 }
-/* line 17, less/main.less */
+/* line 20, less/main.less */
 #status {
   width: 200px;
   height: 200px;
