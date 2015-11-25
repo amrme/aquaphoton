@@ -2,7 +2,7 @@
 
 body {
   overflow: hidden;
-  // background-color: rgba(74, 236, 21, 0.78);
+  background-color: rgba(74, 236, 21, 0.78);
 }
 
 /* Preloader */
@@ -30,4 +30,42 @@ body {
   background-position: center;
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
+}
+
+.navbar-default,
+.navbar-header {
+  height: 100px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+@media (max-width:768px) {
+  .sampleClass {float:none;}
+  .navbar-default{
+    background-color: @milky-white;
+    .collapse {
+      background-color: @milky-white;
+      .nav {
+        li {
+          a {
+            text-align: center;
+            font-size: 12px;
+            font-family: sans-serif;
+            font-weight: bold;
+            &:hover {
+              font-size: 14px;
+              background: black;
+              color: white;
+              font-weight: bolder;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.brand-logo {
+  margin-left: 20px;
+  height: 70px;
 }

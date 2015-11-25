@@ -1,6 +1,7 @@
 /* line 3, less/main.less */
 body {
   overflow: hidden;
+  background-color: rgba(74, 236, 21, 0.78);
 }
 /* Preloader */
 /* line 9, less/main.less */
@@ -29,5 +30,45 @@ body {
   background-position: center;
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
+}
+/* line 35, less/main.less */
+.navbar-default,
+.navbar-header {
+  height: 100px;
+  background-color: transparent;
+  border-color: transparent;
+}
+@media (max-width: 768px) {
+  /* line 43, less/main.less */
+  .sampleClass {
+    float: none;
+  }
+  /* line 44, less/main.less */
+  .navbar-default {
+    background-color: #fffbec;
+  }
+  /* line 46, less/main.less */
+  .navbar-default .collapse {
+    background-color: #fffbec;
+  }
+  /* line 50, less/main.less */
+  .navbar-default .collapse .nav li a {
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  /* line 55, less/main.less */
+  .navbar-default .collapse .nav li a:hover {
+    font-size: 14px;
+    background: black;
+    color: white;
+    font-weight: bolder;
+  }
+}
+/* line 68, less/main.less */
+.brand-logo {
+  margin-left: 20px;
+  height: 70px;
 }
 /*# sourceMappingURL=css/main.css.map */
