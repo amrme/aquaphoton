@@ -39,20 +39,26 @@ body {
   border-color: transparent;
 }
 
-.collapse {
-  background-color: @milky-white;
-  .nav {
-    li {
-      a {
-        text-align: center;
-        font-size: 12px;
-        font-family: sans-serif;
-        font-weight: bold;
-        &:hover {
-          font-size: 14px;
-          background: black;
-          color: white;
-          font-weight: bolder;
+@media (max-width:768px) {
+  .sampleClass {float:none;}
+  .navbar-default{
+    background-color: @milky-white;
+    .collapse {
+      background-color: @milky-white;
+      .nav {
+        li {
+          a {
+            text-align: center;
+            font-size: 12px;
+            font-family: sans-serif;
+            font-weight: bold;
+            &:hover {
+              font-size: 14px;
+              background: black;
+              color: white;
+              font-weight: bolder;
+            }
+          }
         }
       }
     }
