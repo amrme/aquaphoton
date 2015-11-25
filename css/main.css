@@ -32,12 +32,31 @@ body {
   /* is width and height divided by two */
 }
 /* line 35, less/main.less */
-.navbar-default {
+.navbar-default,
+.navbar-header {
   height: 100px;
   background-color: transparent;
   border-color: transparent;
 }
-/* line 41, less/main.less */
+/* line 42, less/main.less */
+.collapse {
+  background-color: #fffbec;
+}
+/* line 46, less/main.less */
+.collapse .nav li a {
+  text-align: center;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+/* line 51, less/main.less */
+.collapse .nav li a:hover {
+  font-size: 14px;
+  background: black;
+  color: white;
+  font-weight: bolder;
+}
+/* line 62, less/main.less */
 .brand-logo {
   margin-left: 20px;
   height: 70px;

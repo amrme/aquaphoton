@@ -32,10 +32,31 @@ body {
   /* is width and height divided by two */
 }
 
-.navbar-default {
+.navbar-default,
+.navbar-header {
   height: 100px;
   background-color: transparent;
   border-color: transparent;
+}
+
+.collapse {
+  background-color: @milky-white;
+  .nav {
+    li {
+      a {
+        text-align: center;
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: bold;
+        &:hover {
+          font-size: 14px;
+          background: black;
+          color: white;
+          font-weight: bolder;
+        }
+      }
+    }
+  }
 }
 
 .brand-logo {

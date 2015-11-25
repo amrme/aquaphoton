@@ -16,9 +16,9 @@ $(document).ready(function() {
       currentScroll = $(this).scrollTop();
       if (currentScroll + 200 > $('#first-section').offset().top) {
         // give navbar color
-        $('.navbar-default').css('background-color', 'rgb(182, 23, 238)');
+        $('.navbar-default, .navbar-header').css('background-color', '#fffbec');
       } else {
-        $('.navbar-default').css('background-color', 'transparent');
+        $('.navbar-default, .navbar-header').css('background-color', 'transparent');
       }
     });
   }
