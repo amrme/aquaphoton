@@ -1,6 +1,7 @@
 /* line 3, less/main.less */
 body {
   overflow: hidden;
+  background-color: rgba(74, 236, 21, 0.78);
 }
 /* Preloader */
 /* line 9, less/main.less */
@@ -30,93 +31,15 @@ body {
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-/* line 46, less/main.less */
+/* line 35, less/main.less */
 .navbar-default {
-  background-color: #1e71f7;
-  border-color: #ffffff;
-}
-/* line 49, less/main.less */
-.navbar-default .navbar-brand {
-  color: #fcfeff;
-}
-/* line 51, less/main.less */
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #000000;
-}
-/* line 53, less/main.less */
-.navbar-default .navbar-text {
-  color: #fcfeff;
-}
-/* line 57, less/main.less */
-.navbar-default .navbar-nav > li > a {
-  color: #fcfeff;
-}
-/* line 59, less/main.less */
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #000000;
-}
-/* line 63, less/main.less */
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #000000;
-  background-color: #ffffff;
-}
-/* line 67, less/main.less */
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #000000;
-  background-color: #ffffff;
-}
-/* line 70, less/main.less */
-.navbar-default .navbar-toggle {
-  border-color: #ffffff;
-}
-/* line 72, less/main.less */
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
-}
-/* line 74, less/main.less */
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #fcfeff;
-}
-/* line 76, less/main.less */
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #fcfeff;
-}
-/* line 79, less/main.less */
-.navbar-default .navbar-link {
-  color: #fcfeff;
-}
-/* line 81, less/main.less */
-.navbar-default .navbar-link:hover {
-  color: #000000;
-}
-@media (max-width: 767px) {
-  /* line 85, less/main.less */
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #fcfeff;
-  }
-  /* line 87, less/main.less */
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #000000;
-  }
-  /* line 90, less/main.less */
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #000000;
-    background-color: #ffffff;
-  }
-}
-/* line 95, less/main.less */
-.brand-logo {
   height: 100px;
+  background-color: transparent;
+  border-color: transparent;
+}
+/* line 41, less/main.less */
+.brand-logo {
+  margin-left: 20px;
+  height: 70px;
 }
 /*# sourceMappingURL=css/main.css.map */

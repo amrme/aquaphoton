@@ -2,7 +2,7 @@
 
 body {
   overflow: hidden;
-  // background-color: rgba(74, 236, 21, 0.78);
+  background-color: rgba(74, 236, 21, 0.78);
 }
 
 /* Preloader */
@@ -32,66 +32,13 @@ body {
   /* is width and height divided by two */
 }
 
-// navbar styling
-.ddm() when (@dropDown) {
-  > .dropdown-menu {
-    background-color: @bgDefault;
-    > li > a {
-      color: @colDefault;
-      &:hover,  &:focus {
-        color: @colHighlight;
-        background-color: @bgHighlight; }}
-    .divider {
-      background-color: @bgHighlight;}}}
 .navbar-default {
-  background-color: @bgDefault;
-  border-color: @bgHighlight;
-  .navbar-brand {
-    color: @colDefault;
-    &:hover, &:focus {
-      color: @colHighlight; }}
-  .navbar-text {
-    color: @colDefault; }
-  .navbar-nav {
-    > li {
-      > a {
-        color: @colDefault;
-        &:hover,  &:focus {
-          color: @colHighlight; }}
-      .ddm }
-    > .active {
-      > a, > a:hover, > a:focus {
-        color: @colHighlight;
-        background-color: @bgHighlight; }}
-    > .open {
-      > a, > a:hover, > a:focus {
-        color: @colHighlight;
-        background-color: @bgHighlight; }}}
-  .navbar-toggle {
-    border-color: @bgHighlight;
-    &:hover, &:focus {
-      background-color: @bgHighlight; }
-    .icon-bar {
-      background-color: @colDefault; }}
-  .navbar-collapse,
-  .navbar-form {
-    border-color: @colDefault; }
-  .navbar-link {
-    color: @colDefault;
-    &:hover {
-      color: @colHighlight; }}}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu {
-    > li > a {
-      color: @colDefault;
-      &:hover, &:focus {
-        color: @colHighlight; }}
-    > .active {
-      > a, > a:hover, > a:focus {
-        color: @colHighlight;
-        background-color: @bgHighlight; }}}
+  height: 100px;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .brand-logo {
-  height: 100px;
+  margin-left: 20px;
+  height: 70px;
 }
