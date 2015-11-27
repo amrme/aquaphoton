@@ -1,10 +1,10 @@
 /* line 3, less/main.less */
 body {
   overflow: hidden;
-  background-color: rgba(74, 236, 21, 0.78);
+  background: #0064e9;
 }
 /* Preloader */
-/* line 10, less/main.less */
+/* line 9, less/main.less */
 #preloader {
   position: fixed;
   top: 0;
@@ -16,7 +16,7 @@ body {
   z-index: 99;
   /* makes sure it stays on top */
 }
-/* line 21, less/main.less */
+/* line 20, less/main.less */
 #status {
   width: 200px;
   height: 200px;
@@ -31,66 +31,70 @@ body {
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-/* line 37, less/main.less */
+/* line 36, less/main.less */
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: capitalize;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-/* line 43, less/main.less */
+/* line 44, less/main.less */
 .navbar-custom .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color: white;
+  color: black;
 }
-/* line 47, less/main.less */
+/* line 48, less/main.less */
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
   outline: none;
 }
-/* line 53, less/main.less */
+/* line 55, less/main.less */
 .navbar-custom .navbar-brand .brand-logo {
+  margin-top: -15px;
   margin-left: 20px;
-  height: 70px;
+  max-height: 50px;
 }
-/* line 58, less/main.less */
+/* line 61, less/main.less */
 .navbar-custom a {
-  color: white;
+  color: black;
 }
-/* line 63, less/main.less */
+/* line 66, less/main.less */
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
-/* line 67, less/main.less */
+/* line 70, less/main.less */
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   outline: none;
   background-color: transparent;
+  text-decoration: underline;
 }
-/* line 72, less/main.less */
+/* line 76, less/main.less */
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
-/* line 78, less/main.less */
+/* line 82, less/main.less */
 .navbar-custom .nav li.active {
   outline: none;
 }
-/* line 80, less/main.less */
+/* line 84, less/main.less */
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 82, less/main.less */
+/* line 86, less/main.less */
 .navbar-custom .nav li.active a:hover {
-  color: white;
+  color: black;
 }
 @media (min-width: 768px) {
-  /* line 89, less/main.less */
+  /* line 93, less/main.less */
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -100,22 +104,33 @@ body {
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
-  /* line 97, less/main.less */
+  /* line 103, less/main.less */
+  .navbar-custom .navbar-brand .brand-logo {
+    margin-left: 20px;
+    margin-top: -20px;
+    max-height: 80px;
+  }
+  /* line 109, less/main.less */
+  .navbar-custom a {
+    font-weight: bold;
+  }
+  /* line 112, less/main.less */
   .navbar-custom.top-nav-collapse {
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
-  /* line 102, less/main.less */
+  /* line 117, less/main.less */
   .navbar-custom.top-nav-collapse .brand-logo {
     margin-top: -15px;
     margin-left: 20px;
-    height: 50px;
+    max-height: 50px;
   }
-  /* line 107, less/main.less */
+  /* line 122, less/main.less */
   .navbar-custom.top-nav-collapse a {
     color: black;
+    font-weight: normal;
   }
 }
 /*# sourceMappingURL=css/main.css.map */

@@ -2,8 +2,7 @@
 
 body {
   overflow: hidden;
-  // test bg color
-  background-color: rgba(74, 236, 21, 0.78);
+  background: @background-color;
 }
 
 /* Preloader */
@@ -36,27 +35,31 @@ body {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid fade(white, 30%);
     text-transform: capitalize;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: fade(white, 95%);
+    border-bottom: 1px solid fade(black, 30%);
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 16px;
-        color: white;
+        color: black;
         &:focus,
         &:active {
             outline: none;
         }
     }
+    // logo for small viewport
     .navbar-brand {
-        .brand-logo {
-          margin-left: 20px;
-          height: 70px;
-        }
+      .brand-logo {
+        margin-top: -15px;
+        margin-left: 20px;
+        max-height: 50px;
+      }
     }
     a {
-        color: white;
+        color: black;
     }
     .nav {
         li {
@@ -65,9 +68,10 @@ body {
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
                 &:hover {
-                    color: fade(white, 80%);
+                    color: fade(black, 80%);
                     outline: none;
                     background-color: transparent;
+                    text-decoration: underline;
                 }
                 &:focus,
                 &:active {
@@ -78,9 +82,9 @@ body {
             &.active {
                 outline: none;
                 a {
-                    background-color: fade(white, 30%);
+                    background-color: fade(black, 30%);
                     &:hover {
-                        color: white;
+                        color: black;
                     }
                 }
             }
@@ -94,6 +98,17 @@ body {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+        // logo before collapse for large viewport
+        .navbar-brand {
+            .brand-logo {
+              margin-left: 20px;
+              margin-top: -20px;
+              max-height: 80px;
+            }
+        }
+        a {
+            font-weight: bold;
+        }
         &.top-nav-collapse {
             padding-top: 10px;
             padding-bottom: 10px;
@@ -102,10 +117,11 @@ body {
             .brand-logo {
               margin-top: -15px;
               margin-left: 20px;
-              height: 50px;
+              max-height: 50px;
             }
             a {
               color: black;
+              font-weight: normal;
             }
         }
     }
