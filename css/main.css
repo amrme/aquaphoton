@@ -103,8 +103,17 @@ body {
   /* line 97, less/main.less */
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  /* line 101, less/main.less */
+  .navbar-custom.top-nav-collapse .brand-logo {
+    margin-left: 20px;
+    height: 30px;
+  }
+  /* line 105, less/main.less */
+  .navbar-custom.top-nav-collapse a {
+    color: black;
   }
 }
 /*# sourceMappingURL=css/main.css.map */
