@@ -2,6 +2,7 @@
 
 body {
   overflow: hidden;
+  // test bg color
   background-color: rgba(74, 236, 21, 0.78);
 }
 
@@ -12,7 +13,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   /* change if the mask should have another color then white */
   z-index: 99;
   /* makes sure it stays on top */
@@ -32,40 +33,71 @@ body {
   /* is width and height divided by two */
 }
 
-.navbar-default,
-.navbar-header {
-  height: 100px;
-  background-color: transparent;
-  border-color: transparent;
-}
 
-@media (max-width:768px) {
-  .sampleClass {float:none;}
-  .navbar-default{
-    background-color: @milky-white;
-    .collapse {
-      background-color: @milky-white;
-      .nav {
-        li {
-          a {
-            text-align: center;
-            font-size: 12px;
-            font-family: sans-serif;
-            font-weight: bold;
-            &:hover {
-              font-size: 14px;
-              background: black;
-              color: white;
-              font-weight: bolder;
-            }
-          }
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid fade(white, 30%);
+    text-transform: uppercase;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: black;
+    .navbar-toggle {
+        padding: 4px 6px;
+        font-size: 16px;
+        color: white;
+        &:focus,
+        &:active {
+            outline: none;
         }
-      }
     }
-  }
-}
-
-.brand-logo {
-  margin-left: 20px;
-  height: 70px;
+    .navbar-brand {
+        .brand-logo {
+          margin-left: 20px;
+          height: 70px;
+        }
+    }
+    a {
+        color: white;
+    }
+    .nav {
+        li {
+            a {
+                -webkit-transition: background .3s ease-in-out;
+                -moz-transition: background .3s ease-in-out;
+                transition: background .3s ease-in-out;
+                &:hover {
+                    color: fade(white, 80%);
+                    outline: none;
+                    background-color: transparent;
+                }
+                &:focus,
+                &:active {
+                    outline: none;
+                    background-color: transparent;
+                }
+            }
+            &.active {
+                outline: none;
+                a {
+                    background-color: fade(white, 30%);
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width:768px) {
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: transparent;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        &.top-nav-collapse {
+            padding: 0;
+            background: black;
+            border-bottom: 1px solid fade(white, 30%);
+        }
+    }
 }

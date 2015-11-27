@@ -11,26 +11,15 @@ $(window).load(function() { // makes sure the whole site is loaded
 // after loading scripts
 $(document).ready(function() {
   var currentScroll = 0;
-  checkSize();
 
-  // run test on resize of the window
-  $(window).resize(checkSize);
   if ($('#first-section').length) {
     $(document).scroll(function() {
       currentScroll = $(this).scrollTop();
       if (currentScroll + 200 > $('#first-section').offset().top) {
-        // give navbar color
-        $('.navbar-default, .navbar-header').css('background-color', '#fffbec');
+        $('.navbar-fixed-top').addClass('top-nav-collapse');
       } else {
-        $('.navbar-default, .navbar-header').css('background-color', 'transparent');
+        $('.navbar-fixed-top').removeClass('top-nav-collapse');
       }
     });
   }
 });
-
-//Function to the css rule
-function checkSize() {
-  if ($('.sampleClass').css('float') != 'none') {
-    $('.navbar-default').css('background-color', '#fffbec');
-  }
-}

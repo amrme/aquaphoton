@@ -4,19 +4,19 @@ body {
   background-color: rgba(74, 236, 21, 0.78);
 }
 /* Preloader */
-/* line 9, less/main.less */
+/* line 10, less/main.less */
 #preloader {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   /* change if the mask should have another color then white */
   z-index: 99;
   /* makes sure it stays on top */
 }
-/* line 20, less/main.less */
+/* line 21, less/main.less */
 #status {
   width: 200px;
   height: 200px;
@@ -31,44 +31,80 @@ body {
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-/* line 35, less/main.less */
-.navbar-default,
-.navbar-header {
-  height: 100px;
-  background-color: transparent;
-  border-color: transparent;
+/* line 37, less/main.less */
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: black;
 }
-@media (max-width: 768px) {
-  /* line 43, less/main.less */
-  .sampleClass {
-    float: none;
-  }
-  /* line 44, less/main.less */
-  .navbar-default {
-    background-color: #fffbec;
-  }
-  /* line 46, less/main.less */
-  .navbar-default .collapse {
-    background-color: #fffbec;
-  }
-  /* line 50, less/main.less */
-  .navbar-default .collapse .nav li a {
-    text-align: center;
-    font-size: 12px;
-    font-family: sans-serif;
-    font-weight: bold;
-  }
-  /* line 55, less/main.less */
-  .navbar-default .collapse .nav li a:hover {
-    font-size: 14px;
-    background: black;
-    color: white;
-    font-weight: bolder;
-  }
+/* line 43, less/main.less */
+.navbar-custom .navbar-toggle {
+  padding: 4px 6px;
+  font-size: 16px;
+  color: white;
 }
-/* line 68, less/main.less */
-.brand-logo {
+/* line 47, less/main.less */
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+/* line 53, less/main.less */
+.navbar-custom .navbar-brand .brand-logo {
   margin-left: 20px;
   height: 70px;
+}
+/* line 58, less/main.less */
+.navbar-custom a {
+  color: white;
+}
+/* line 63, less/main.less */
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+/* line 67, less/main.less */
+.navbar-custom .nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  background-color: transparent;
+}
+/* line 72, less/main.less */
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+/* line 78, less/main.less */
+.navbar-custom .nav li.active {
+  outline: none;
+}
+/* line 80, less/main.less */
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/* line 82, less/main.less */
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 89, less/main.less */
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  /* line 97, less/main.less */
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
 }
 /*# sourceMappingURL=css/main.css.map */
