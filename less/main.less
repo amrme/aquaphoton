@@ -37,9 +37,9 @@ body {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid fade(white, 30%);
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: black;
+    background-color: red;
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 16px;
@@ -95,12 +95,14 @@ body {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
-            padding: 0;
-            background: white;
-            border-bottom: 1px solid fade(white, 30%);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background: fade(white, 95%);
+            border-bottom: 1px solid fade(black, 30%);
             .brand-logo {
+              margin-top: -15px;
               margin-left: 20px;
-              height: 30px;
+              height: 50px;
             }
             a {
               color: black;
