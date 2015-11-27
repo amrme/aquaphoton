@@ -1,10 +1,5 @@
-/* line 3, less/main.less */
-body {
-  overflow: hidden;
-  background: #0064e9;
-}
 /* Preloader */
-/* line 9, less/main.less */
+/* line 3, less/main.less */
 #preloader {
   position: fixed;
   top: 0;
@@ -16,7 +11,7 @@ body {
   z-index: 99;
   /* makes sure it stays on top */
 }
-/* line 20, less/main.less */
+/* line 14, less/main.less */
 #status {
   width: 200px;
   height: 200px;
@@ -31,7 +26,18 @@ body {
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-/* line 36, less/main.less */
+/* line 29, less/main.less */
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+/* line 35, less/main.less */
+html {
+  width: 100%;
+  height: 100%;
+}
+/* line 42, less/main.less */
 .navbar-custom {
   margin-bottom: 0;
   text-transform: capitalize;
@@ -41,60 +47,60 @@ body {
   background: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-/* line 44, less/main.less */
+/* line 50, less/main.less */
 .navbar-custom .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
   color: black;
 }
-/* line 48, less/main.less */
+/* line 54, less/main.less */
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
   outline: none;
 }
-/* line 55, less/main.less */
+/* line 61, less/main.less */
 .navbar-custom .navbar-brand .brand-logo {
   margin-top: -15px;
   margin-left: 20px;
   max-height: 50px;
 }
-/* line 61, less/main.less */
+/* line 67, less/main.less */
 .navbar-custom a {
   color: black;
 }
-/* line 66, less/main.less */
+/* line 72, less/main.less */
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
-/* line 70, less/main.less */
+/* line 76, less/main.less */
 .navbar-custom .nav li a:hover {
   color: rgba(0, 0, 0, 0.8);
   outline: none;
   background-color: transparent;
   text-decoration: underline;
 }
-/* line 76, less/main.less */
+/* line 82, less/main.less */
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
-/* line 82, less/main.less */
+/* line 88, less/main.less */
 .navbar-custom .nav li.active {
   outline: none;
 }
-/* line 84, less/main.less */
+/* line 90, less/main.less */
 .navbar-custom .nav li.active a {
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 86, less/main.less */
+/* line 92, less/main.less */
 .navbar-custom .nav li.active a:hover {
   color: black;
 }
 @media (min-width: 768px) {
-  /* line 93, less/main.less */
+  /* line 99, less/main.less */
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -104,33 +110,76 @@ body {
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
-  /* line 103, less/main.less */
+  /* line 109, less/main.less */
   .navbar-custom .navbar-brand .brand-logo {
     margin-left: 20px;
     margin-top: -20px;
     max-height: 80px;
   }
-  /* line 109, less/main.less */
+  /* line 115, less/main.less */
   .navbar-custom a {
     font-weight: bold;
   }
-  /* line 112, less/main.less */
+  /* line 118, less/main.less */
   .navbar-custom.top-nav-collapse {
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
-  /* line 117, less/main.less */
+  /* line 123, less/main.less */
   .navbar-custom.top-nav-collapse .brand-logo {
     margin-top: -15px;
     margin-left: 20px;
     max-height: 50px;
   }
-  /* line 122, less/main.less */
+  /* line 128, less/main.less */
   .navbar-custom.top-nav-collapse a {
     color: black;
     font-weight: normal;
+  }
+}
+/* line 137, less/main.less */
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url("../img/bg.jpg") no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/* line 150, less/main.less */
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 153, less/main.less */
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+}
+/* line 156, less/main.less */
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  /* line 160, less/main.less */
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  /* line 164, less/main.less */
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+  /* line 167, less/main.less */
+  .intro .intro-body .intro-text {
+    font-size: 26px;
   }
 }
 /*# sourceMappingURL=css/main.css.map */
