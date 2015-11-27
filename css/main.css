@@ -142,8 +142,8 @@ html {
 /* line 137, less/main.less */
 .intro {
   display: table;
+  height: 100%;
   width: 100%;
-  height: auto;
   padding: 100px 0;
   text-align: center;
   color: white;
@@ -170,14 +170,13 @@ html {
 @media (min-width: 768px) {
   /* line 160, less/main.less */
   .intro {
-    height: 100%;
-    padding: 0;
+    padding: 100px 0;
   }
-  /* line 164, less/main.less */
+  /* line 163, less/main.less */
   .intro .intro-body .brand-heading {
     font-size: 100px;
   }
-  /* line 167, less/main.less */
+  /* line 166, less/main.less */
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
