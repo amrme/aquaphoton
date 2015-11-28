@@ -118,29 +118,30 @@ html {
   }
   /* line 111, less/main.less */
   .navbar-custom li a {
-    font-weight: bold;
+    font-size: 1.5vw;
   }
-  /* line 121, less/main.less */
+  /* line 122, less/main.less */
   .navbar-custom.top-nav-collapse {
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
-  /* line 126, less/main.less */
+  /* line 127, less/main.less */
   .navbar-custom.top-nav-collapse .brand-logo {
     display: inline;
     margin-top: -15px;
     margin-left: 20px;
     max-height: 50px;
   }
-  /* line 132, less/main.less */
+  /* line 133, less/main.less */
   .navbar-custom.top-nav-collapse a {
     color: black;
     font-weight: normal;
+    font-size: 1.3vw;
   }
 }
-/* line 141, less/main.less */
+/* line 143, less/main.less */
 .intro {
   display: table;
   height: 100%;
@@ -153,31 +154,37 @@ html {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 154, less/main.less */
+/* line 156, less/main.less */
 .intro .header-logo {
   transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   -webkit-transform: scale(0.5, 0.5);
 }
-/* line 159, less/main.less */
+/* line 161, less/main.less */
 .intro .main-heading {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5vw;
   color: black;
+  line-height: 80%;
 }
-/* line 164, less/main.less */
+/* line 166, less/main.less */
+.intro .main-heading small {
+  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: 0.1vw;
+}
+/* line 171, less/main.less */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 @media (min-width: 768px) {
-  /* line 170, less/main.less */
+  /* line 177, less/main.less */
   .intro .header-logo {
     transform: scale(0.3, 0.3);
     -ms-transform: scale(0.3, 0.3);
     -webkit-transform: scale(0.3, 0.3);
     margin-top: -5%;
-    margin-bottom: -10%;
+    margin-bottom: -15%;
   }
 }
 /*# sourceMappingURL=css/main.css.map */
