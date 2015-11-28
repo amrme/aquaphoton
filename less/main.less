@@ -38,7 +38,6 @@ html {
 }
 
 
-
 .navbar-custom {
     margin-bottom: 0;
     text-transform: capitalize;
@@ -47,6 +46,9 @@ html {
     padding-bottom: 10px;
     background: fade(white, 95%);
     border-bottom: 1px solid fade(black, 30%);
+    .navbar-center {
+       margin-left: auto;
+    }
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 16px;
@@ -101,11 +103,12 @@ html {
         border-bottom: none;
         letter-spacing: 1px;
         background: transparent;
+        .navbar-center {
+           margin-left: 20%;
+        }
         .navbar-brand {
             .brand-logo {
-              margin-left: 20px;
-              margin-top: -20px;
-              max-height: 80px;
+              display: none;
             }
         }
         a {
@@ -122,6 +125,7 @@ html {
             background: fade(white, 95%);
             border-bottom: 1px solid fade(black, 30%);
             .brand-logo {
+              display: inline;
               margin-top: -15px;
               margin-left: 20px;
               max-height: 50px;
