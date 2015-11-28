@@ -54,7 +54,7 @@ html {
 /* line 52, less/main.less */
 .navbar-custom .navbar-toggle {
   padding: 4px 6px;
-  font-size: 16px;
+  font-size: 4vw;
   color: black;
 }
 /* line 56, less/main.less */
@@ -167,12 +167,17 @@ html {
   -webkit-transform: scale(0.5, 0.5);
 }
 /* line 163, less/main.less */
+.intro .main-heading {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 5vw;
+}
+/* line 167, less/main.less */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 @media (min-width: 768px) {
-  /* line 169, less/main.less */
+  /* line 173, less/main.less */
   .intro .header-logo {
     transform: scale(0.3, 0.3);
     -ms-transform: scale(0.3, 0.3);
