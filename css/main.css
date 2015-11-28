@@ -131,19 +131,23 @@ html {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
   /* line 127, less/main.less */
+  .navbar-custom.top-nav-collapse .navbar-center {
+    margin-left: 30%;
+  }
+  /* line 130, less/main.less */
   .navbar-custom.top-nav-collapse .brand-logo {
     display: inline;
     margin-top: -15px;
     margin-left: 20px;
     max-height: 50px;
   }
-  /* line 133, less/main.less */
+  /* line 136, less/main.less */
   .navbar-custom.top-nav-collapse a {
     color: black;
     font-weight: normal;
   }
 }
-/* line 142, less/main.less */
+/* line 145, less/main.less */
 .intro {
   display: table;
   height: 100%;
@@ -158,29 +162,29 @@ html {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 155, less/main.less */
+/* line 158, less/main.less */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 158, less/main.less */
+/* line 161, less/main.less */
 .intro .intro-body .brand-heading {
   font-size: 40px;
 }
-/* line 161, less/main.less */
+/* line 164, less/main.less */
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
 @media (min-width: 768px) {
-  /* line 165, less/main.less */
+  /* line 168, less/main.less */
   .intro {
     padding: 100px 0;
   }
-  /* line 168, less/main.less */
+  /* line 171, less/main.less */
   .intro .intro-body .brand-heading {
     font-size: 100px;
   }
-  /* line 171, less/main.less */
+  /* line 174, less/main.less */
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
