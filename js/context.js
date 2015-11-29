@@ -72,7 +72,7 @@ var context = { services: [
                         },
                         {
                           name:'Mostafa Abd Elaal',
-                          title: 'Co-Founder & R&D',
+                          title: 'Co-Founder & R&D Director',
                           img: 'img/leadership/none.png',
                         },
                         {
