@@ -95,6 +95,9 @@
         <div id="service">
           <!-- add content with template -->
         </div>
+        <div id="service-modal-content">
+          <!-- modal with template -->
+        </div>
       </div>
     </div>
   </div>
@@ -110,7 +113,7 @@
               </div>
               <div class="col-xs-8 text-center">
                   <h3>{{title}}</h3>
-                  <p><a class="btn btn-primary btn-xs" data-toggle="modal" data-target="#{{modal}}">More &raquo;</a></p>
+                  <p><a class="btn btn-primary btn-xs service-more-button" data-id="{{@index}}" >More &raquo;</a></p>
               </div>
             </div>
       </div>
@@ -126,7 +129,7 @@
             <div class="modal-content">
 
               <div class="modal-body">
-                <img  style="width:100%" src="{{img}}"/>          
+                <img  style="width:100%" src="{{img}}"/>
               </div>
 
             </div>
