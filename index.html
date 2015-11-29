@@ -91,7 +91,8 @@
   <section id="first-section" data-anchor="services">
     <div class="container">
       <div class="row">
-        <h2 class="text-center" style="margin-top: 15%; text-transform: capitalize;">The services we offer</h2>
+        <h2 class="text-center" style="margin-top: 15%; text-transform: capitalize;">services we offer</h2>
+        <hr>
         <div id="service">
           <!-- add content with template -->
         </div>
@@ -99,14 +100,32 @@
           <!-- modal with template -->
         </div>
       </div>
+      <hr>
     </div>
   </section>
 
-<section>
-  <div style="padding-bottom:3000px;">
-
+<section id="products" data-anchor="products">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center" style="margin-top: 15%; text-transform: capitalize;">Our Products</h2>
+      <hr>
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-10">
+        <div id="product">
+          <!-- added on template -->
+        </div>
+      </div>
+      <div class="col-sm-1">
+      </div>
+    </div>
+    <hr>
   </div>
 </section>
+
+<div style="padding-bottom:2000px;">
+
+</div>
 
   <!-- services template -->
   <script id="services-template" type="text/x-handlebars-template">
@@ -153,6 +172,17 @@
 
           </div>
         </div>
+    </script>
+
+    <!-- products template -->
+    <script id="products-template" type="text/x-handlebars-template">
+       {{#each products}}
+         <div class="col-md-3 col-sm-4 col-xs-12">
+           <img src="{{img}}" class="img-responsive" />
+           <h4 class="text-center">{{title}} <small>{{price}}</small></h4>
+           <p class="text-center"><a class="btn btn-primary btn-xs" href="#" data-id="{{@index}}" >Features &raquo;</a></p>
+         </div>
+       {{/each}}
     </script>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>

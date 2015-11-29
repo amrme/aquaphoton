@@ -35,4 +35,12 @@ var context = { services: [
                           description: 'Dams, Overwater Bridges, Tanks and Reservoirs are among the most important public infrastructure. Infrastructure faces age’s overtime and needs periodic inspection to ensure safety. AQUAPHOTON provides ROVs equipped with the necessary tools needed to carry out the mission flawlessly. Our engineers are dedicated to do whatever possible to ensure the safety of citizens and infrastructures.',
                         },
                       ],
+                      products: [
+                        {
+                          title: 'Aquatint Pro',
+                          price: '$12,500',
+                          img: 'img/products/aquatint.jpg',
+                          description: 'Aquatint features',
+                        },
+                      ],
                       };

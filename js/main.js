@@ -14,6 +14,9 @@ var template = Handlebars.compile(source);
 source   = $('#modalTemplate').html();
 var modalTemplate = Handlebars.compile(source);
 var services    = template(context);
+source = $('#products-template').html();
+template = Handlebars.compile(source);
+var products    = template(context);
 
 // doc ready
 $(document).ready(function() {
@@ -63,6 +66,9 @@ $(document).ready(function() {
 
   // append services
   $('#service').html(services);
+
+  // append products
+  $('#product').html(products);
 
   // handle modals for services
   $('.service-more-button').click(function() {
