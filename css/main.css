@@ -187,4 +187,13 @@ html {
     margin-bottom: -15%;
   }
 }
+/* line 188, less/main.less */
+#service {
+  margin-top: 10%;
+  margin-bottom: 50%;
+}
+/* line 191, less/main.less */
+#service .service-img {
+  max-height: 150px;
+}
 /*# sourceMappingURL=css/main.css.map */

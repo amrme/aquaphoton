@@ -44,7 +44,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Services</a></li>
+          <li><a href="#first-section">Services</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Leadership</a></li>
           <li><a href="#">Media</a></li>
@@ -87,8 +87,35 @@
         </div>
     </header>
 
-    <!-- tmp space -->
-    <div id="first-section"><div style="padding-bottom:2000px;"></div></div>
+  <!-- services section -->
+  <div id="first-section">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center" style="margin-top: 15%">Our Services</h2>
+        <div id="service">
+          <!-- add content with template -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- services template -->
+  <script id="services-template" type="text/x-handlebars-template">
+     {{#each services}}
+      <div class="col-sm-6">
+          <a href="#">
+            <div class="row">
+              <div class="col-xs-4">
+                <img src="{{img}}" class="service-img img-responsive" />
+              </div>
+              <div class="col-xs-8">
+                <h3>{{title}}</h3>
+              </div>
+            </div>
+          </a>
+      </div>
+     {{/each}}
+  </script>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/components-bootstrap/js/bootstrap.min.js"></script>
