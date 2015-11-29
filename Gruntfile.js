@@ -36,13 +36,13 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'js/main.min.js': ['js/main.js'],
+          'js/main.min.js': ['js/context.js', 'js/main.js'],
         },
       },
     },
     watch: {
       scripts: {
-        files: ['index.html', 'js/main.js', 'less/main.less', 'less/mixins.less', 'css/bootstrap.css', 'bower_components/components-bootstrap/less/bootstrap.less'],
+        files: ['index.html', 'js/main.js', 'js/context.js', 'less/main.less', 'less/mixins.less', 'css/bootstrap.css', 'bower_components/components-bootstrap/less/bootstrap.less'],
         tasks: ['uglify', 'cssmin', 'less'],
         options: {
           spawn: false,
