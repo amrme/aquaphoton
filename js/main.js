@@ -60,11 +60,15 @@ $(document).ready(function() {
   // handle modals for services
   $('.service-more-button').click(function() {
 
-    console.log($(this).data('id'));
+    var clickedServiceNum = $(this).data('id');
+
+    var currentService = context.services[clickedServiceNum];
+
+    console.log(currentService);
 
     //use the modal template to generate html
     // and put it in the DOM
-    var html    = modalTemplate(context);
+    var html    = modalTemplate(currentService);
     $('#service-modal-content').html(html);
     $('#serviceModal').modal('show');
   });
