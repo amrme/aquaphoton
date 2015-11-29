@@ -42,5 +42,48 @@ var context = { services: [
                           img: 'img/products/aquatint.jpg',
                           description: 'Aquatint features',
                         },
+                        {
+                          title: 'Admiral II',
+                          price: '$10,000',
+                          img: 'img/products/admiral2.jpg',
+                          description: 'admiral 2 features',
+                        },
+                      ],
+                      leaders: [
+                        {
+                          name:'Moataz Tarek',
+                          title: 'Co-Founder & CEO',
+                          img: 'img/leadership/moataz.jpg',
+                        },
+                        {
+                          name:'Mohamed Farouk',
+                          title: 'Co-Founder & CFO',
+                          img: 'img/leadership/none.png',
+                        },
+                        {
+                          name:'Ahmed Saeed',
+                          title: 'Co-Founder & CTO',
+                          img: 'img/leadership/ahmedSaeed.jpg',
+                        },
+                        {
+                          name:'Omar Ibn Elkhatab',
+                          title: 'Co-Founder & CTO',
+                          img: 'img/leadership/omar.jpg',
+                        },
+                        {
+                          name:'Mostafa Abd Elaal',
+                          title: 'Co-Founder & R&D',
+                          img: 'img/leadership/none.png',
+                        },
+                        {
+                          name:'Mohamed Mosaad',
+                          title: 'Co-Founder & Mechanical Engineer',
+                          img: 'img/leadership/mosaad.jpg',
+                        },
+                        {
+                          name:'Mohamed Hassan',
+                          title: 'Co-Founder & Electrical Engineer',
+                          img: 'img/leadership/none.png',
+                        },
                       ],
                       };

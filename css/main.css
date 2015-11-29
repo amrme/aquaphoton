@@ -204,4 +204,8 @@ html {
   margin-right: auto;
   border-radius: 10%;
 }
+/* line 203, less/main.less */
+.product-image {
+  max-height: 150px;
+}
 /*# sourceMappingURL=css/main.css.map */
