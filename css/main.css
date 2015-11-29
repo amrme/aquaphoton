@@ -207,5 +207,15 @@ html {
 /* line 203, less/main.less */
 .product-image {
   max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 209, less/main.less */
+.leader-image {
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=css/main.css.map */
