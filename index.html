@@ -44,14 +44,14 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#first-section">Services</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Leadership</a></li>
-          <li><a href="#">Media</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#services" data-scroll="services">Services</a></li>
+          <li><a href="#products" data-scroll="products">Products</a></li>
+          <li><a href="#leadership" data-scroll="leadership">Leadership</a></li>
+          <li><a href="#media" data-scroll="media">Media</a></li>
+          <li><a href="#about" data-scroll="about">About</a></li>
+          <li><a href="#contact" data-scroll="contact">Contact</a></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Academy <span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#academy" data-scroll="academy">Academy <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Team</a></li>
               <li><a href="#">Courses</a></li>
@@ -88,7 +88,7 @@
     </header>
 
   <!-- services section -->
-  <div id="first-section">
+  <section id="first-section" data-anchor="services">
     <div class="container">
       <div class="row">
         <h2 class="text-center" style="margin-top: 15%; text-transform: capitalize;">The services we offer</h2>
@@ -100,13 +100,18 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
+<section>
+  <div style="padding-bottom:3000px;">
+
+  </div>
+</section>
 
   <!-- services template -->
   <script id="services-template" type="text/x-handlebars-template">
      {{#each services}}
-      <div class="col-sm-6">
+      <div class="col-md-6">
             <div class="row">
               <div class="col-xs-4">
                 <img src="{{img}}" class="service-img img-responsive" />

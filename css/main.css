@@ -189,16 +189,16 @@ html {
 }
 /* line 188, less/main.less */
 #service {
-  margin-top: 10%;
-  margin-bottom: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 /* line 191, less/main.less */
 #service .row {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 /* line 193, less/main.less */
 #service .row .service-img {
-  max-height: 150px;
+  max-height: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;

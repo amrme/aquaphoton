@@ -19,6 +19,37 @@ var services    = template(context);
 $(document).ready(function() {
   var currentScroll = 0;
 
+  $('li a').on('click', function() {
+
+    console.log('section clicked');
+
+    var scrollAnchor = $(this).attr('data-scroll');
+    console.log(scrollAnchor);
+    var scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 28;
+
+    $('body,html').animate({
+      scrollTop: scrollPoint,
+    }, 500);
+
+    return false;
+
+  });
+
+  $(window).scroll(function() {
+    var windscroll = $(window).scrollTop();
+    if (windscroll >= 100) {
+      $('section').each(function(i) {
+          if ($(this).position().top <= windscroll - 20) {
+            $('nav li.active').removeClass('active');
+            $('nav li').eq(i).addClass('active');
+          }
+        });
+
+    } else {
+      $('nav li.active').removeClass('active');
+    }
+  }).scroll();
+
   if ($('#first-section').length) {
     $(document).scroll(function() {
       currentScroll = $(this).scrollTop();
