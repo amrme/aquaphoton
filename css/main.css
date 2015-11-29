@@ -193,7 +193,15 @@ html {
   margin-bottom: 50%;
 }
 /* line 191, less/main.less */
-#service .service-img {
+#service .row {
+  margin-bottom: 15px;
+}
+/* line 193, less/main.less */
+#service .row .service-img {
   max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
 }
 /*# sourceMappingURL=css/main.css.map */

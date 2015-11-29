@@ -103,16 +103,16 @@
   <script id="services-template" type="text/x-handlebars-template">
      {{#each services}}
       <div class="col-sm-6">
-          <a href="#">
             <div class="row">
               <div class="col-xs-4">
                 <img src="{{img}}" class="service-img img-responsive" />
               </div>
-              <div class="col-xs-8">
-                <h3>{{title}}</h3>
+              <div class="col-xs-8 text-center">
+                <a href="#">
+                  <h3>{{title}}</h3>
+                </a>
               </div>
             </div>
-          </a>
       </div>
      {{/each}}
   </script>
