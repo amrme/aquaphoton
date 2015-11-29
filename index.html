@@ -110,12 +110,31 @@
               </div>
               <div class="col-xs-8 text-center">
                   <h3>{{title}}</h3>
-                  <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+                  <p><a class="btn btn-primary btn-xs" data-toggle="modal" data-target="#{{modal}}">More &raquo;</a></p>
               </div>
             </div>
       </div>
      {{/each}}
   </script>
+
+  <!-- services modal template -->
+  <script id="modalTemplate" type="text/x-handlebars-template">
+      {{#each services}}
+        <div id="serviceModal" class="modal fade" role="dialog">
+          <div class="modal-dialog"  style="width:800">
+
+            <div class="modal-content">
+
+              <div class="modal-body">
+                <img  style="width:100%" src="{{img}}"/>          
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      {{/each}}
+    </script>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/components-bootstrap/js/bootstrap.min.js"></script>

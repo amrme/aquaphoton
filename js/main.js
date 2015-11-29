@@ -11,27 +11,32 @@ $(window).load(function() { // makes sure the whole site is loaded
 // Compile handlebars templates
 var source   = $('#services-template').html();
 var template = Handlebars.compile(source);
+source   = $('#modalTemplate').html();
+var modalTemplate = Handlebars.compile(source);
 
 // add services
-var context = { services: [{title: 'Service 1',
-                                            img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
+var context = { services: [
+                        {
+                          title: 'Service 1',
+                          img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
+                          modal: 'modal1',
                         },
-                        {title: 'Service 2',
-                                                                    img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
-                                                },
-                                                {title: 'Service 2',
-                                                                                            img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
-                                                                        },
-                                                                        {title: 'Service 2',
-                                                                                                                    img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
-                                                                                                },
-                                                                                                {title: 'Service 2',
-                                                                                                                                            img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
-                                                                                                                        },
-                                                                                                                        {title: 'Service 2',
-                                                                                                                                                                    img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
-                                                                                                                                                },
-                      ], };
+                        {
+                          title: 'Service 2',
+                          img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
+                          modal: 'modal2',
+                        },
+                        {
+                          title: 'Service 3',
+                          img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
+                          modal: 'modal3',
+                        },
+                        {
+                          title: 'Service 4',
+                          img: 'http://purrfectcatbreeds.com/wp-content/uploads/2014/06/siberian-cat1.jpg',
+                          modal: 'modal4',
+                        },
+                          ], };
 var services    = template(context);
 
 // doc ready
@@ -51,4 +56,14 @@ $(document).ready(function() {
 
   // append services
   $('#service').html(services);
+
+  // handle modals for services
+  $('#service-modal').click(function() {
+
+    //use the modal template to generate html
+    // and put it in the DOM
+    var html    = modalTemplate(data);
+    $('#service').html(html);
+    $('#serviceModal').modal('show');
+  });
 });
