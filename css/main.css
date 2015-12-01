@@ -225,29 +225,28 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.6);
-  color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  color: white;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: visibility opacity 0.2s;
 }
-/* line 215, less/main.less */
+/* line 217, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service {
   position: absolute;
-  top: 25%;
+  top: 30%;
   bottom: 0;
   right: 0;
-  left: 20%;
+  left: 0;
   overflow: hidden;
-}
-/* line 222, less/main.less */
-#service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content {
-  width: 80%;
-  height: 80%;
 }
 /* line 225, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content .img-title {
-  font-size: 20px;
+  font-size: 150%;
 }
 /* line 229, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content p a {
@@ -256,21 +255,22 @@ html {
 /* line 237, less/main.less */
 #service .product-thumbnail .imgWrap:hover .imgDescription {
   visibility: visible;
+  transition: all 0.2s ease-in-out;
   opacity: 1;
   z-index: 99;
 }
-/* line 247, less/main.less */
+/* line 248, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 253, less/main.less */
+/* line 254, less/main.less */
 #leader .leader-div {
   overflow: hidden;
 }
-/* line 255, less/main.less */
+/* line 256, less/main.less */
 #leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
@@ -278,27 +278,27 @@ html {
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 259, less/main.less */
+/* line 260, less/main.less */
 #leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 263, less/main.less */
+/* line 264, less/main.less */
 #leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 30px;
 }
-/* line 266, less/main.less */
+/* line 267, less/main.less */
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
 /*Change icons size here*/
-/* line 274, less/main.less */
+/* line 275, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 278, less/main.less */
+/* line 279, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -312,11 +312,11 @@ html {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 291, less/main.less */
+/* line 292, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 294, less/main.less */
+/* line 295, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }

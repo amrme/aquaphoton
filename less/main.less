@@ -207,23 +207,23 @@ html {
         bottom: 0;
         left: 0;
         right: 0;
-        background-color:  fade(white, 60%);;
-        color: black;
+        background-color:  fade(black, 80%);
+        .center-block;
+        .img-round;
+        color: white;
         visibility: hidden;
         opacity: 0;
         -webkit-transition: visibility opacity 0.2s;
         .about-service {
           position: absolute;
-          top: 25%;
+          top: 30%;
           bottom: 0;
           right: 0;
-          left: 20%;
+          left: 0;
           overflow: hidden;
           .inner-img-content {
-            width: 80%;
-            height: 80%;
             .img-title {
-              font-size: 20px;
+              font-size: 150%;
             }
             p {
               a {
@@ -236,6 +236,7 @@ html {
       &:hover {
         .imgDescription {
           visibility: visible;
+          transition: all .2s ease-in-out;
           opacity: 1;
           z-index: 99;
         }
