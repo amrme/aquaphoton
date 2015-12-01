@@ -205,19 +205,22 @@ html {
 }
 
 #leader {
-  .leader-image {
-    max-height: 200px;
-    .center-block;
-    .img-round;
-    &:hover {
-      .scale-img(1.05);
+  .leader-div {
+    overflow: hidden;
+    .leader-image {
+      max-height: 200px;
+      .center-block;
+      .img-round;
+      &:hover {
+        .scale-img(1.05);
+      }
     }
-  }
-  .leader-name {
-    font-family: 'Pathway Gothic One', sans-serif;
-    margin-bottom: 30px;
-    small {
-      color: @aqua-title;
+    .leader-name {
+      font-family: 'Pathway Gothic One', sans-serif;
+      margin-bottom: 30px;
+      small {
+        color: @aqua-title;
+      }
     }
   }
 }

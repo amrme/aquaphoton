@@ -225,25 +225,29 @@ html {
   margin-right: auto;
 }
 /* line 208, less/main.less */
-#leader .leader-image {
+#leader .leader-div {
+  overflow: hidden;
+}
+/* line 210, less/main.less */
+#leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 212, less/main.less */
-#leader .leader-image:hover {
+/* line 214, less/main.less */
+#leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 216, less/main.less */
-#leader .leader-name {
+/* line 218, less/main.less */
+#leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 30px;
 }
-/* line 219, less/main.less */
-#leader .leader-name small {
+/* line 221, less/main.less */
+#leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
 /*# sourceMappingURL=css/main.css.map */
