@@ -3,6 +3,14 @@
 .img-round {
   border-radius: 5%;
 }
+/* center block */
+/* line 10, less/mixins.less */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* scale image */
 /* Preloader */
 /* line 3, less/main.less */
 #preloader {
@@ -209,19 +217,24 @@ html {
   margin-right: auto;
   border-radius: 10%;
 }
-/* line 203, less/main.less */
+/* line 201, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 209, less/main.less */
+/* line 205, less/main.less */
 .leader-image {
   max-height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
+}
+/* line 209, less/main.less */
+.leader-image:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
 }
 /*# sourceMappingURL=css/main.css.map */

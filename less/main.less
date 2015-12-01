@@ -192,9 +192,7 @@ html {
     margin-bottom: 20px;
     .service-img {
       max-height: 100px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      .center-block;
       border-radius: 10%;
     }
   }
@@ -202,14 +200,13 @@ html {
 
 .product-image {
   max-height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  .center-block;
 }
 .leader-image {
   max-height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  .center-block;
   .img-round;
+  &:hover {
+    .scale-img(1.05);
+  }
 }
