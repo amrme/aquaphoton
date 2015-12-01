@@ -44,13 +44,14 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-/* line 36, less/main.less */
+/* line 37, less/main.less */
 html {
   width: 100%;
   height: 100%;
 }
-/* line 42, less/main.less */
+/* line 43, less/main.less */
 .navbar-custom {
   margin-bottom: 0;
   text-transform: capitalize;
@@ -60,101 +61,101 @@ html {
   background: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-/* line 50, less/main.less */
+/* line 51, less/main.less */
 .navbar-custom .navbar-toggle {
   padding: 4px 6px;
   font-size: 4vw;
   color: black;
 }
-/* line 54, less/main.less */
+/* line 55, less/main.less */
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
   outline: none;
 }
-/* line 61, less/main.less */
+/* line 62, less/main.less */
 .navbar-custom .navbar-brand .brand-logo {
   margin-top: -15px;
   margin-left: 20px;
   max-height: 50px;
 }
-/* line 67, less/main.less */
+/* line 68, less/main.less */
 .navbar-custom a {
   color: black;
 }
-/* line 72, less/main.less */
+/* line 73, less/main.less */
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
-/* line 76, less/main.less */
+/* line 77, less/main.less */
 .navbar-custom .nav li a:hover {
   color: rgba(0, 0, 0, 0.8);
   outline: none;
   background-color: transparent;
   text-decoration: underline;
 }
-/* line 82, less/main.less */
+/* line 83, less/main.less */
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
-/* line 88, less/main.less */
+/* line 89, less/main.less */
 .navbar-custom .nav li.active {
   outline: none;
 }
-/* line 90, less/main.less */
+/* line 91, less/main.less */
 .navbar-custom .nav li.active a {
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 92, less/main.less */
+/* line 93, less/main.less */
 .navbar-custom .nav li.active a:hover {
   color: black;
 }
 @media (min-width: 768px) {
-  /* line 99, less/main.less */
+  /* line 100, less/main.less */
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
     background: transparent;
   }
-  /* line 105, less/main.less */
+  /* line 106, less/main.less */
   .navbar-custom .navbar-brand .brand-logo {
     display: none;
   }
-  /* line 109, less/main.less */
+  /* line 110, less/main.less */
   .navbar-custom li {
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  /* line 112, less/main.less */
+  /* line 113, less/main.less */
   .navbar-custom li a {
     font-size: 1.5vw;
   }
-  /* line 123, less/main.less */
+  /* line 124, less/main.less */
   .navbar-custom.top-nav-collapse {
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
-  /* line 128, less/main.less */
+  /* line 129, less/main.less */
   .navbar-custom.top-nav-collapse .brand-logo {
     display: inline;
     margin-top: -15px;
     margin-left: 20px;
     max-height: 50px;
   }
-  /* line 134, less/main.less */
+  /* line 135, less/main.less */
   .navbar-custom.top-nav-collapse a {
     color: black;
     font-weight: normal;
     font-size: 1.3vw;
   }
 }
-/* line 144, less/main.less */
+/* line 145, less/main.less */
 .intro {
   display: table;
   height: 100%;
@@ -167,31 +168,31 @@ html {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 157, less/main.less */
+/* line 158, less/main.less */
 .intro .header-logo {
   transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   -webkit-transform: scale(0.5, 0.5);
 }
-/* line 162, less/main.less */
+/* line 163, less/main.less */
 .intro .main-heading {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5vw;
   color: black;
   line-height: 80%;
 }
-/* line 167, less/main.less */
+/* line 168, less/main.less */
 .intro .main-heading small {
   color: rgba(0, 0, 0, 0.7);
   letter-spacing: 0.1vw;
 }
-/* line 172, less/main.less */
+/* line 173, less/main.less */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 @media (min-width: 768px) {
-  /* line 178, less/main.less */
+  /* line 179, less/main.less */
   .intro .header-logo {
     transform: scale(0.3, 0.3);
     -ms-transform: scale(0.3, 0.3);
@@ -200,35 +201,76 @@ html {
     margin-bottom: -15%;
   }
 }
-/* line 189, less/main.less */
+/* line 190, less/main.less */
 .section-title {
   margin-top: 15%;
   font-family: 'Pathway Gothic One', sans-serif;
 }
-/* line 195, less/main.less */
-#service .product-thumbnail {
+/* line 197, less/main.less */
+#service .product-thumbnail .imgWrap {
+  position: relative;
   margin-bottom: 20px;
-  overflow: hidden;
 }
-/* line 198, less/main.less */
-#service .product-thumbnail .service-img {
+/* line 200, less/main.less */
+#service .product-thumbnail .imgWrap .service-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 205, less/main.less */
+/* line 204, less/main.less */
+#service .product-thumbnail .imgWrap .imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility opacity 0.2s;
+}
+/* line 215, less/main.less */
+#service .product-thumbnail .imgWrap .imgDescription .about-service {
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  right: 0;
+  left: 20%;
+  overflow: hidden;
+}
+/* line 222, less/main.less */
+#service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content {
+  width: 80%;
+  height: 80%;
+}
+/* line 225, less/main.less */
+#service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content .img-title {
+  font-size: 20px;
+}
+/* line 229, less/main.less */
+#service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content p a {
+  font-size: 20px;
+}
+/* line 237, less/main.less */
+#service .product-thumbnail .imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+  z-index: 99;
+}
+/* line 247, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 211, less/main.less */
+/* line 253, less/main.less */
 #leader .leader-div {
   overflow: hidden;
 }
-/* line 213, less/main.less */
+/* line 255, less/main.less */
 #leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
@@ -236,27 +278,27 @@ html {
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 217, less/main.less */
+/* line 259, less/main.less */
 #leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 221, less/main.less */
+/* line 263, less/main.less */
 #leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 30px;
 }
-/* line 224, less/main.less */
+/* line 266, less/main.less */
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
 /*Change icons size here*/
-/* line 232, less/main.less */
+/* line 274, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 236, less/main.less */
+/* line 278, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -270,11 +312,11 @@ html {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 249, less/main.less */
+/* line 291, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 252, less/main.less */
+/* line 294, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }

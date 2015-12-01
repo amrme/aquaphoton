@@ -31,6 +31,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 html {
@@ -193,11 +194,52 @@ html {
 
 #service {
   .product-thumbnail {
+  .imgWrap {
+    position: relative;
     margin-bottom: 20px;
-    overflow: hidden;
     .service-img {
       .center-block;
       .img-round;
+    }
+    .imgDescription {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color:  fade(white, 60%);;
+        color: black;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: visibility opacity 0.2s;
+        .about-service {
+          position: absolute;
+          top: 25%;
+          bottom: 0;
+          right: 0;
+          left: 20%;
+          overflow: hidden;
+          .inner-img-content {
+            width: 80%;
+            height: 80%;
+            .img-title {
+              font-size: 20px;
+            }
+            p {
+              a {
+                  font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+      &:hover {
+        .imgDescription {
+          visibility: visible;
+          opacity: 1;
+          z-index: 99;
+        }
+      }
     }
   }
 }
