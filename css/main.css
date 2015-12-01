@@ -205,35 +205,30 @@ html {
   margin-top: 15%;
   font-family: 'Pathway Gothic One', sans-serif;
 }
-/* line 194, less/main.less */
-#service {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-/* line 197, less/main.less */
-#service .row {
+/* line 195, less/main.less */
+#service .product-thumbnail {
   margin-bottom: 20px;
+  overflow: hidden;
 }
-/* line 199, less/main.less */
-#service .row .service-img {
-  max-height: 100px;
+/* line 198, less/main.less */
+#service .product-thumbnail .service-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10%;
+  border-radius: 5%;
 }
-/* line 207, less/main.less */
+/* line 205, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 213, less/main.less */
+/* line 211, less/main.less */
 #leader .leader-div {
   overflow: hidden;
 }
-/* line 215, less/main.less */
+/* line 213, less/main.less */
 #leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
@@ -241,27 +236,27 @@ html {
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 219, less/main.less */
+/* line 217, less/main.less */
 #leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 223, less/main.less */
+/* line 221, less/main.less */
 #leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 30px;
 }
-/* line 226, less/main.less */
+/* line 224, less/main.less */
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
 /*Change icons size here*/
-/* line 234, less/main.less */
+/* line 232, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 238, less/main.less */
+/* line 236, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -275,11 +270,11 @@ html {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 251, less/main.less */
+/* line 249, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 254, less/main.less */
+/* line 252, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }

@@ -95,16 +95,24 @@
       <div class="row">
         <h2 class="text-center section-title">Services We Offer</h2>
         <hr>
-        <div id="service">
-          <!-- add content with template -->
+        <div class="col-sm-1">
         </div>
-        <div id="service-modal-content">
-          <!-- modal with template -->
+        <div class="col-sm-10">
+          <div id="service">
+            <!-- add content with template -->
+          </div>
+        </div>
+        <div class="col-sm-1">
         </div>
       </div>
       <hr>
     </div>
+    <!-- modal hidden section -->
+    <div id="service-modal-content">
+      <!-- modal with template -->
+    </div>
   </section>
+
 
 <section id="products" data-anchor="products">
   <div class="container">
@@ -152,17 +160,15 @@
   <!-- services template -->
   <script id="services-template" type="text/x-handlebars-template">
      {{#each services}}
-      <div class="col-md-6">
-            <div class="row">
-              <div class="col-xs-4">
-                <img src="{{img}}" class="service-img img-responsive" />
-              </div>
-              <div class="col-xs-8 text-center">
-                  <h3>{{title}}</h3>
-                  <p><a class="btn btn-primary btn-xs service-more-button" data-id="{{@index}}" >More &raquo;</a></p>
-              </div>
-            </div>
-      </div>
+        <div class="col-sm-6 product-thumbnail">
+          <div class="col-xs-5">
+            <img src="{{img}}" class="service-img img-responsive" />
+          </div>
+          <div class="col-xs-7 text-center">
+              <h3>{{title}}</h3>
+              <p><a class="btn btn-primary btn-xs service-more-button" data-id="{{@index}}" >More &raquo;</a></p>
+          </div>
+        </div>
      {{/each}}
   </script>
 
