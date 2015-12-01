@@ -201,15 +201,20 @@ html {
   }
 }
 /* line 189, less/main.less */
+.section-title {
+  margin-top: 15%;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+/* line 194, less/main.less */
 #service {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-/* line 192, less/main.less */
+/* line 197, less/main.less */
 #service .row {
   margin-bottom: 20px;
 }
-/* line 194, less/main.less */
+/* line 199, less/main.less */
 #service .row .service-img {
   max-height: 100px;
   display: block;
@@ -217,18 +222,18 @@ html {
   margin-right: auto;
   border-radius: 10%;
 }
-/* line 202, less/main.less */
+/* line 207, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 208, less/main.less */
+/* line 213, less/main.less */
 #leader .leader-div {
   overflow: hidden;
 }
-/* line 210, less/main.less */
+/* line 215, less/main.less */
 #leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
@@ -236,18 +241,46 @@ html {
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 214, less/main.less */
+/* line 219, less/main.less */
 #leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 218, less/main.less */
+/* line 223, less/main.less */
 #leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 30px;
 }
-/* line 221, less/main.less */
+/* line 226, less/main.less */
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
+}
+/*Change icons size here*/
+/* line 234, less/main.less */
+.social-icons .fa {
+  font-size: 0.7em;
+}
+/*Change icons circle size and color here*/
+/* line 238, less/main.less */
+.social-icons .fa {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFF;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 251, less/main.less */
+.social-icons.icon-circle .fa {
+  border-radius: 50%;
+}
+/* line 254, less/main.less */
+.social-icons .fa-linkedin {
+  background-color: #0085AE;
 }
 /*# sourceMappingURL=css/main.css.map */

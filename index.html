@@ -18,6 +18,7 @@
   <!-- google fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Questrial' rel='stylesheet' type='text/css'>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -92,7 +93,7 @@
   <section id="first-section" data-anchor="services">
     <div class="container">
       <div class="row">
-        <h2 class="text-center" style="margin-top: 15%; text-transform: capitalize;">services we offer</h2>
+        <h2 class="text-center section-title">Services We Offer</h2>
         <hr>
         <div id="service">
           <!-- add content with template -->
@@ -108,7 +109,7 @@
 <section id="products" data-anchor="products">
   <div class="container">
     <div class="row">
-      <h2 class="text-center" style="margin-top: 15%; text-transform: capitalize;">Our Products</h2>
+      <h2 class="text-center section-title">Our Products</h2>
       <hr>
       <h3 class="text-center">Featured ROVs</h3>
       <div class="col-sm-1">
@@ -128,7 +129,7 @@
 <section id="leadership" data-anchor="leadership">
   <div class="container">
     <div class="row">
-      <h2 class="text-center" style="margin-top: 15%;">Key Executives and  Board Members</h2>
+      <h2 class="text-center section-title">Key Executives and  Board Members</h2>
       <hr>
       <div class="col-sm-1">
       </div>
@@ -211,7 +212,11 @@
        {{#each leaders}}
          <div class="col-md-3 col-sm-4 col-xs-12 leader-div">
            <img src="{{img}}" class="img-responsive leader-image" />
-           <h3 class="text-center leader-name">{{name}} <br> <small>{{title}}</small></h3>
+           <h3 class="text-center leader-name">{{name}} <br> <small>{{title}}</small><br>
+             <div class="social-icons icon-circle">
+               <a href="#"><i class="fa fa-linkedin"></i></a>
+             </div>
+           </h3>
          </div>
        {{/each}}
     </script>
