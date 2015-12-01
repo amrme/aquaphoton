@@ -1,4 +1,5 @@
 @import "mixins.less";
+
 /* Preloader */
 #preloader {
   position: fixed;
@@ -202,11 +203,21 @@ html {
   max-height: 150px;
   .center-block;
 }
-.leader-image {
-  max-height: 200px;
-  .center-block;
-  .img-round;
-  &:hover {
-    .scale-img(1.05);
+
+#leader {
+  .leader-image {
+    max-height: 200px;
+    .center-block;
+    .img-round;
+    &:hover {
+      .scale-img(1.05);
+    }
+  }
+  .leader-name {
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin-bottom: 30px;
+    small {
+      color: @aqua-title;
+    }
   }
 }

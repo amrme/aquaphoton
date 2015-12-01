@@ -1,10 +1,10 @@
 /* round corner image */
-/* line 5, less/mixins.less */
+/* line 11, less/mixins.less */
 .img-round {
   border-radius: 5%;
 }
 /* center block */
-/* line 10, less/mixins.less */
+/* line 16, less/mixins.less */
 .center-block {
   display: block;
   margin-left: auto;
@@ -12,7 +12,7 @@
 }
 /* scale image */
 /* Preloader */
-/* line 3, less/main.less */
+/* line 4, less/main.less */
 #preloader {
   position: fixed;
   top: 0;
@@ -24,7 +24,7 @@
   z-index: 99;
   /* makes sure it stays on top */
 }
-/* line 14, less/main.less */
+/* line 15, less/main.less */
 #status {
   width: 200px;
   height: 200px;
@@ -39,18 +39,18 @@
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-/* line 29, less/main.less */
+/* line 30, less/main.less */
 body {
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-/* line 35, less/main.less */
+/* line 36, less/main.less */
 html {
   width: 100%;
   height: 100%;
 }
-/* line 41, less/main.less */
+/* line 42, less/main.less */
 .navbar-custom {
   margin-bottom: 0;
   text-transform: capitalize;
@@ -60,101 +60,101 @@ html {
   background: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-/* line 49, less/main.less */
+/* line 50, less/main.less */
 .navbar-custom .navbar-toggle {
   padding: 4px 6px;
   font-size: 4vw;
   color: black;
 }
-/* line 53, less/main.less */
+/* line 54, less/main.less */
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
   outline: none;
 }
-/* line 60, less/main.less */
+/* line 61, less/main.less */
 .navbar-custom .navbar-brand .brand-logo {
   margin-top: -15px;
   margin-left: 20px;
   max-height: 50px;
 }
-/* line 66, less/main.less */
+/* line 67, less/main.less */
 .navbar-custom a {
   color: black;
 }
-/* line 71, less/main.less */
+/* line 72, less/main.less */
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
-/* line 75, less/main.less */
+/* line 76, less/main.less */
 .navbar-custom .nav li a:hover {
   color: rgba(0, 0, 0, 0.8);
   outline: none;
   background-color: transparent;
   text-decoration: underline;
 }
-/* line 81, less/main.less */
+/* line 82, less/main.less */
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
-/* line 87, less/main.less */
+/* line 88, less/main.less */
 .navbar-custom .nav li.active {
   outline: none;
 }
-/* line 89, less/main.less */
+/* line 90, less/main.less */
 .navbar-custom .nav li.active a {
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 91, less/main.less */
+/* line 92, less/main.less */
 .navbar-custom .nav li.active a:hover {
   color: black;
 }
 @media (min-width: 768px) {
-  /* line 98, less/main.less */
+  /* line 99, less/main.less */
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
     background: transparent;
   }
-  /* line 104, less/main.less */
+  /* line 105, less/main.less */
   .navbar-custom .navbar-brand .brand-logo {
     display: none;
   }
-  /* line 108, less/main.less */
+  /* line 109, less/main.less */
   .navbar-custom li {
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  /* line 111, less/main.less */
+  /* line 112, less/main.less */
   .navbar-custom li a {
     font-size: 1.5vw;
   }
-  /* line 122, less/main.less */
+  /* line 123, less/main.less */
   .navbar-custom.top-nav-collapse {
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
-  /* line 127, less/main.less */
+  /* line 128, less/main.less */
   .navbar-custom.top-nav-collapse .brand-logo {
     display: inline;
     margin-top: -15px;
     margin-left: 20px;
     max-height: 50px;
   }
-  /* line 133, less/main.less */
+  /* line 134, less/main.less */
   .navbar-custom.top-nav-collapse a {
     color: black;
     font-weight: normal;
     font-size: 1.3vw;
   }
 }
-/* line 143, less/main.less */
+/* line 144, less/main.less */
 .intro {
   display: table;
   height: 100%;
@@ -167,31 +167,31 @@ html {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 156, less/main.less */
+/* line 157, less/main.less */
 .intro .header-logo {
   transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   -webkit-transform: scale(0.5, 0.5);
 }
-/* line 161, less/main.less */
+/* line 162, less/main.less */
 .intro .main-heading {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5vw;
   color: black;
   line-height: 80%;
 }
-/* line 166, less/main.less */
+/* line 167, less/main.less */
 .intro .main-heading small {
   color: rgba(0, 0, 0, 0.7);
   letter-spacing: 0.1vw;
 }
-/* line 171, less/main.less */
+/* line 172, less/main.less */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 @media (min-width: 768px) {
-  /* line 177, less/main.less */
+  /* line 178, less/main.less */
   .intro .header-logo {
     transform: scale(0.3, 0.3);
     -ms-transform: scale(0.3, 0.3);
@@ -200,16 +200,16 @@ html {
     margin-bottom: -15%;
   }
 }
-/* line 188, less/main.less */
+/* line 189, less/main.less */
 #service {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-/* line 191, less/main.less */
+/* line 192, less/main.less */
 #service .row {
   margin-bottom: 20px;
 }
-/* line 193, less/main.less */
+/* line 194, less/main.less */
 #service .row .service-img {
   max-height: 100px;
   display: block;
@@ -217,24 +217,33 @@ html {
   margin-right: auto;
   border-radius: 10%;
 }
-/* line 201, less/main.less */
+/* line 202, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 205, less/main.less */
-.leader-image {
+/* line 208, less/main.less */
+#leader .leader-image {
   max-height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 209, less/main.less */
-.leader-image:hover {
+/* line 212, less/main.less */
+#leader .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
+}
+/* line 216, less/main.less */
+#leader .leader-name {
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin-bottom: 30px;
+}
+/* line 219, less/main.less */
+#leader .leader-name small {
+  color: rgba(3, 123, 157, 0.8);
 }
 /*# sourceMappingURL=css/main.css.map */
