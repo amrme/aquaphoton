@@ -155,7 +155,49 @@ html {
     font-size: 1.3vw;
   }
 }
+/* toggle navbar button on hover */
 /* line 145, less/main.less */
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+/* line 153, less/main.less */
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+/* line 157, less/main.less */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* line 161, less/main.less */
+.nav-tabs .dropdown-menu,
+.nav-pills .dropdown-menu,
+.navbar .dropdown-menu {
+  margin-top: 0;
+}
+/* line 165, less/main.less */
+.navbar .sub-menu:before {
+  border-bottom: 7px solid transparent;
+  border-left: none;
+  border-right: 7px solid rgba(0, 0, 0, 0.2);
+  border-top: 7px solid transparent;
+  left: -7px;
+  top: 10px;
+}
+/* line 173, less/main.less */
+.navbar .sub-menu:after {
+  border-top: 6px solid transparent;
+  border-left: none;
+  border-right: 6px solid #fff;
+  border-bottom: 6px solid transparent;
+  left: 10px;
+  top: 11px;
+  left: -6px;
+}
+/* line 184, less/main.less */
 .intro {
   display: table;
   height: 100%;
@@ -168,31 +210,31 @@ html {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 158, less/main.less */
+/* line 197, less/main.less */
 .intro .header-logo {
   transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   -webkit-transform: scale(0.5, 0.5);
 }
-/* line 163, less/main.less */
+/* line 202, less/main.less */
 .intro .main-heading {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5vw;
   color: black;
   line-height: 80%;
 }
-/* line 168, less/main.less */
+/* line 207, less/main.less */
 .intro .main-heading small {
   color: rgba(0, 0, 0, 0.7);
   letter-spacing: 0.1vw;
 }
-/* line 173, less/main.less */
+/* line 212, less/main.less */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 @media (min-width: 768px) {
-  /* line 179, less/main.less */
+  /* line 218, less/main.less */
   .intro .header-logo {
     transform: scale(0.3, 0.3);
     -ms-transform: scale(0.3, 0.3);
@@ -201,24 +243,24 @@ html {
     margin-bottom: -15%;
   }
 }
-/* line 190, less/main.less */
+/* line 229, less/main.less */
 .section-title {
   margin-top: 15%;
   font-family: 'Pathway Gothic One', sans-serif;
 }
-/* line 197, less/main.less */
+/* line 236, less/main.less */
 #service .product-thumbnail .imgWrap {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 200, less/main.less */
+/* line 239, less/main.less */
 #service .product-thumbnail .imgWrap .service-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 204, less/main.less */
+/* line 243, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription {
   position: absolute;
   top: 0;
@@ -235,7 +277,7 @@ html {
   opacity: 0;
   -webkit-transition: visibility opacity 0.2s;
 }
-/* line 217, less/main.less */
+/* line 256, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service {
   position: absolute;
   top: 30%;
@@ -244,40 +286,40 @@ html {
   left: 0;
   overflow: hidden;
 }
-/* line 225, less/main.less */
+/* line 264, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content .img-title {
   font-size: 150%;
 }
-/* line 229, less/main.less */
+/* line 268, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content p a {
   font-size: 20px;
 }
-/* line 237, less/main.less */
+/* line 276, less/main.less */
 #service .product-thumbnail .imgWrap:hover .imgDescription {
   visibility: visible;
   transition: all 0.2s ease-in-out;
   opacity: 1;
   z-index: 99;
 }
-/* line 250, less/main.less */
+/* line 289, less/main.less */
 .modal-content .modal-body p {
   margin-top: 5%;
   margin-left: 3%;
   margin-right: 3%;
   font-size: 20px;
 }
-/* line 259, less/main.less */
+/* line 298, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 265, less/main.less */
+/* line 304, less/main.less */
 #leader .leader-div {
   overflow: hidden;
 }
-/* line 267, less/main.less */
+/* line 306, less/main.less */
 #leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
@@ -285,27 +327,27 @@ html {
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 271, less/main.less */
+/* line 310, less/main.less */
 #leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 275, less/main.less */
+/* line 314, less/main.less */
 #leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 30px;
 }
-/* line 278, less/main.less */
+/* line 317, less/main.less */
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
 /*Change icons size here*/
-/* line 286, less/main.less */
+/* line 325, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 290, less/main.less */
+/* line 329, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -319,11 +361,11 @@ html {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 303, less/main.less */
+/* line 342, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 306, less/main.less */
+/* line 345, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
