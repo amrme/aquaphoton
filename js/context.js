@@ -1,4 +1,22 @@
-var context = { services: [
+var context = {
+                        about: [
+                            {
+                              title: 'About the Company',
+                              content: 'Great company',
+                              uid: 'collapse1',
+                            },
+                            {
+                              title: 'about the team',
+                              content: 'great team',
+                              uid: 'collapse2',
+                            },
+                            {
+                              title: 'About the academy',
+                              content: 'Great academy',
+                              uid: 'collapse3',
+                            },
+                          ],
+                        services: [
                         {
                           title: 'Marine Environmental Services',
                           img: 'img/services/marineEnvServices.jpg',
@@ -35,7 +53,7 @@ var context = { services: [
                           description: 'Dams, Overwater Bridges, Tanks and Reservoirs are among the most important public infrastructure. Infrastructure faces age’s overtime and needs periodic inspection to ensure safety. AQUAPHOTON provides ROVs equipped with the necessary tools needed to carry out the mission flawlessly. Our engineers are dedicated to do whatever possible to ensure the safety of citizens and infrastructures.',
                         },
                       ],
-                      products: [
+                        products: [
                         {
                           title: 'Aquatint Pro',
                           price: '$12,500',
@@ -49,7 +67,7 @@ var context = { services: [
                           description: 'admiral 2 features',
                         },
                       ],
-                      leaders: [
+                        leaders: [
                         {
                           name:'Moataz Tarek',
                           title: 'Co-Founder & CEO',

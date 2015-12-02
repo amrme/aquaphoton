@@ -48,10 +48,10 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#services" data-scroll="services">Services</a></li>
+          <li><a href="#about" data-scroll="about">About</a></li>
           <li><a href="#products" data-scroll="products">Products</a></li>
           <li><a href="#leadership" data-scroll="leadership">Leadership</a></li>
           <li><a href="#media" data-scroll="media">Media</a></li>
-          <li><a href="#about" data-scroll="about">About</a></li>
           <li><a href="#contact" data-scroll="contact">Contact</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#academy" data-scroll="academy">Academy <span class="caret"></span></a>
@@ -90,30 +90,49 @@
         </div>
     </header>
 
-  <!-- services section -->
-  <section id="first-section" data-anchor="services">
-    <div class="container">
-      <div class="row">
-        <h2 class="text-center section-title">Services We Offer</h2>
-        <div class="col-sm-1">
-        </div>
-        <div class="col-sm-10">
-          <hr>
-          <div id="service">
-            <!-- add content with template -->
-          </div>
 
+      <!-- services section -->
+      <section id="first-section" data-anchor="services">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center section-title">Services We Offer</h2>
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-10">
+              <hr>
+              <div id="service">
+                <!-- add content with template -->
+              </div>
+
+            </div>
+            <div class="col-sm-1">
+            </div>
+          </div>
         </div>
-        <div class="col-sm-1">
+        <!-- modal hidden section -->
+        <div id="service-modal-content">
+          <!-- modal with template -->
+        </div>
+      </section>
+
+
+    <!-- About section -->
+    <section id="about" data-anchor="about">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center section-title">About Us</h2>
+          <div class="col-sm-1">
+          </div>
+          <div class="col-sm-10">
+            <hr>
+            <div class="panel-group" id="accordion">
+              <!-- get panels from template -->
+          </div>
+          <div class="col-sm-1">
+          </div>
         </div>
       </div>
-    </div>
-    <!-- modal hidden section -->
-    <div id="service-modal-content">
-      <!-- modal with template -->
-    </div>
-  </section>
-
+    </section>
 
 <section id="products" data-anchor="products">
   <div class="container">
@@ -174,6 +193,24 @@
             </div>
           </div>
         </div>
+     {{/each}}
+  </script>
+
+  <!-- About us template -->
+  <script id="about-template" type="text/x-handlebars-template">
+     {{#each about}}
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#{{uid}}">{{title}}</a>
+             </h4>
+           </div>
+           <div class="panel-collapse collapse" id="{{uid}}">
+             <div class="panel-body">
+               {{content}}
+             </div>
+           </div>
+         </div>
      {{/each}}
   </script>
 

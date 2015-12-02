@@ -20,6 +20,9 @@ var products    = template(context);
 source = $('#leadership-template').html();
 template = Handlebars.compile(source);
 var leadership    = template(context);
+source = $('#about-template').html();
+template = Handlebars.compile(source);
+var about    = template(context);
 
 // doc ready
 $(document).ready(function() {
@@ -75,6 +78,9 @@ $(document).ready(function() {
 
   // append leaders
   $('#leader').html(leadership);
+
+  // append about
+  $('#accordion').html(about);
 
   // handle modals for services
   $('.service-more-button').click(function() {
