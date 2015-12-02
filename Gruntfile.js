@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     cssmin: {
       target: {
         files: {
-          'css/main.min.css': ['css/bootstrap.css', 'css/main.css'],
+          'css/main.min.css': ['css/bootstrap.css', 'css/bootstrap-theme.css', 'css/main.css'],
         },
       },
     },
