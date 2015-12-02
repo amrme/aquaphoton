@@ -336,6 +336,7 @@ html {
    // font settings
    color: white;
    .section-head {
+     margin-top: 10%;
      .heading {
       .drop-shadow(40%);
      }
@@ -345,6 +346,35 @@ html {
        font-size: 22px;
    }
  }
+}
+
+/* footer styles */
+footer {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background: fade(@aqua-primary, 30%);
+  .footer-body {
+    color: black;
+    font-family: sans-serif;
+    .footer-logo {
+      max-height: 100px;
+      margin-bottom: 10px;
+    }
+    ul {
+      font-size: 17px;
+      color: fade(black, 50%);;
+      font-weight: bold;
+      li {
+        a {
+          font-weight: normal;
+          color: grey;
+          &:hover {
+            color: @aqua-primary;
+          }
+        }
+      }
+    }
+  }
 }
 
 /*Change icons size here*/

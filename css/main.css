@@ -358,7 +358,11 @@ html {
 #academy .floating-section {
   color: white;
 }
-/* line 339, less/main.less */
+/* line 338, less/main.less */
+#academy .floating-section .section-head {
+  margin-top: 10%;
+}
+/* line 340, less/main.less */
 #academy .floating-section .section-head .heading {
   background-color: rgba(0, 0, 0, 0.4);
   padding-left: 10px;
@@ -366,7 +370,7 @@ html {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 343, less/main.less */
+/* line 344, less/main.less */
 #academy .floating-section .section-body {
   background-color: rgba(0, 0, 0, 0.5);
   padding-left: 10px;
@@ -375,13 +379,45 @@ html {
   padding-bottom: 5px;
   font-size: 22px;
 }
+/* footer styles */
+/* line 352, less/main.less */
+footer {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background: rgba(3, 123, 157, 0.3);
+}
+/* line 356, less/main.less */
+footer .footer-body {
+  color: black;
+  font-family: sans-serif;
+}
+/* line 359, less/main.less */
+footer .footer-body .footer-logo {
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+/* line 363, less/main.less */
+footer .footer-body ul {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+/* line 368, less/main.less */
+footer .footer-body ul li a {
+  font-weight: normal;
+  color: grey;
+}
+/* line 371, less/main.less */
+footer .footer-body ul li a:hover {
+  color: #037B9D;
+}
 /*Change icons size here*/
-/* line 351, less/main.less */
+/* line 381, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 355, less/main.less */
+/* line 385, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -395,11 +431,11 @@ html {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 368, less/main.less */
+/* line 398, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 371, less/main.less */
+/* line 401, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
