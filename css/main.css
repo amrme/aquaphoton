@@ -11,6 +11,7 @@
   margin-right: auto;
 }
 /* scale image */
+/* drop shadow to section */
 /* Preloader */
 /* line 4, less/main.less */
 #preloader {
@@ -353,13 +354,34 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+/* line 335, less/main.less */
+#academy .floating-section {
+  color: white;
+}
+/* line 339, less/main.less */
+#academy .floating-section .section-head .heading {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 343, less/main.less */
+#academy .floating-section .section-body {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 2vw;
+}
 /*Change icons size here*/
-/* line 337, less/main.less */
+/* line 351, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 341, less/main.less */
+/* line 355, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -373,11 +395,11 @@ html {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 354, less/main.less */
+/* line 368, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 357, less/main.less */
+/* line 371, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
