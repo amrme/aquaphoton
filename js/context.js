@@ -3,17 +3,14 @@ var context = {
                             {
                               title: 'About the Company',
                               content: 'Great company',
-                              uid: 'collapse1',
                             },
                             {
                               title: 'about the team',
                               content: 'great team',
-                              uid: 'collapse2',
                             },
                             {
                               title: 'About the academy',
                               content: 'Great academy',
-                              uid: 'collapse3',
                             },
                           ],
                         services: [
