@@ -341,13 +341,25 @@ html {
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
-/*Change icons size here*/
+/* stye academy section */
 /* line 325, less/main.less */
+#academy {
+  display: table;
+  height: 70%;
+  width: 100%;
+  background: url(../img/academy.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*Change icons size here*/
+/* line 337, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 329, less/main.less */
+/* line 341, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -361,11 +373,11 @@ html {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 342, less/main.less */
+/* line 354, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 345, less/main.less */
+/* line 357, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
