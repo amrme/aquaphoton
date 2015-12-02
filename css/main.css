@@ -259,18 +259,25 @@ html {
   opacity: 1;
   z-index: 99;
 }
-/* line 248, less/main.less */
+/* line 250, less/main.less */
+.modal-content .modal-body p {
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 20px;
+}
+/* line 259, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 254, less/main.less */
+/* line 265, less/main.less */
 #leader .leader-div {
   overflow: hidden;
 }
-/* line 256, less/main.less */
+/* line 267, less/main.less */
 #leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
@@ -278,27 +285,27 @@ html {
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 260, less/main.less */
+/* line 271, less/main.less */
 #leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 264, less/main.less */
+/* line 275, less/main.less */
 #leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 30px;
 }
-/* line 267, less/main.less */
+/* line 278, less/main.less */
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
 /*Change icons size here*/
-/* line 275, less/main.less */
+/* line 286, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 279, less/main.less */
+/* line 290, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -312,11 +319,11 @@ html {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 292, less/main.less */
+/* line 303, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 295, less/main.less */
+/* line 306, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
