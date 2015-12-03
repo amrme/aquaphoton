@@ -117,7 +117,7 @@ $(document).ready(function() {
    var var_marker = new google.maps.Marker({
      position: var_location,
            map: var_map,
-     title:"Venice"});
+     title:"AquaPhoton Co."});
 
        var var_map = new google.maps.Map(document.getElementById("map-container"),
            var_mapoptions);
