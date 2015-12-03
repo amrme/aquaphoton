@@ -30,10 +30,10 @@ $(document).ready(function() {
 
   $('li a').on('click', function() {
 
-    console.log('section clicked');
+    // console.log('section clicked');
 
     var scrollAnchor = $(this).attr('data-scroll');
-    console.log(scrollAnchor);
+    // console.log(scrollAnchor);
     var scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 28;
 
     $('body,html').animate({
@@ -49,8 +49,8 @@ $(document).ready(function() {
     if (windscroll >= 100) {
       $('section').each(function(i) {
           if ($(this).position().top <= windscroll + 30) {
-            $('nav li.active').removeClass('active');
-            $('nav li').eq(i).addClass('active');
+            $('.nav li.active').removeClass('active');
+            $('.nav > li').eq(i).addClass('active');
           }
         });
 
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
     var currentService = context.services[clickedServiceNum];
 
-    console.log(currentService);
+    // console.log(currentService);
 
     //use the modal template to generate html
     // and put it in the DOM
