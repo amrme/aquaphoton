@@ -411,13 +411,45 @@ footer .footer-body ul li a {
 footer .footer-body ul li a:hover {
   color: #037B9D;
 }
+/* contact section style */
+/* line 382, less/main.less */
+#contact #contactform {
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+/* line 385, less/main.less */
+#contact #contactform .contactform {
+  width: 100%;
+}
+/* line 389, less/main.less */
+#contact .address {
+  font-family: sans-serif;
+}
+/* line 391, less/main.less */
+#contact .address #map-outer {
+  height: 440px;
+  padding: 20px;
+  border: 2px solid #CCC;
+  margin-bottom: 20px;
+  background-color: #FFF;
+}
+/* line 396, less/main.less */
+#contact .address #map-container {
+  height: 400px;
+}
+@media all and (max-width: 991px) {
+  /* line 398, less/main.less */
+  #contact .address #map-outer {
+    height: 650px;
+  }
+}
 /*Change icons size here*/
-/* line 381, less/main.less */
+/* line 404, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 385, less/main.less */
+/* line 408, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -431,11 +463,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 398, less/main.less */
+/* line 421, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 401, less/main.less */
+/* line 424, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
