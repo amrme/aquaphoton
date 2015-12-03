@@ -412,20 +412,24 @@ footer .footer-body ul li a:hover {
   color: #037B9D;
 }
 /* contact section style */
-/* line 382, less/main.less */
+/* line 381, less/main.less */
+#contact {
+  padding-top: 6%;
+}
+/* line 383, less/main.less */
 #contact #contactform {
   margin-bottom: 5%;
   margin-top: 2%;
 }
-/* line 385, less/main.less */
+/* line 386, less/main.less */
 #contact #contactform .contactform {
   width: 100%;
 }
-/* line 389, less/main.less */
+/* line 390, less/main.less */
 #contact .address {
   font-family: sans-serif;
 }
-/* line 392, less/main.less */
+/* line 393, less/main.less */
 #contact #map-container {
   width: 100%;
   height: 300px;
@@ -434,12 +438,12 @@ footer .footer-body ul li a:hover {
   border: 2px solid #fff;
 }
 /*Change icons size here*/
-/* line 402, less/main.less */
+/* line 403, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 406, less/main.less */
+/* line 407, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -453,11 +457,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 419, less/main.less */
+/* line 420, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 422, less/main.less */
+/* line 423, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
