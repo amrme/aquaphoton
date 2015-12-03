@@ -48,7 +48,7 @@ $(document).ready(function() {
     var windscroll = $(window).scrollTop();
     if (windscroll >= 100) {
       $('section').each(function(i) {
-          if ($(this).position().top <= windscroll - 20) {
+          if ($(this).position().top <= windscroll + 30) {
             $('nav li.active').removeClass('active');
             $('nav li').eq(i).addClass('active');
           }
@@ -104,20 +104,28 @@ $(document).ready(function() {
 
   // map
   function init_map() {
-    var var_location = new google.maps.LatLng(45.430817,12.331516);
-    var var_mapoptions = {
-       center: var_location,
-       zoom: 14
-    };
-    var var_marker = new google.maps.Marker({
-      position: var_location,
-      map: var_map,
-      title:'Venice'});
+    // company's location
+   var var_location = new google.maps.LatLng(31.269181, 29.996385);
 
-    var var_map = new google.maps.Map(document.getElementById("map-container"), var_mapoptions);
+       var var_mapoptions = {
+        scrollwheel: false,
+        draggable: false,
+        center: var_location,
+        zoom: 14
+       };
+
+   var var_marker = new google.maps.Marker({
+     position: var_location,
+           map: var_map,
+     title:"Venice"});
+
+       var var_map = new google.maps.Map(document.getElementById("map-container"),
+           var_mapoptions);
 
    var_marker.setMap(var_map);
-  }
 
-  google.maps.event.addDomListener(window, 'load', init_map);
+     }
+
+     google.maps.event.addDomListener(window, 'load', init_map);
+
 });

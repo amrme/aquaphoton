@@ -425,31 +425,21 @@ footer .footer-body ul li a:hover {
 #contact .address {
   font-family: sans-serif;
 }
-/* line 391, less/main.less */
-#contact .address #map-outer {
-  height: 440px;
-  padding: 20px;
-  border: 2px solid #CCC;
-  margin-bottom: 20px;
-  background-color: #FFF;
-}
-/* line 396, less/main.less */
-#contact .address #map-container {
-  height: 400px;
-}
-@media all and (max-width: 991px) {
-  /* line 398, less/main.less */
-  #contact .address #map-outer {
-    height: 650px;
-  }
+/* line 392, less/main.less */
+#contact #map-container {
+  width: 100%;
+  height: 300px;
+  max-height: 100%;
+  margin-bottom: 15px;
+  border: 2px solid #fff;
 }
 /*Change icons size here*/
-/* line 404, less/main.less */
+/* line 402, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 408, less/main.less */
+/* line 406, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -463,11 +453,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 421, less/main.less */
+/* line 419, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 424, less/main.less */
+/* line 422, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
