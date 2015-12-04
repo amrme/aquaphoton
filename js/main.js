@@ -128,4 +128,6 @@ $(document).ready(function() {
 
      google.maps.event.addDomListener(window, 'load', init_map);
 
+     $('#copyYear').html(new Date().getFullYear());
+
 });
