@@ -23,6 +23,9 @@ var leadership    = template(context);
 source = $('#about-template').html();
 template = Handlebars.compile(source);
 var about    = template(context);
+source = $('#rov-template').html();
+var rovTemplate = Handlebars.compile(source);
+
 
 // doc ready
 $(document).ready(function() {
@@ -132,10 +135,20 @@ $(document).ready(function() {
      $('#copyYear').html(new Date().getFullYear());
 
     //  check which button is clicked for ROV
+
     $('.rov-btn').click(function() {
-      
+
       // get the index of clicked ROV
-      console.log($(this).data('id'));
+      // console.log($(this).data('id'));
+      // console.log(context.products[$(this).data('id')].title.replace(/\s/g, '').toLowerCase());
+
+      var rov    = rovTemplate(context.products[$(this).data('id')]);
+      console.log(context.products[$(this).data('id')]);
+      // hide all sections
+      $('section').hide();
+
+      // append rov
+      $('header').html(rov);
     });
 
 });
