@@ -128,6 +128,7 @@ $(document).ready(function() {
 
      google.maps.event.addDomListener(window, 'load', init_map);
 
+     //  append copyright year to the footer
      $('#copyYear').html(new Date().getFullYear());
 
 });
