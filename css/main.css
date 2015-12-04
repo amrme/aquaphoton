@@ -379,58 +379,95 @@ html {
   padding-bottom: 5px;
   font-size: 22px;
 }
-/* footer styles */
+/* stye the team's section */
 /* line 352, less/main.less */
+#team {
+  display: table;
+  height: 70%;
+  width: 100%;
+  background: url(../img/team.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 362, less/main.less */
+#team .floating-section {
+  color: white;
+}
+/* line 365, less/main.less */
+#team .floating-section .section-head {
+  margin-top: 10%;
+}
+/* line 367, less/main.less */
+#team .floating-section .section-head .heading {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 371, less/main.less */
+#team .floating-section .section-body {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+}
+/* footer styles */
+/* line 379, less/main.less */
 footer {
   padding-top: 20px;
   padding-bottom: 50px;
   background: rgba(3, 123, 157, 0.3);
 }
-/* line 356, less/main.less */
+/* line 383, less/main.less */
 footer .footer-body {
   color: black;
   font-family: sans-serif;
 }
-/* line 359, less/main.less */
+/* line 386, less/main.less */
 footer .footer-body .footer-logo {
   max-height: 100px;
   margin-bottom: 10px;
 }
-/* line 363, less/main.less */
+/* line 390, less/main.less */
 footer .footer-body ul {
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
-/* line 368, less/main.less */
+/* line 395, less/main.less */
 footer .footer-body ul li a {
   font-weight: normal;
   color: grey;
 }
-/* line 371, less/main.less */
+/* line 398, less/main.less */
 footer .footer-body ul li a:hover {
   color: #037B9D;
 }
 /* contact section style */
-/* line 381, less/main.less */
+/* line 408, less/main.less */
 #contact {
   padding-top: 6%;
   padding-bottom: 3%;
 }
-/* line 384, less/main.less */
+/* line 411, less/main.less */
 #contact #contactform {
   margin-bottom: 5%;
   margin-top: 2%;
 }
-/* line 387, less/main.less */
+/* line 414, less/main.less */
 #contact #contactform .contactform {
   width: 100%;
 }
-/* line 391, less/main.less */
+/* line 418, less/main.less */
 #contact .address {
   font-family: sans-serif;
 }
-/* line 394, less/main.less */
+/* line 421, less/main.less */
 #contact #map-container {
   width: 100%;
   height: 300px;
@@ -439,12 +476,12 @@ footer .footer-body ul li a:hover {
   border: 2px solid #fff;
 }
 /*Change icons size here*/
-/* line 404, less/main.less */
+/* line 431, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 408, less/main.less */
+/* line 435, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -458,11 +495,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 421, less/main.less */
+/* line 448, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 424, less/main.less */
+/* line 451, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
