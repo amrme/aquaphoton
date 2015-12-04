@@ -147,6 +147,9 @@ $(document).ready(function() {
       // hide all sections
       $('section').hide();
 
+      // push state
+      history.pushState(null, context.products[$(this).data('id')].title, context.products[$(this).data('id')].title.replace(/\s/g, '').toLowerCase());
+    
       // append rov
       $('header').html(rov);
     });
