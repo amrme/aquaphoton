@@ -151,7 +151,7 @@ $(document).ready(function() {
       history.pushState(null, context.products[$(this).data('id')].title, context.products[$(this).data('id')].title.replace(/\s/g, '').toLowerCase());
 
       // append rov
-      $('header').html(rov);
+      $('.rov-page').html(rov);
     });
 
 });

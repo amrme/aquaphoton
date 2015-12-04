@@ -62,6 +62,23 @@ var context = {
                           price: '$10,000',
                           img: 'img/products/admiral2.jpg',
                           description: 'admiral 2 features',
+                          images: [
+                            {
+                              img: 'img/products/admiral2.jpg',
+                            },
+                            {
+                              img: 'img/products/admiral2.jpg',
+                            },
+                            {
+                              img: 'img/products/admiral2.jpg',
+                            },
+                            {
+                              img: 'img/products/admiral2.jpg',
+                            },
+                            {
+                              img: 'img/products/admiral2.jpg',
+                            },
+                          ],
                         },
                       ],
                         leaders: [

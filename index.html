@@ -95,6 +95,9 @@
         </div>
     </header>
 
+    <!-- rov page's placeholder -->
+    <div class="rov-page"></div>
+
 
       <!-- services section -->
       <section id="first-section" data-anchor="services">
@@ -423,12 +426,29 @@
        {{/each}}
     </script>
 
-    <!-- rov template -->
+    <!-- rov page's template -->
     <script id="rov-template" type="text/x-handlebars-template">
-      <h3 class="text-center" style="color:black;">Featured ROVs</h3>
-           <h4 class="text-center" style="color:black;">{{title}} <small>{{price}}</small></h4>
-           <img src="{{img}}">
-           <div style="padding-bottom:100px;"> </div>
+      <div class="container">
+        <div class="row">
+          <div class="row">
+            <h2 class="text-center">{{title}}</h2>
+          </div> <!-- /row -->
+          <div class="row">
+            <!-- list of images -->
+            <div class="col-md-4 col-sm-12">
+              {{#each images}}
+                <div class="col-xs-4">
+                  <img src="{{img}}" class="img-responsive">
+                </div> <!-- / image thumbnail -->
+              {{/each}}
+            </div> <!-- / list of images -->
+            <!--  large image -->
+            <div class="col-md-8 col-sm-12">
+              <img src="{{img}}" class="img-responsive">
+            </div> <!-- / large image -->
+          </div> <!-- /row -->
+        </div> <!-- /row -->
+      </div> <!-- /container -->
     </script>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
