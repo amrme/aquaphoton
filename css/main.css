@@ -416,58 +416,132 @@ html {
   padding-bottom: 5px;
   font-size: 22px;
 }
-/* footer styles */
+/* stye the courses */
 /* line 379, less/main.less */
+#courses {
+  display: table;
+  height: 70%;
+  width: 100%;
+  background: url(../img/courses.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 389, less/main.less */
+#courses .floating-section {
+  color: white;
+}
+/* line 392, less/main.less */
+#courses .floating-section .section-head {
+  margin-top: 10%;
+}
+/* line 394, less/main.less */
+#courses .floating-section .section-head .heading {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 398, less/main.less */
+#courses .floating-section .section-body {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+}
+/* stye the camps */
+/* line 406, less/main.less */
+#camps {
+  display: table;
+  height: 70%;
+  width: 100%;
+  background: url(../img/camps.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 416, less/main.less */
+#camps .floating-section {
+  color: white;
+}
+/* line 419, less/main.less */
+#camps .floating-section .section-head {
+  margin-top: 10%;
+}
+/* line 421, less/main.less */
+#camps .floating-section .section-head .heading {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 425, less/main.less */
+#camps .floating-section .section-body {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+}
+/* footer styles */
+/* line 433, less/main.less */
 footer {
   padding-top: 20px;
   padding-bottom: 50px;
   background: rgba(3, 123, 157, 0.3);
 }
-/* line 383, less/main.less */
+/* line 437, less/main.less */
 footer .footer-body {
   color: black;
   font-family: sans-serif;
 }
-/* line 386, less/main.less */
+/* line 440, less/main.less */
 footer .footer-body .footer-logo {
   max-height: 100px;
   margin-bottom: 10px;
 }
-/* line 390, less/main.less */
+/* line 444, less/main.less */
 footer .footer-body ul {
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
-/* line 395, less/main.less */
+/* line 449, less/main.less */
 footer .footer-body ul li a {
   font-weight: normal;
   color: grey;
 }
-/* line 398, less/main.less */
+/* line 452, less/main.less */
 footer .footer-body ul li a:hover {
   color: #037B9D;
 }
 /* contact section style */
-/* line 408, less/main.less */
+/* line 462, less/main.less */
 #contact {
   padding-top: 6%;
   padding-bottom: 3%;
 }
-/* line 411, less/main.less */
+/* line 465, less/main.less */
 #contact #contactform {
   margin-bottom: 5%;
   margin-top: 2%;
 }
-/* line 414, less/main.less */
+/* line 468, less/main.less */
 #contact #contactform .contactform {
   width: 100%;
 }
-/* line 418, less/main.less */
+/* line 472, less/main.less */
 #contact .address {
   font-family: sans-serif;
 }
-/* line 421, less/main.less */
+/* line 475, less/main.less */
 #contact #map-container {
   width: 100%;
   height: 300px;
@@ -476,12 +550,12 @@ footer .footer-body ul li a:hover {
   border: 2px solid #fff;
 }
 /*Change icons size here*/
-/* line 431, less/main.less */
+/* line 485, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 435, less/main.less */
+/* line 489, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -495,11 +569,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 448, less/main.less */
+/* line 502, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 451, less/main.less */
+/* line 505, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
