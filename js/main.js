@@ -133,6 +133,7 @@ $(document).ready(function() {
 
     //  check which button is clicked for ROV
     $('.rov-btn').click(function() {
+      
       // get the index of clicked ROV
       console.log($(this).data('id'));
     });
