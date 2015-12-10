@@ -1,16 +1,20 @@
 var context = {
                         about: [
                             {
-                              title: 'About the Company',
-                              content: 'Great company',
+                              title: 'Brief',
+                              content: 'AquaPhoton is an Egyptian startup for underwater marine services and technologies that was founded in 2014 by graduate students from the faculty of Engineering, Alexandria University.',
                             },
                             {
-                              title: 'about the team',
-                              content: 'great team',
+                              title: 'History',
+                              content: "The co-founders started their path as participants in the International MATE ROV competition. After the graduation they decided to share their passion with fresh aspiring engineers, that's when they decided to co-found AquaPhoton Academy, to help college undergraduates get involved in the underwater marine technology.",
                             },
                             {
-                              title: 'About the academy',
-                              content: 'Great academy',
+                              title: 'Vision',
+                              content: "Looking forward to being a leading company in the ROV and marine technology in MENA region by providing and developing products, services and training for all technologies related to underwater and marine technologies.",
+                            },
+                            {
+                              title: 'Mission',
+                              content: "Prove efficiency for our ROV technology in implementing inspection tasks underwater with high performance and offer our services to the growing offshore industry in Egypt. And also preparing a new generation of engineers capable of coping up with the advancements happening in the underwater marine technologies.",
                             },
                           ],
                         services: [
