@@ -90,8 +90,11 @@ $(document).ready(function() {
   });
 
   // contact info
-  var contactform =  document.getElementById('contactform');
-  contactform.setAttribute('action', '//formspree.io/' + 'moataztarek1991' + '@' + 'gmail' + '.' + 'com');
+  if($("#contactform").length)
+  {
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'moataztarek1991' + '@' + 'gmail' + '.' + 'com');
+  }
 
   // map
   function init_map() {
@@ -110,11 +113,12 @@ $(document).ready(function() {
            map: var_map,
      title:"AquaPhoton Co."});
 
+     if($("#map-container").length)
+     {
        var var_map = new google.maps.Map(document.getElementById("map-container"),
            var_mapoptions);
-
-   var_marker.setMap(var_map);
-
+           var_marker.setMap(var_map);
+     }
      }
 
      google.maps.event.addDomListener(window, 'load', init_map);
