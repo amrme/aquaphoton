@@ -398,7 +398,7 @@ html {
 /* line 371, less/main.less */
 #team {
   display: table;
-  height: 70%;
+  height: 100%;
   width: 100%;
   background: url(../img/team.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -435,7 +435,7 @@ html {
 /* line 398, less/main.less */
 #courses {
   display: table;
-  height: 70%;
+  height: 100%;
   width: 100%;
   background: url(../img/courses.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -472,7 +472,7 @@ html {
 /* line 425, less/main.less */
 #camps {
   display: table;
-  height: 70%;
+  height: 100%;
   width: 100%;
   background: url(../img/camps.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
