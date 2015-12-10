@@ -40,7 +40,10 @@ $(document).ready(function() {
         });
 
     } else {
-      // $('nav li.active').removeClass('active');
+      // check if the page contains any other sections
+      if ($('section').length) {
+          $('nav li.active').removeClass('active');
+      }
     }
   }).scroll();
 
