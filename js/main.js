@@ -73,18 +73,6 @@ $(document).ready(function() {
     });
   }
 
-  // append services
-  $('#service').html(services);
-
-  // append products
-  $('#product').html(products);
-
-  // append leaders
-  $('#leader').html(leadership);
-
-  // append about
-  $('#accordion').html(about);
-
   // handle modals for services
   $('.service-more-button').click(function() {
 
@@ -136,22 +124,22 @@ $(document).ready(function() {
 
     //  check which button is clicked for ROV
 
-    $('.rov-btn').click(function() {
-
-      // get the index of clicked ROV
-      // console.log($(this).data('id'));
-      // console.log(context.products[$(this).data('id')].title.replace(/\s/g, '').toLowerCase());
-
-      var rov    = rovTemplate(context.products[$(this).data('id')]);
-      console.log(context.products[$(this).data('id')]);
-      // hide all sections
-      $('section').hide();
-
-      // push state
-      history.pushState(null, context.products[$(this).data('id')].title, context.products[$(this).data('id')].title.replace(/\s/g, '').toLowerCase());
-
-      // append rov
-      $('.rov-page').html(rov);
-    });
+    // $('.rov-btn').click(function() {
+    //
+    //   // get the index of clicked ROV
+    //   // console.log($(this).data('id'));
+    //   // console.log(context.products[$(this).data('id')].title.replace(/\s/g, '').toLowerCase());
+    //
+    //   var rov    = rovTemplate(context.products[$(this).data('id')]);
+    //   console.log(context.products[$(this).data('id')]);
+    //   // hide all sections
+    //   $('section').hide();
+    //
+    //   // push state
+    //   history.pushState(null, context.products[$(this).data('id')].title, context.products[$(this).data('id')].title.replace(/\s/g, '').toLowerCase());
+    //
+    //   // append rov
+    //   $('.rov-page').html(rov);
+    // });
 
 });
