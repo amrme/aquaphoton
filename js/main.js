@@ -8,24 +8,6 @@ $(window).load(function() { // makes sure the whole site is loaded
 
 });
 
-// Compile handlebars templates
-var source   = $('#services-template').html();
-var template = Handlebars.compile(source);
-source   = $('#modalTemplate').html();
-var modalTemplate = Handlebars.compile(source);
-var services    = template(context);
-source = $('#products-template').html();
-template = Handlebars.compile(source);
-var products    = template(context);
-source = $('#leadership-template').html();
-template = Handlebars.compile(source);
-var leadership    = template(context);
-source = $('#about-template').html();
-template = Handlebars.compile(source);
-var about    = template(context);
-source = $('#rov-template').html();
-var rovTemplate = Handlebars.compile(source);
-
 
 // doc ready
 $(document).ready(function() {

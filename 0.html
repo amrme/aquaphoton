@@ -140,100 +140,6 @@
     </div>
   </footer>
 
-  <!-- services template -->
-  <script id="services-template" type="text/x-handlebars-template">
-     {{#each services}}
-        <div class="col-md-3 col-sm-4 col-xs-6 product-thumbnail">
-          <div class="imgWrap">
-            <img src="{{img}}" class="service-img img-responsive" />
-            <div class="imgDescription text-center">
-              <div class="about-service">
-                <div class="inner-img-content">
-                  <p class="img-title">{{title}}</p>
-                  <p><a class="btn btn-primary btn-xs service-more-button" data-id="{{@index}}" >More &raquo;</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-     {{/each}}
-  </script>
-
-  <!-- About us template -->
-  <script id="about-template" type="text/x-handlebars-template">
-     {{#each about}}
-         <div class="panel panel-default">
-           <div class="panel-heading">
-             <p class="panel-title text-center">
-               <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">{{title}}</a>
-             </p>
-           </div>
-           <div class="panel-collapse collapse" id="collapse{{@index}}">
-             <div class="panel-body">
-               {{content}}
-             </div>
-           </div>
-         </div>
-     {{/each}}
-  </script>
-
-  <!-- services modal template -->
-  <script id="modalTemplate" type="text/x-handlebars-template">
-        <div id="serviceModal" class="modal fade" role="dialog">
-          <div class="modal-dialog"  style="width:800">
-
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h2 class="modal-title text-center">{{title}}</h2>
-              </div>
-
-              <div class="modal-body">
-                <img  style="width:100%" src="{{img}}"/>
-                <p>
-                  {{{description}}}
-                </p>
-              </div>
-
-              <div class="modal-footer">
-                <div class="text-center">
-                  <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-    </script>
-
-    <!-- products template -->
-    <script id="products-template" type="text/x-handlebars-template">
-       {{#each products}}
-         <div class="col-md-3 col-sm-4 col-xs-12">
-           <img src="{{img}}" class="img-responsive product-image" />
-           <h4 class="text-center">{{title}} <small>{{price}}</small></h4>
-           <p class="text-center"><a class="btn btn-primary btn-md rov-btn" href="{{@index}}.html" data-id="{{@index}}" >Details &raquo;</a></p>
-         </div>
-       {{/each}}
-    </script>
-
-    <!-- leadership template -->
-    <script id="leadership-template" type="text/x-handlebars-template">
-       {{#each leaders}}
-         <div class="col-md-3 col-sm-4 col-xs-12 leader-div">
-           <img src="{{img}}" class="img-responsive leader-image" />
-           <h3 class="text-center leader-name">{{name}} <br> <small>{{title}}</small><br>
-             {{#if linkedin}}
-             <div class="social-icons icon-circle">
-               <a href="{{linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
-             </div>
-             {{/if}}
-           </h3>
-         </div>
-       {{/each}}
-    </script>
-
     <!-- rov page's template -->
     <script id="rov-template" type="text/x-handlebars-template">
       <div class="container">
@@ -268,9 +174,13 @@
 
   <!-- append html templates -->
   <script type="text/javascript">
+
+    source = $('#rov-template').html();
+    var rovTemplate = Handlebars.compile(source);
     var product    = rovTemplate(context.products[0]);
     $('#zero').html(product);
   </script>
+
 </body>
 
 </html>

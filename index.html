@@ -457,6 +457,21 @@
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
   <script src="js/main.min.js"></script>
   <script type="text/javascript">
+  // Compile handlebars templates
+  var source   = $('#services-template').html();
+  var template = Handlebars.compile(source);
+  source   = $('#modalTemplate').html();
+  var modalTemplate = Handlebars.compile(source);
+  var services    = template(context);
+  source = $('#products-template').html();
+  template = Handlebars.compile(source);
+  var products    = template(context);
+  source = $('#leadership-template').html();
+  template = Handlebars.compile(source);
+  var leadership    = template(context);
+  source = $('#about-template').html();
+  template = Handlebars.compile(source);
+  var about    = template(context);
   // append services
   $('#service').html(services);
 
