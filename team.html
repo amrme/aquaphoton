@@ -57,7 +57,8 @@
           <li><a href="team.html#about" data-scroll="about">About</a></li>
           <li><a href="team.html#teams" data-scroll="teams">Teams</a></li>
           <li><a href="team.html#rovs" data-scroll="rovs">ROVs</a></li>
-      
+          <li><a href="team.html#awards" data-scroll="awards">Awards</a></li>
+          <li><a href="team.html#contact" data-scroll="contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -109,132 +110,29 @@
       </div>
     </section>
 
-<section id="products" data-anchor="products">
-  <div class="container">
-    <div class="row">
-      <h2 class="text-center section-title">Our Products</h2>
-      <div class="col-sm-1">
-      </div>
-      <div class="col-sm-10">
-        <hr>
-        <h3 class="text-center">Featured ROVs</h3>
-        <div id="product">
-          <!-- added on template -->
-        </div>
-
-      </div>
-      <div class="col-sm-1">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="leadership" data-anchor="leadership">
-  <div class="container">
-    <div class="row">
-      <h2 class="text-center section-title">Key Executives and  Board Members</h2>
-      <div class="col-sm-1">
-      </div>
-      <div class="col-sm-10">
-        <hr>
-        <div id="leader">
-          <!-- added on template -->
-        </div>
-      </div>
-      <div class="col-sm-1">
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section id="academy" data-anchor="academy">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-1">
-      </div>
-      <div class="col-sm-10 floating-section">
-        <h2 class="text-center section-head"><span class="heading">AquaPhoton Academy</span></h2>
-        <hr>
-        <p class="section-body">
-          AquaPhoton Academy is an initiative started by AquaPhoton Co. with the goal of spreading the marine technology among aspiring
-          college students in Egypt. <br><br>
-          The academy consists of three sub-branches; A team that is run by students from Alexandria University, and two other academic sub-branches
-          that help the community by offering courses, and organizing camps.
-        </p>
-        <div class="section-footer">
-          <p><a class="btn btn-primary btn-lg btn-block" href="academy.html" >Know More About the Academy &raquo;</a></p>
-        </div>
-      </div>
-      <div class="col-sm-1">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="contact" data-anchor="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h2 class="text-center section-head"><span class="heading">Contact Us</span></h2>
-        <hr>
+    <!--  teams section-->
+    <section id="teams" data-anchor="teams">
+      <div class="container">
         <div class="row">
-          <!-- contact form -->
-          <div class="col-sm-6 col-xs-12">
-            <h3 class="text-center">Send us a Message</h3>
-            <form id="contactform" method="POST">
-              <div class="row">
-                <div class="col-xs-12">
-                  <h4>Name</h4>
-                  <input type="text" class="contactform" name="name" placeholder=" first and last name">
-                </div>
-                <div class="col-xs-12">
-                  <h4>Email</h4>
-                  <input type="email" class="contactform" name="_replyto" placeholder=" email">
-                  <input type="hidden" name="_subject" value="Website contact" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-12">
-                  <h4>Message</h4>
-                  <textarea name="message" class="contactform" placeholder=" message"></textarea>
-                  <input type="text" name="_gotcha" style="display:none" />
-                  <div class="row">
-                    <div class="col-xs-12 text-center">
-                      <input type="submit" class="btn btn-success btn-md" value="Send">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form>
+          <h2 class="text-center section-title">Our Internship Teams</h2>
+          <div class="col-sm-1">
           </div>
-          <!-- map -->
-          <div class="col-sm-6 col-xs-12">
-            <div class="row">
-              <h3 class="text-center">Our Location</h3>
-              <div class="col-lg-3">
-                <div class="address">
-                  <address>
-                    <strong>AquaPhoton Co.</strong><br>
-                        Miami,<br>
-                        Qesm Al Montazah,<br>
-                        Alexandria Governorate,<br>
-                        Egypt<br>
-                   </address>
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="map"  id="map-outer">
-                  <div id="map-container"></div>
-                </div>
-              </div>
+          <div class="col-sm-10">
+            <hr>
+            <div id="service">
+              <!-- add content with template -->
             </div>
+
+          </div>
+          <div class="col-sm-1">
           </div>
         </div>
       </div>
-    </div> <!-- / row -->
-  </div> <!-- / Container -->
-</section>
+      <!-- modal hidden section -->
+      <div id="service-modal-content">
+        <!-- modal with template -->
+      </div>
+    </section>
 
 <footer>
   <div class="container">
@@ -302,7 +200,7 @@
 
   <!-- services template -->
   <script id="services-template" type="text/x-handlebars-template">
-     {{#each services}}
+     {{#each teams}}
         <div class="col-md-3 col-sm-4 col-xs-6 product-thumbnail">
           <div class="imgWrap">
             <img src="{{img}}" class="service-img img-responsive" />

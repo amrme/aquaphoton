@@ -151,4 +151,22 @@ var context = {
                           linkedin: '',
                         },
                       ],
+                      teams: [
+                        {
+                          title: "2016 Team",
+                          img: "img/teams/team16.jpg",
+                        },
+                        {
+                          title: "2015 Team",
+                          img: "img/teams/team15.jpg",
+                        },
+                        {
+                          title: "2014 Team",
+                          img: "img/teams/team14.jpg",
+                        },
+                        {
+                          title: "2013 Team",
+                          img: "img/teams/team13.jpg",
+                        },
+                      ],
                       };
