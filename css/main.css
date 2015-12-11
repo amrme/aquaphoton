@@ -254,22 +254,17 @@ html {
   font-family: 'Pathway Gothic One', sans-serif;
 }
 /* line 243, less/main.less */
-#about .panel .panel-heading .panel-title a,
-#first-section .panel .panel-heading .panel-title a {
+#about .panel .panel-heading .panel-title a {
   font-size: 1.3em;
 }
 /* line 245, less/main.less */
 #about .panel .panel-heading .panel-title a:active,
-#first-section .panel .panel-heading .panel-title a:active,
 #about .panel .panel-heading .panel-title a:focus,
-#first-section .panel .panel-heading .panel-title a:focus,
-#about .panel .panel-heading .panel-title a:visited,
-#first-section .panel .panel-heading .panel-title a:visited {
+#about .panel .panel-heading .panel-title a:visited {
   text-decoration: none;
 }
 /* line 251, less/main.less */
-#about .panel .panel-body,
-#first-section .panel .panel-body {
+#about .panel .panel-body {
   font-family: sans-serif;
   font-size: 1.3em;
 }
