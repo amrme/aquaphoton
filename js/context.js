@@ -17,6 +17,28 @@ var context = {
                               content: "Prove efficiency for our ROV technology in implementing inspection tasks underwater with high performance and offer our services to the growing offshore industry in Egypt. And also preparing a new generation of engineers capable of coping up with the advancements happening in the underwater marine technologies.",
                             },
                           ],
+                        aboutTeam: [
+                            {
+                              title: 'Mission',
+                              content: "AquaPhoton Academy's undergraduate team is a student-run branch of AquaPhoton Academy. with the aim of educating, engaging and encouraging undergraduate students to participate in the ROV industry, broaden their practical experience and jump-start their career in engineering.",
+                            },
+                            {
+                              title: 'History',
+                              content: "AquaPhoton Academy's undergraduate team has been taking part in the annual MATE competition since 2012. In 2014, The team ranked 1st in Egypt’s Regional Competition and 6th in the International MATE ROV competition which was held in Michigan, USA.<br><br>AquaPhoton Academy's undergrad team won other mechatronics and robotics competitions in Egypt, such as EED, IEEE Project Fair, and others.",
+                            },
+                            {
+                              title:"Management System",
+                              content:"The Team has a hierarchical management system, with the CEO at the top, followed by individual team leaders and heads who manage employees in a variety of technical and non-technical departments such as: Electrical, Mechanical, Media, Sponsorship, Logistics, Marketing, etc.",
+                            },
+                            {
+                              title:"Sources of Fund",
+                              content:"The majority of our work is funded by the members themselves and the university. Other sources of funds are contributions from companies and entrepreneurs in Egypt.",
+                            },
+                            {
+                              title: "Our Research",
+                              content: "Our research in the team is continuous, and we build upon it each year. And all of our research and work is supervised by our mentors in AquaPhoton Academy. and our supervisors and professors in Alexandria University.",
+                            },
+                          ],
                         services: [
                         {
                           title: 'Marine Environmental Services',

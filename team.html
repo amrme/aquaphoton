@@ -50,7 +50,7 @@
           <i class="fa fa-bars"></i>
         </button>
         <a class="btn btn-warning btn-sm pull-left" href="index.html" style="font-size:12px;">&laquo; Back</a>
-        <a class="navbar-brand" href="index.html"><img src="img/team-logo.png"  alt="AquaPhoton Academy team's Logo" class="brand-logo" /></a>
+        <a class="navbar-brand" href="team.html"><img src="img/team-logo.png"  alt="AquaPhoton Academy team's Logo" class="brand-logo" /></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -97,33 +97,9 @@
         </div>
     </header>
 
-      <!-- services section -->
-      <section id="first-section" data-anchor="services">
-        <div class="container">
-          <div class="row">
-            <h2 class="text-center section-title">Services We Offer</h2>
-            <div class="col-sm-1">
-            </div>
-            <div class="col-sm-10">
-              <hr>
-              <div id="service">
-                <!-- add content with template -->
-              </div>
-
-            </div>
-            <div class="col-sm-1">
-            </div>
-          </div>
-        </div>
-        <!-- modal hidden section -->
-        <div id="service-modal-content">
-          <!-- modal with template -->
-        </div>
-      </section>
-
 
     <!-- About section -->
-    <section id="about" data-anchor="about">
+    <section id="first-section" data-anchor="about">
       <div class="container">
         <div class="row">
           <h2 class="text-center section-title">About Us</h2>
@@ -352,16 +328,16 @@
 
   <!-- About us template -->
   <script id="about-template" type="text/x-handlebars-template">
-     {{#each about}}
+     {{#each aboutTeam}}
          <div class="panel panel-default">
            <div class="panel-heading">
              <p class="panel-title text-center">
-               <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">{{title}}</a>
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">{{{title}}}</a>
              </p>
            </div>
            <div class="panel-collapse collapse" id="collapse{{@index}}">
              <div class="panel-body">
-               {{content}}
+               {{{content}}}
              </div>
            </div>
          </div>
