@@ -332,7 +332,7 @@
   <!-- services template -->
   <script id="services-template" type="text/x-handlebars-template">
      {{#each services}}
-        <div class="col-md-3 col-sm-6 col-xs-12 product-thumbnail">
+        <div class="col-md-3 col-sm-6 col-xs-12 product-thumbnail wow fadeIn">
           <div class="imgWrap">
             <img src="{{img}}" class="service-img img-responsive" />
             <div class="imgDescription text-center">
@@ -351,7 +351,7 @@
   <!-- About us template -->
   <script id="about-template" type="text/x-handlebars-template">
      {{#each about}}
-         <div class="panel panel-default">
+         <div class="panel panel-default wow fadeInDown">
            <div class="panel-heading">
              <p class="panel-title text-center">
                <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">{{title}}</a>
@@ -400,9 +400,11 @@
     <script id="products-template" type="text/x-handlebars-template">
        {{#each products}}
          <div class="col-md-3 col-sm-4 col-xs-12">
-           <img src="{{img}}" class="img-responsive product-image" />
-           <h4 class="text-center">{{title}} <small>{{price}}</small></h4>
-           <p class="text-center"><a class="btn btn-primary btn-md rov-btn" href="{{@index}}.html" data-id="{{@index}}" >Details &raquo;</a></p>
+           <img src="{{img}}" class="img-responsive product-image wow fadeInLeft" />
+           <div class="wow lightSpeedIn">
+             <h4 class="text-center">{{title}} <small>{{price}}</small></h4>
+             <p class="text-center"><a class="btn btn-primary btn-md rov-btn" href="{{@index}}.html" data-id="{{@index}}" >Details &raquo;</a></p>
+           </div>
          </div>
        {{/each}}
     </script>
@@ -411,8 +413,8 @@
     <script id="leadership-template" type="text/x-handlebars-template">
        {{#each leaders}}
          <div class="col-md-3 col-sm-4 col-xs-12 leader-div">
-           <img src="{{img}}" class="img-responsive leader-image" />
-           <h3 class="text-center leader-name">{{name}} <br> <small>{{title}}</small><br>
+           <img src="{{img}}" class="img-responsive leader-image wow zoomIn" />
+           <h3 class="text-center leader-name wow lightSpeedIn">{{name}} <br> <small>{{title}}</small><br>
              {{#if linkedin}}
              <div class="social-icons icon-circle">
                <a href="{{linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
