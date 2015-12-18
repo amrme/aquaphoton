@@ -169,4 +169,11 @@ var context = {
                           img: "img/teams/team13.jpg",
                         },
                       ],
+                      academyrovs: [
+                        {
+                          title: "Admiral I",
+                          img: "img/products/admiral1.jpg",
+                          discription: "Admiral I features",
+                        },
+                      ],
                       };
