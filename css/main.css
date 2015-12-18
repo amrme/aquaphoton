@@ -128,32 +128,37 @@ html {
   }
   /* line 111, less/main.less */
   .navbar-custom .navbar-brand .brand-logo {
-    display: none;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    max-height: 100px;
   }
-  /* line 115, less/main.less */
+  /* line 124, less/main.less */
   .navbar-custom li {
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  /* line 118, less/main.less */
+  /* line 127, less/main.less */
   .navbar-custom li a {
     font-size: 1.5vw;
   }
-  /* line 129, less/main.less */
+  /* line 138, less/main.less */
   .navbar-custom.top-nav-collapse {
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
-  /* line 134, less/main.less */
+  /* line 143, less/main.less */
   .navbar-custom.top-nav-collapse .brand-logo {
     display: inline;
     margin-top: -15px;
     margin-left: 20px;
     max-height: 50px;
   }
-  /* line 140, less/main.less */
+  /* line 149, less/main.less */
   .navbar-custom.top-nav-collapse a {
     color: black;
     font-weight: normal;
@@ -161,7 +166,7 @@ html {
   }
 }
 /* toggle navbar button on hover */
-/* line 150, less/main.less */
+/* line 159, less/main.less */
 .dropdown-menu .sub-menu {
   left: 100%;
   position: absolute;
@@ -169,21 +174,21 @@ html {
   visibility: hidden;
   margin-top: -1px;
 }
-/* line 158, less/main.less */
+/* line 167, less/main.less */
 .dropdown-menu li:hover .sub-menu {
   visibility: visible;
 }
-/* line 162, less/main.less */
+/* line 171, less/main.less */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-/* line 166, less/main.less */
+/* line 175, less/main.less */
 .nav-tabs .dropdown-menu,
 .nav-pills .dropdown-menu,
 .navbar .dropdown-menu {
   margin-top: 0;
 }
-/* line 170, less/main.less */
+/* line 179, less/main.less */
 .navbar .sub-menu:before {
   border-bottom: 7px solid transparent;
   border-left: none;
@@ -192,7 +197,7 @@ html {
   left: -7px;
   top: 10px;
 }
-/* line 178, less/main.less */
+/* line 187, less/main.less */
 .navbar .sub-menu:after {
   border-top: 6px solid transparent;
   border-left: none;
@@ -202,7 +207,7 @@ html {
   top: 11px;
   left: -6px;
 }
-/* line 189, less/main.less */
+/* line 198, less/main.less */
 .intro {
   display: table;
   height: 100%;
@@ -215,31 +220,31 @@ html {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 202, less/main.less */
+/* line 211, less/main.less */
 .intro .header-logo {
   transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   -webkit-transform: scale(0.5, 0.5);
 }
-/* line 207, less/main.less */
+/* line 216, less/main.less */
 .intro .main-heading {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5vw;
   color: black;
   line-height: 80%;
 }
-/* line 212, less/main.less */
+/* line 221, less/main.less */
 .intro .main-heading small {
   color: rgba(0, 0, 0, 0.7);
   letter-spacing: 0.1vw;
 }
-/* line 217, less/main.less */
+/* line 226, less/main.less */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 @media (min-width: 768px) {
-  /* line 223, less/main.less */
+  /* line 232, less/main.less */
   .intro .header-logo {
     transform: scale(0.3, 0.3);
     -ms-transform: scale(0.3, 0.3);
@@ -248,39 +253,39 @@ html {
     margin-bottom: -15%;
   }
 }
-/* line 234, less/main.less */
+/* line 243, less/main.less */
 .section-title {
   margin-top: 15%;
   font-family: 'Pathway Gothic One', sans-serif;
 }
-/* line 243, less/main.less */
+/* line 252, less/main.less */
 #about .panel .panel-heading .panel-title a {
   font-size: 1.3em;
 }
-/* line 245, less/main.less */
+/* line 254, less/main.less */
 #about .panel .panel-heading .panel-title a:active,
 #about .panel .panel-heading .panel-title a:focus,
 #about .panel .panel-heading .panel-title a:visited {
   text-decoration: none;
 }
-/* line 251, less/main.less */
+/* line 260, less/main.less */
 #about .panel .panel-body {
   font-family: sans-serif;
   font-size: 1.3em;
 }
-/* line 260, less/main.less */
+/* line 269, less/main.less */
 #service .product-thumbnail .imgWrap {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 263, less/main.less */
+/* line 272, less/main.less */
 #service .product-thumbnail .imgWrap .service-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 267, less/main.less */
+/* line 276, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription {
   position: absolute;
   top: 0;
@@ -297,7 +302,7 @@ html {
   opacity: 0;
   -webkit-transition: visibility opacity 0.2s;
 }
-/* line 280, less/main.less */
+/* line 289, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service {
   position: absolute;
   top: 30%;
@@ -306,40 +311,40 @@ html {
   left: 0;
   overflow: hidden;
 }
-/* line 288, less/main.less */
+/* line 297, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content .img-title {
   font-size: 150%;
 }
-/* line 292, less/main.less */
+/* line 301, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content p a {
   font-size: 20px;
 }
-/* line 300, less/main.less */
+/* line 309, less/main.less */
 #service .product-thumbnail .imgWrap:hover .imgDescription {
   visibility: visible;
   transition: all 0.2s ease-in-out;
   opacity: 1;
   z-index: 99;
 }
-/* line 313, less/main.less */
+/* line 322, less/main.less */
 .modal-content .modal-body p {
   margin-top: 5%;
   margin-left: 3%;
   margin-right: 3%;
   font-size: 20px;
 }
-/* line 322, less/main.less */
+/* line 331, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 328, less/main.less */
+/* line 337, less/main.less */
 #leader .leader-div {
   overflow: hidden;
 }
-/* line 330, less/main.less */
+/* line 339, less/main.less */
 #leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
@@ -347,22 +352,22 @@ html {
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 334, less/main.less */
+/* line 343, less/main.less */
 #leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 338, less/main.less */
+/* line 347, less/main.less */
 #leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 30px;
 }
-/* line 341, less/main.less */
+/* line 350, less/main.less */
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
 /* stye academy section */
-/* line 349, less/main.less */
+/* line 358, less/main.less */
 #academy {
   display: table;
   height: 70%;
@@ -373,15 +378,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 359, less/main.less */
+/* line 368, less/main.less */
 #academy .floating-section {
   color: white;
 }
-/* line 362, less/main.less */
+/* line 371, less/main.less */
 #academy .floating-section .section-head {
   margin-top: 10%;
 }
-/* line 364, less/main.less */
+/* line 373, less/main.less */
 #academy .floating-section .section-head .heading {
   background-color: rgba(0, 0, 0, 0.4);
   padding-left: 10px;
@@ -389,7 +394,7 @@ html {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 368, less/main.less */
+/* line 377, less/main.less */
 #academy .floating-section .section-body {
   background-color: rgba(0, 0, 0, 0.5);
   padding-left: 10px;
@@ -399,7 +404,7 @@ html {
   font-size: 22px;
 }
 /* stye the team's section */
-/* line 376, less/main.less */
+/* line 385, less/main.less */
 #team {
   display: table;
   height: 100%;
@@ -410,15 +415,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 386, less/main.less */
+/* line 395, less/main.less */
 #team .floating-section {
   color: white;
 }
-/* line 389, less/main.less */
+/* line 398, less/main.less */
 #team .floating-section .section-head {
   margin-top: 10%;
 }
-/* line 391, less/main.less */
+/* line 400, less/main.less */
 #team .floating-section .section-head .heading {
   background-color: rgba(0, 0, 0, 0.7);
   padding-left: 10px;
@@ -426,7 +431,7 @@ html {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 395, less/main.less */
+/* line 404, less/main.less */
 #team .floating-section .section-body {
   background-color: rgba(0, 0, 0, 0.8);
   padding-left: 10px;
@@ -436,7 +441,7 @@ html {
   font-size: 22px;
 }
 /* stye the courses */
-/* line 403, less/main.less */
+/* line 412, less/main.less */
 #courses {
   display: table;
   height: 100%;
@@ -447,15 +452,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 413, less/main.less */
+/* line 422, less/main.less */
 #courses .floating-section {
   color: white;
 }
-/* line 416, less/main.less */
+/* line 425, less/main.less */
 #courses .floating-section .section-head {
   margin-top: 10%;
 }
-/* line 418, less/main.less */
+/* line 427, less/main.less */
 #courses .floating-section .section-head .heading {
   background-color: rgba(0, 0, 0, 0.7);
   padding-left: 10px;
@@ -463,7 +468,7 @@ html {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 422, less/main.less */
+/* line 431, less/main.less */
 #courses .floating-section .section-body {
   background-color: rgba(0, 0, 0, 0.8);
   padding-left: 10px;
@@ -473,7 +478,7 @@ html {
   font-size: 22px;
 }
 /* stye the camps */
-/* line 430, less/main.less */
+/* line 439, less/main.less */
 #camps {
   display: table;
   height: 100%;
@@ -484,15 +489,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 440, less/main.less */
+/* line 449, less/main.less */
 #camps .floating-section {
   color: white;
 }
-/* line 443, less/main.less */
+/* line 452, less/main.less */
 #camps .floating-section .section-head {
   margin-top: 10%;
 }
-/* line 445, less/main.less */
+/* line 454, less/main.less */
 #camps .floating-section .section-head .heading {
   background-color: rgba(0, 0, 0, 0.7);
   padding-left: 10px;
@@ -500,7 +505,7 @@ html {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 449, less/main.less */
+/* line 458, less/main.less */
 #camps .floating-section .section-body {
   background-color: rgba(0, 0, 0, 0.8);
   padding-left: 10px;
@@ -510,58 +515,58 @@ html {
   font-size: 22px;
 }
 /* footer styles */
-/* line 457, less/main.less */
+/* line 466, less/main.less */
 footer {
   padding-top: 20px;
   padding-bottom: 50px;
   background: rgba(3, 123, 157, 0.3);
 }
-/* line 461, less/main.less */
+/* line 470, less/main.less */
 footer .footer-body {
   color: black;
   font-family: sans-serif;
 }
-/* line 464, less/main.less */
+/* line 473, less/main.less */
 footer .footer-body .footer-logo {
   max-height: 100px;
   margin-bottom: 10px;
 }
-/* line 468, less/main.less */
+/* line 477, less/main.less */
 footer .footer-body ul {
   font-size: 15px;
   line-height: 30px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
-/* line 474, less/main.less */
+/* line 483, less/main.less */
 footer .footer-body ul li a {
   font-weight: normal;
   color: grey;
 }
-/* line 477, less/main.less */
+/* line 486, less/main.less */
 footer .footer-body ul li a:hover {
   color: #037B9D;
 }
 /* contact section style */
-/* line 487, less/main.less */
+/* line 496, less/main.less */
 #contact {
   padding-top: 6%;
   padding-bottom: 3%;
 }
-/* line 490, less/main.less */
+/* line 499, less/main.less */
 #contact #contactform {
   margin-bottom: 5%;
   margin-top: 2%;
 }
-/* line 493, less/main.less */
+/* line 502, less/main.less */
 #contact #contactform .contactform {
   width: 100%;
 }
-/* line 497, less/main.less */
+/* line 506, less/main.less */
 #contact .address {
   font-family: sans-serif;
 }
-/* line 500, less/main.less */
+/* line 509, less/main.less */
 #contact #map-container {
   width: 100%;
   height: 300px;
@@ -570,12 +575,12 @@ footer .footer-body ul li a:hover {
   border: 2px solid #fff;
 }
 /*Change icons size here*/
-/* line 510, less/main.less */
+/* line 519, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 514, less/main.less */
+/* line 523, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -589,11 +594,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 527, less/main.less */
+/* line 536, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 530, less/main.less */
+/* line 539, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
