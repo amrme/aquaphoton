@@ -580,13 +580,24 @@ footer .footer-body ul li a:hover {
   margin-bottom: 15px;
   border: 2px solid #fff;
 }
-/*Change icons size here*/
 /* line 522, less/main.less */
+#awards .award-year {
+  color: black;
+  font-size: 1.3em;
+}
+/* line 525, less/main.less */
+#awards .award-year:active,
+#awards .award-year:focus,
+#awards .award-year:visited {
+  text-decoration: none;
+}
+/*Change icons size here*/
+/* line 532, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 526, less/main.less */
+/* line 536, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -600,11 +611,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 539, less/main.less */
+/* line 549, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 542, less/main.less */
+/* line 552, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }

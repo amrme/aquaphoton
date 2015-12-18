@@ -137,7 +137,7 @@
     </section>
 
     <!--  our rovs -->
-    <section id="products" data-anchor="products">
+    <section id="rovs" data-anchor="rovs">
       <div class="container">
         <div class="row">
           <h2 class="text-center section-title">Our ROVs</h2>
@@ -149,6 +149,24 @@
               <!-- added on template -->
             </div>
 
+          </div>
+          <div class="col-sm-1">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards section -->
+    <section id="awards" data-anchor="awards">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center section-title">Awards</h2>
+          <div class="col-sm-1">
+          </div>
+          <div class="col-sm-10">
+            <hr>
+            <div class="panel-group" id="awards-div">
+              <!-- get panels from template -->
           </div>
           <div class="col-sm-1">
           </div>
@@ -249,6 +267,24 @@
              </p>
            </div>
            <div class="panel-collapse collapse" id="collapse{{@index}}">
+             <div class="panel-body">
+               {{{content}}}
+             </div>
+           </div>
+         </div>
+     {{/each}}
+  </script>
+
+  <!-- Awards template -->
+  <script id="awards-ac" type="text/x-handlebars-template">
+     {{#each academyAwards}}
+         <div class="panel panel-success">
+           <div class="panel-heading">
+             <p class="panel-title text-center">
+               <a data-toggle="collapse" data-parent="#awards-div" href="#collapse2{{@index}}" class="award-year">{{{title}}}</a>
+             </p>
+           </div>
+           <div class="panel-collapse collapse" id="collapse2{{@index}}">
              <div class="panel-body">
                {{{content}}}
              </div>
@@ -361,6 +397,9 @@
   source = $('#about-template').html();
   template = Handlebars.compile(source);
   var about    = template(context);
+  source = $('#awards-ac').html();
+  template = Handlebars.compile(source);
+  var awards    = template(context);
   // append services
   $('#service').html(services);
 
@@ -372,6 +411,9 @@
 
   // append about
   $('#accordion').html(about);
+
+  // append awards
+  $("#awards-div").html(awards);
 
   </script>
 

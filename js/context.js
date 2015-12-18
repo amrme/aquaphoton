@@ -176,4 +176,18 @@ var context = {
                           discription: "Admiral I features",
                         },
                       ],
+                      academyAwards: [
+                          {
+                            title: '2014 - 2015',
+                            content: "<ul><li>Best Presentation in ROV Egypt 2013 Regional Competition in AASTMT</li><br><li> Best project in EED 2015 (Egyptian Engineering Day organized by IEEE Egypt section) in the Robotics and automation track presented by RAS Egypt chapter.</li><br><li> 2<sup>nd</sup> place in (Universities Youth Week) in the mechatronics field in the presence of Egypt.</li><br></ul>",
+                          },
+                          {
+                            title: '2013 - 2014',
+                            content: "AquaPhoton Academy's undergraduate team has been taking part in the annual MATE competition since 2012. In 2014, The team ranked 1st in Egypt’s Regional Competition and 6th in the International MATE ROV competition which was held in Michigan, USA.<br><br>AquaPhoton Academy's undergrad team won other mechatronics and robotics competitions in Egypt, such as EED, IEEE Project Fair, and others.",
+                          },
+                          {
+                            title:"2012 - 2013",
+                            content:"The Team has a hierarchical management system, with the CEO at the top, followed by individual team leaders and heads who manage employees in a variety of technical and non-technical departments such as: Electrical, Mechanical, Media, Sponsorship, Logistics, Marketing, etc.",
+                          },
+                        ],
                       };
