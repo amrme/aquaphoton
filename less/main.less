@@ -215,13 +215,16 @@ html {
     }
     .main-heading {
       font-family: 'Open Sans Condensed', sans-serif;
-      font-size: 5vw;
+      font-size: 10vw;
       color: black;
       line-height: 80%;
       small {
         color: fade(black, 70%);
         letter-spacing: 0.1vw;
       }
+        @media(min-width:768px) {
+          font-size: 5vw;
+        }
     }
     .intro-body {
         display: table-cell;
