@@ -29,14 +29,14 @@ module.exports = function(grunt) {
     cssmin: {
       target: {
         files: {
-          'css/main.min.css': ['css/bootstrap.css', 'css/bootstrap-theme.css', 'css/main.css'],
+          'css/main.min.css': ['css/bootstrap.css', 'css/bootstrap-theme.css', 'css/animate.css', 'css/main.css'],
         },
       },
     },
     uglify: {
       my_target: {
         files: {
-          'js/main.min.js': ['js/context.js', 'js/main.js'],
+          'js/main.min.js': ['js/wow.min.js', 'js/context.js', 'js/main.js'],
         },
       },
     },

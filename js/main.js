@@ -131,4 +131,7 @@ $(document).ready(function() {
     //   $('.rov-page').html(rov);
     // });
 
+    // activate wow.js
+    new WOW().init();
+
 });
