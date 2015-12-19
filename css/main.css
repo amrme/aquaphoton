@@ -410,169 +410,76 @@ html {
   font-size: 22px;
 }
 /* stye the team's section */
-/* line 387, less/main.less */
-#team {
-  display: table;
-  height: 100%;
-  width: 100%;
-  background: url(../img/team.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+/* line 388, less/main.less */
+.academy-section {
+  margin-bottom: 10%;
 }
-/* line 397, less/main.less */
-#team .floating-section {
-  color: white;
+/* line 390, less/main.less */
+.academy-section img {
+  border-radius: 5%;
 }
-/* line 400, less/main.less */
-#team .floating-section .section-head {
-  margin-top: 10%;
+/* line 393, less/main.less */
+.academy-section .section-head {
+  margin-top: 3%;
 }
-/* line 402, less/main.less */
-#team .floating-section .section-head .heading {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-/* line 406, less/main.less */
-#team .floating-section .section-body {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 22px;
+/* line 399, less/main.less */
+.academy-section .section-body {
+  font-size: 20px;
 }
 /* stye the courses */
-/* line 414, less/main.less */
-#courses {
-  display: table;
-  height: 100%;
-  width: 100%;
-  background: url(../img/courses.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* line 424, less/main.less */
-#courses .floating-section {
-  color: white;
-}
-/* line 427, less/main.less */
-#courses .floating-section .section-head {
-  margin-top: 10%;
-}
-/* line 429, less/main.less */
-#courses .floating-section .section-head .heading {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-/* line 433, less/main.less */
-#courses .floating-section .section-body {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 22px;
-}
-/* stye the camps */
-/* line 441, less/main.less */
-#camps {
-  display: table;
-  height: 100%;
-  width: 100%;
-  background: url(../img/camps.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* line 451, less/main.less */
-#camps .floating-section {
-  color: white;
-}
-/* line 454, less/main.less */
-#camps .floating-section .section-head {
-  margin-top: 10%;
-}
-/* line 456, less/main.less */
-#camps .floating-section .section-head .heading {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-/* line 460, less/main.less */
-#camps .floating-section .section-body {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 22px;
-}
 /* footer styles */
-/* line 468, less/main.less */
+/* line 461, less/main.less */
 footer {
   padding-top: 20px;
   padding-bottom: 50px;
   background: rgba(3, 123, 157, 0.3);
 }
-/* line 472, less/main.less */
+/* line 465, less/main.less */
 footer .footer-body {
   color: black;
   font-family: sans-serif;
 }
-/* line 475, less/main.less */
+/* line 468, less/main.less */
 footer .footer-body .footer-logo {
   max-height: 100px;
   margin-bottom: 10px;
 }
-/* line 479, less/main.less */
+/* line 472, less/main.less */
 footer .footer-body ul {
   font-size: 15px;
   line-height: 30px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
-/* line 485, less/main.less */
+/* line 478, less/main.less */
 footer .footer-body ul li a {
   font-weight: normal;
   color: grey;
 }
-/* line 488, less/main.less */
+/* line 481, less/main.less */
 footer .footer-body ul li a:hover {
   color: #037B9D;
 }
 /* contact section style */
-/* line 498, less/main.less */
+/* line 491, less/main.less */
 #contact {
   padding-top: 6%;
   padding-bottom: 3%;
 }
-/* line 501, less/main.less */
+/* line 494, less/main.less */
 #contact #contactform {
   margin-bottom: 5%;
   margin-top: 2%;
 }
-/* line 504, less/main.less */
+/* line 497, less/main.less */
 #contact #contactform .contactform {
   width: 100%;
 }
-/* line 508, less/main.less */
+/* line 501, less/main.less */
 #contact .address {
   font-family: sans-serif;
 }
-/* line 511, less/main.less */
+/* line 504, less/main.less */
 #contact #map-container {
   width: 100%;
   height: 300px;
@@ -580,24 +487,24 @@ footer .footer-body ul li a:hover {
   margin-bottom: 15px;
   border: 2px solid #fff;
 }
-/* line 521, less/main.less */
+/* line 514, less/main.less */
 #awards .award-year {
   color: black;
   font-size: 1.3em;
 }
-/* line 524, less/main.less */
+/* line 517, less/main.less */
 #awards .award-year:active,
 #awards .award-year:focus,
 #awards .award-year:visited {
   text-decoration: none;
 }
 /*Change icons size here*/
-/* line 531, less/main.less */
+/* line 524, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 535, less/main.less */
+/* line 528, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -611,11 +518,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 548, less/main.less */
+/* line 541, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 551, less/main.less */
+/* line 544, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
