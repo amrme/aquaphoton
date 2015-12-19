@@ -5,7 +5,7 @@ $(window).load(function() { // makes sure the whole site is loaded
   $('body').delay(350).css({
     overflow: 'visible',
   });
-
+  $('nav').delay(350).addClass('navbar-fixed-top');
 });
 
 
