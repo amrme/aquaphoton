@@ -413,73 +413,84 @@ html {
 /* line 388, less/main.less */
 .academy-section {
   margin-bottom: 10%;
+  overflow: hidden;
 }
 /* line 390, less/main.less */
 .academy-section img {
   border-radius: 5%;
 }
-/* line 393, less/main.less */
+/* line 392, less/main.less */
+.academy-section img:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+/* line 395, less/main.less */
+.academy-section img:active {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+/* line 400, less/main.less */
 .academy-section .section-head {
   margin-top: 3%;
 }
-/* line 399, less/main.less */
+/* line 406, less/main.less */
 .academy-section .section-body {
   font-size: 20px;
 }
 /* stye the courses */
 /* footer styles */
-/* line 461, less/main.less */
+/* line 467, less/main.less */
 footer {
   padding-top: 20px;
   padding-bottom: 50px;
   background: rgba(3, 123, 157, 0.3);
 }
-/* line 465, less/main.less */
+/* line 471, less/main.less */
 footer .footer-body {
   color: black;
   font-family: sans-serif;
 }
-/* line 468, less/main.less */
+/* line 474, less/main.less */
 footer .footer-body .footer-logo {
   max-height: 100px;
   margin-bottom: 10px;
 }
-/* line 472, less/main.less */
+/* line 478, less/main.less */
 footer .footer-body ul {
   font-size: 15px;
   line-height: 30px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
-/* line 478, less/main.less */
+/* line 484, less/main.less */
 footer .footer-body ul li a {
   font-weight: normal;
   color: grey;
 }
-/* line 481, less/main.less */
+/* line 487, less/main.less */
 footer .footer-body ul li a:hover {
   color: #037B9D;
 }
 /* contact section style */
-/* line 491, less/main.less */
+/* line 497, less/main.less */
 #contact {
   padding-top: 6%;
   padding-bottom: 3%;
 }
-/* line 494, less/main.less */
+/* line 500, less/main.less */
 #contact #contactform {
   margin-bottom: 5%;
   margin-top: 2%;
 }
-/* line 497, less/main.less */
+/* line 503, less/main.less */
 #contact #contactform .contactform {
   width: 100%;
 }
-/* line 501, less/main.less */
+/* line 507, less/main.less */
 #contact .address {
   font-family: sans-serif;
 }
-/* line 504, less/main.less */
+/* line 510, less/main.less */
 #contact #map-container {
   width: 100%;
   height: 300px;
@@ -487,24 +498,24 @@ footer .footer-body ul li a:hover {
   margin-bottom: 15px;
   border: 2px solid #fff;
 }
-/* line 514, less/main.less */
+/* line 520, less/main.less */
 #awards .award-year {
   color: black;
   font-size: 1.3em;
 }
-/* line 517, less/main.less */
+/* line 523, less/main.less */
 #awards .award-year:active,
 #awards .award-year:focus,
 #awards .award-year:visited {
   text-decoration: none;
 }
 /*Change icons size here*/
-/* line 524, less/main.less */
+/* line 530, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 528, less/main.less */
+/* line 534, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -518,11 +529,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 541, less/main.less */
+/* line 547, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 544, less/main.less */
+/* line 550, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }

@@ -389,7 +389,14 @@ html {
     margin-bottom: 10%;
     img {
         .img-round;
+        &:hover {
+          .scale-img(1.1);
+        }
+        &:active {
+          .scale-img(1);
+        }
     }
+    overflow: hidden;
     .section-head {
       margin-top: 3%;
       .heading {
@@ -397,7 +404,6 @@ html {
       }
     }
     .section-body {
-
         font-size: 20px;
     }
   }
