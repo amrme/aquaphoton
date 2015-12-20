@@ -163,6 +163,19 @@
               </div> <!-- / large image -->
               <div class="col-md-4 col-md-pull-8">
                 <h4 class="text-center">Related Products</h4>
+                <!-- loop over all related products -->
+                {{#each relatedItem}}
+                  <div class="row">
+                    <!-- img of the item -->
+                    <div class="col-xs-4">
+                      <a href="{{url}}"><img src="{{img}}" class="img-responsive"></a>
+                    </div>
+                    <!-- Item's name -->
+                    <div class="col-xs-8">
+                      <h3><a href="{{url}}">{{name}}</a><br><small>{{price}}</small></h3>
+                    </div>
+                  </div>
+                {{/each}}
               </div> <!-- / related products -->
             </div>
         </div> <!-- /row -->
