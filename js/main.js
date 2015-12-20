@@ -140,7 +140,10 @@ $(document).ready(function() {
     // check if product-thumbnail-small is clicked
     $(".product-thumbnail-small").click(function() {
       //  change the large image to the clicked image
-      $('#large-product-img').attr('src', this.src);
+      var currentThumbnail = this.src;
+      $('#large-product-img').fadeOut("slow", function() {
+        $('#large-product-img').attr('src', currentThumbnail);
+      }).fadeIn("slow");
       console.log(this.src);
     });
 
