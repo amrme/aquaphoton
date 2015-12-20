@@ -93,16 +93,13 @@ var context = {
                               img: 'img/products/admiral2.jpg',
                             },
                             {
-                              img: 'img/products/aquatint.jpg',
+                              img: 'img/products/admiral2-3.png',
                             },
                             {
-                              img: 'img/products/admiral2.jpg',
+                              img: 'img/products/admiral2-1.jpg',
                             },
                             {
-                              img: 'img/products/admiral2.jpg',
-                            },
-                            {
-                              img: 'img/products/admiral2.jpg',
+                              img: 'img/products/admiral2-4.png',
                             },
                           ],
                           relatedItem: [
