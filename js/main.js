@@ -137,4 +137,11 @@ $(document).ready(function() {
     // activate wow.js
     new WOW().init();
 
+    // check if product-thumbnail-small is clicked
+    $(".product-thumbnail-small").click(function() {
+      //  change the large image to the clicked image
+      $('#large-product-img').attr('src', this.src);
+      console.log(this.src);
+    });
+
 });

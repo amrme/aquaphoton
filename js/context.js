@@ -93,7 +93,7 @@ var context = {
                               img: 'img/products/admiral2.jpg',
                             },
                             {
-                              img: 'img/products/admiral2.jpg',
+                              img: 'img/products/aquatint.jpg',
                             },
                             {
                               img: 'img/products/admiral2.jpg',
