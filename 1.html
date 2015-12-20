@@ -147,19 +147,24 @@
         <div class="row">
           <div class="col-xs-12">
             <h2 class="text-center">{{title}}</h2>
-          </div> <!-- /row -->
+          </div> <!-- /col-xs-12 -->
             <!-- list of images -->
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-12">
               {{#each images}}
-                <div class="col-xs-4">
+                <div class="col-sm-2 col-xs-3">
                   <img src="{{img}}" class="img-responsive product-thumbnail-small">
                 </div> <!-- / image thumbnail -->
               {{/each}}
             </div> <!-- / list of images -->
             <!--  large image -->
-            <div class="col-md-8 col-sm-12">
-              <img src="{{img}}" class="img-responsive" id="large-product-img">
-            </div> <!-- / large image -->
+            <div class="row">
+              <div class="col-md-8 col-md-push-4">
+                <img src="{{img}}" class="img-responsive" id="large-product-img">
+              </div> <!-- / large image -->
+              <div class="col-md-4 col-md-pull-8">
+                <h4 class="text-center">Related Products</h4>
+              </div> <!-- / related products -->
+            </div>
         </div> <!-- /row -->
       </div> <!-- /container -->
     </script>
