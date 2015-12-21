@@ -526,6 +526,43 @@ footer {
   }
 }
 
+// style products
+#zero {
+  .breadcrumb {
+    li {
+        font-size: 1.3em;
+    }
+  }
+  .product-title {
+    color: black;
+    font-size: 2em;
+    font-family: sans-serif;
+    small {
+      color: white;
+      font-size: 0.6em;
+    }
+    margin-bottom: 40px;
+  }
+  .product-thumbnail-small {
+    // max height for the product thumbnail
+    max-height: 70px;
+    &:hover {
+        .scale-img(1.5);
+    }
+  }
+  .description {
+    margin-top: 50px;
+    .panel-heading {
+      font-size: 1.5em;
+      font-family: fantasy;
+    }
+    .panel-body {
+      font-size: 1.2em;
+      font-family: sans-serif;
+    }
+  }
+}
+
 /*Change icons size here*/
 .social-icons .fa {
 	font-size: 0.7em;

@@ -72,7 +72,7 @@
   </nav>
 
   <!-- trigger collapse -->
-  <div id="first-section" style="padding-top:10%;"></div>
+  <div id="first-section" style="padding-bottom:150px;"></div>
 
   <div id="zero">
   </div>
@@ -143,22 +143,26 @@
 
     <!-- rov page's template -->
     <script id="rov-template" type="text/x-handlebars-template">
-      <div class="container">
-        <div class="row">
           <!-- breadcrumb -->
-          <div class="row">
-            <div class="col-xs-12">
-              <ol class="breadcrumb">
-                <li><a href="index.html#products">Products</a></li>
-                <li class="active">{{title}}</li>
-              </ol>
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <ol class="breadcrumb">
+                  <li><a href="index.html#products">Products</a></li>
+                  <li class="active">{{title}}</li>
+                </ol>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <h2 class="text-center">{{title}} <small>{{price}}</small></h2>
-            </div> <!-- /col-xs-12 -->
-          </div>
+          </div> <!-- /container -->
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="text-center product-title">{{title}} <small class="label label-success">{{price}}</small></h2>
+                <hr>
+              </div> <!-- /col-xs-12 -->
+            </div>
+          </div> <!-- /container -->
+          <div class="container">
             <!-- list of images -->
             <div class="row">
               <div class="col-md-12">
@@ -169,34 +173,58 @@
                 {{/each}}
               </div> <!-- / list of images -->
             </div>
-            <!--  large image -->
-            <div class="row">
-              <div class="col-md-8 col-md-push-4">
-                <img src="{{img}}" class="img-responsive" id="large-product-img">
-              </div> <!-- / large image -->
-              <div class="col-md-4 col-md-pull-8">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <h4 class="text-center">Related Products</h4>
+            <hr>
+            </div> <!-- /container -->
+            <div class="container">
+              <!--  large image -->
+              <div class="row">
+                <div class="col-md-8 col-md-push-4">
+                  <img src="{{img}}" class="img-responsive" id="large-product-img">
+                </div> <!-- / large image -->
+                <div class="col-md-4 col-md-pull-8">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <h4 class="text-center">Related Products</h4>
+                    </div>
                   </div>
+                  <!-- loop over all related products -->
+                  {{#each relatedItem}}
+                    <div class="row well well-sm">
+                      <!-- img of the item -->
+                      <div class="col-xs-4 pull-left">
+                        <a href="{{url}}"><img src="{{img}}" class="img-responsive"></a>
+                      </div>
+                      <!-- Item's name -->
+                      <div class="col-xs-8 pull-right">
+                        <h3><a href="{{url}}">{{name}}</a><br><small class="badge">{{price}}</small></h3>
+                      </div>
+                    </div>
+                  {{/each}}
+                </div> <!-- / related products -->
+              </div>
+            </div> <!-- /container -->
+            <!-- product description -->
+            <div class="container">
+              <div class="row description">
+                <div class="col-sm-1">
                 </div>
-                <!-- loop over all related products -->
-                {{#each relatedItem}}
-                  <div class="row well well-sm">
-                    <!-- img of the item -->
-                    <div class="col-xs-4 pull-left">
-                      <a href="{{url}}"><img src="{{img}}" class="img-responsive"></a>
+                <div class="col-sm-10">
+                  <!-- put description here -->
+                  {{#each description}}
+                    <div class="panel panel-info">
+                      <div class="panel-heading">{{title}}</div>
+                      <div class="panel-body">
+                        {{#each point}}
+                          <li>{{spec}}</li>
+                        {{/each}}
+                      </div>
                     </div>
-                    <!-- Item's name -->
-                    <div class="col-xs-8 pull-right">
-                      <h3><a href="{{url}}">{{name}}</a><br><small>{{price}}</small></h3>
-                    </div>
-                  </div>
-                {{/each}}
-              </div> <!-- / related products -->
-            </div>
-        </div> <!-- /row -->
-      </div> <!-- /container -->
+                  {{/each}}
+                </div>
+                <div class="col-sm-1">
+                </div>
+              </div> <!-- /row -->
+            </div> <!-- /container --->
     </script>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>

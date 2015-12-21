@@ -81,13 +81,48 @@ var context = {
                           title: 'Aquatint Pro',
                           price: '$12,500',
                           img: 'img/products/aquatint.jpg',
-                          description: 'Aquatint features',
+                          description: [
+                            {
+                              title: 'General specifications',
+                              point: [
+                                {
+                                  spec: '100m (330 ft.) depth rating, with 150m tether.',
+                                },
+                                {
+                                  spec: '4 powerful brushless DC thrusters.',
+                                },
+                              ],
+                            }
+                          ],
                         },
                         {
                           title: 'Admiral II',
-                          price: '$10,000',
+                          price: '$4,000',
                           img: 'img/products/admiral2.jpg',
-                          description: 'admiral 2 features',
+                          description: [
+                            {
+                              title: 'General specifications',
+                              point: [
+                                {
+                                  spec: '100m (330 ft.) depth rating, with 150m tether.',
+                                },
+                                {
+                                  spec: '4 powerful brushless DC thrusters.',
+                                },
+                              ],
+                            },
+                            {
+                              title: 'General specifications',
+                              point: [
+                                {
+                                  spec: '100m (330 ft.) depth rating, with 150m tether.',
+                                },
+                                {
+                                  spec: '4 powerful brushless DC thrusters.',
+                                },
+                              ],
+                            },
+                          ],
                           images: [
                             {
                               img: 'img/products/admiral2.jpg',

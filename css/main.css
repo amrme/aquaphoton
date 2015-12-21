@@ -509,13 +509,52 @@ footer .footer-body ul li a:hover {
 #awards .award-year:visited {
   text-decoration: none;
 }
+/* line 532, less/main.less */
+#zero .breadcrumb li {
+  font-size: 1.3em;
+}
+/* line 536, less/main.less */
+#zero .product-title {
+  color: black;
+  font-size: 2em;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+}
+/* line 540, less/main.less */
+#zero .product-title small {
+  color: white;
+  font-size: 0.6em;
+}
+/* line 546, less/main.less */
+#zero .product-thumbnail-small {
+  max-height: 70px;
+}
+/* line 549, less/main.less */
+#zero .product-thumbnail-small:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.5);
+}
+/* line 553, less/main.less */
+#zero .description {
+  margin-top: 50px;
+}
+/* line 555, less/main.less */
+#zero .description .panel-heading {
+  font-size: 1.5em;
+  font-family: fantasy;
+}
+/* line 559, less/main.less */
+#zero .description .panel-body {
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
 /*Change icons size here*/
-/* line 530, less/main.less */
+/* line 567, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 534, less/main.less */
+/* line 571, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -529,11 +568,11 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 547, less/main.less */
+/* line 584, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 550, less/main.less */
+/* line 587, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
