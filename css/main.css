@@ -551,13 +551,41 @@ footer .footer-body ul li a:hover {
   font-size: 1.2em;
   font-family: sans-serif;
 }
-/*Change icons size here*/
 /* line 567, less/main.less */
+.highlights .main-heading {
+  font-family: serif;
+  text-transform: uppercase;
+}
+/* line 570, less/main.less */
+.highlights .main-heading a {
+  color: #037B9D;
+}
+/* line 572, less/main.less */
+.highlights .main-heading a:active,
+.highlights .main-heading a:hover,
+.highlights .main-heading a:visited {
+  color: #00B0A3;
+  text-decoration: none;
+}
+/* line 578, less/main.less */
+.highlights .date {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+/* line 582, less/main.less */
+.highlights .location {
+  text-transform: capitalize;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+/*Change icons size here*/
+/* line 591, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 571, less/main.less */
+/* line 595, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -571,7 +599,7 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 583, less/main.less */
+/* line 607, less/main.less */
 .social-icons .fa:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -580,11 +608,11 @@ footer .footer-body ul li a:hover {
   transform: scale(1.2);
   background-color: rgba(0, 176, 163, 0.5);
 }
-/* line 592, less/main.less */
+/* line 616, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 595, less/main.less */
+/* line 619, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
