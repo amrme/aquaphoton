@@ -404,7 +404,9 @@
            <img src="{{img}}" class="img-responsive product-image wow fadeInLeft img-thumbnail" />
            <div class="wow lightSpeedIn">
              <h4 class="text-center">{{title}} <small class="badge" style="color:white;font-size:0.8em;">{{price}}</small></h4>
-             <p class="text-center"><a class="btn btn-primary btn-md rov-btn" href="{{@index}}.html" data-id="{{@index}}" >Details &raquo;</a></p>
+             {{#if description}}
+              <p class="text-center"><a class="btn btn-primary btn-md rov-btn" href="{{@index}}.html" data-id="{{@index}}" >Details &raquo;</a></p>
+             {{/if}}
            </div>
          </div>
        {{/each}}

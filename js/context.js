@@ -81,19 +81,7 @@ var context = {
                           title: 'Aquatint Pro',
                           price: '$12,500',
                           img: 'img/products/aquatint.jpg',
-                          description: [
-                            {
-                              title: 'General specifications',
-                              point: [
-                                {
-                                  spec: '100m (330 ft.) depth rating, with 150m tether.',
-                                },
-                                {
-                                  spec: '4 powerful brushless DC thrusters.',
-                                },
-                              ],
-                            }
-                          ],
+                          description: '',
                         },
                         {
                           title: 'Admiral II',
@@ -211,9 +199,19 @@ var context = {
                       ],
                       academyrovs: [
                         {
+                          title: "Admiral III",
+                          img: "img/products/admiral3.jpg",
+                          description: "Admiral III features",
+                        },
+                        {
+                          title: "Admiral II",
+                          img: "img/products/admiral2.jpg",
+                          description: "Admiral I features",
+                        },
+                        {
                           title: "Admiral I",
                           img: "img/products/admiral1.jpg",
-                          discription: "Admiral I features",
+                          description: "Admiral I features",
                         },
                       ],
                       academyAwards: [

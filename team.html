@@ -301,10 +301,10 @@
   </div>
 </footer>
 
-  <!-- services template -->
+  <!-- Teams template -->
   <script id="services-template" type="text/x-handlebars-template">
      {{#each teams}}
-        <div class="col-md-3 col-sm-6 col-xs-12 product-thumbnail">
+        <div class="col-md-3 col-sm-6 col-xs-12 product-thumbnail wow fadeIn">
           <div class="imgWrap">
             <img src="{{img}}" class="service-img img-responsive" />
             <div class="imgDescription text-center">
@@ -356,86 +356,19 @@
      {{/each}}
   </script>
 
-  <!-- services modal template -->
-  <script id="modalTemplate" type="text/x-handlebars-template">
-        <div id="serviceModal" class="modal fade" role="dialog">
-          <div class="modal-dialog"  style="width:800">
-
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h2 class="modal-title text-center">{{title}}</h2>
-              </div>
-
-              <div class="modal-body">
-                <img  style="width:100%" src="{{img}}"/>
-                <p>
-                  {{{description}}}
-                </p>
-              </div>
-
-              <div class="modal-footer">
-                <div class="text-center">
-                  <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-    </script>
-
-    <!-- products template -->
+    <!-- ROVs Template -->
     <script id="products-template" type="text/x-handlebars-template">
        {{#each academyrovs}}
          <div class="col-md-3 col-sm-4 col-xs-12">
-           <img src="{{img}}" class="img-responsive product-image" />
-           <h4 class="text-center">{{title}} <small>{{price}}</small></h4>
-           <p class="text-center"><a class="btn btn-primary btn-md rov-btn" href="{{@index}}-a.html" data-id="{{@index}}" >Details &raquo;</a></p>
-         </div>
-       {{/each}}
-    </script>
-
-    <!-- leadership template -->
-    <script id="leadership-template" type="text/x-handlebars-template">
-       {{#each leaders}}
-         <div class="col-md-3 col-sm-4 col-xs-12 leader-div">
-           <img src="{{img}}" class="img-responsive leader-image" />
-           <h3 class="text-center leader-name">{{name}} <br> <small>{{title}}</small><br>
-             {{#if linkedin}}
-             <div class="social-icons icon-circle">
-               <a href="{{linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
-             </div>
+           <img src="{{img}}" class="img-responsive product-image wow fadeInLeft img-thumbnail center-block" />
+           <div class="wow lightSpeedIn">
+             <h4 class="text-center">{{title}} <small class="badge" style="color:white;font-size:0.8em;">{{price}}</small></h4>
+             {{#if description}}
+                <p class="text-center"><a class="btn btn-primary btn-md rov-btn" href="at{{@index}}.html" data-id="{{@index}}" >Details &raquo;</a></p>
              {{/if}}
-           </h3>
+           </div>
          </div>
        {{/each}}
-    </script>
-
-    <!-- rov page's template -->
-    <script id="rov-template" type="text/x-handlebars-template">
-      <div class="container">
-        <div class="row">
-          <div class="row">
-            <h2 class="text-center">{{title}}</h2>
-          </div> <!-- /row -->
-          <div class="row">
-            <!-- list of images -->
-            <div class="col-md-4 col-sm-12">
-              {{#each images}}
-                <div class="col-xs-4">
-                  <img src="{{img}}" class="img-responsive">
-                </div> <!-- / image thumbnail -->
-              {{/each}}
-            </div> <!-- / list of images -->
-            <!--  large image -->
-            <div class="col-md-8 col-sm-12">
-              <img src="{{img}}" class="img-responsive">
-            </div> <!-- / large image -->
-          </div> <!-- /row -->
-        </div> <!-- /row -->
-      </div> <!-- /container -->
     </script>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -448,15 +381,10 @@
   // Compile handlebars templates
   var source   = $('#services-template').html();
   var template = Handlebars.compile(source);
-  source   = $('#modalTemplate').html();
-  var modalTemplate = Handlebars.compile(source);
   var services    = template(context);
   source = $('#products-template').html();
   template = Handlebars.compile(source);
   var products    = template(context);
-  source = $('#leadership-template').html();
-  template = Handlebars.compile(source);
-  var leadership    = template(context);
   source = $('#about-template').html();
   template = Handlebars.compile(source);
   var about    = template(context);
@@ -468,9 +396,6 @@
 
   // append products
   $('#product').html(products);
-
-  // append leaders
-  $('#leader').html(leadership);
 
   // append about
   $('#accordion').html(about);
