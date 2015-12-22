@@ -230,12 +230,12 @@ html {
 .intro .main-heading {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 10vw;
-  color: black;
+  color: #037B9D;
   line-height: 80%;
 }
 /* line 220, less/main.less */
 .intro .main-heading small {
-  color: rgba(0, 0, 0, 0.7);
+  color: #00B0A3;
   letter-spacing: 0.1vw;
 }
 @media (min-width: 768px) {
