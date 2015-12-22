@@ -571,11 +571,20 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 584, less/main.less */
+/* line 583, less/main.less */
+.social-icons .fa:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  background-color: rgba(0, 176, 163, 0.5);
+}
+/* line 592, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 587, less/main.less */
+/* line 595, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }

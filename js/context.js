@@ -187,7 +187,7 @@ var context = {
                         {
                           name:'Mohamed Hassan',
                           title: 'Co-Founder & Electrical Engineer',
-                          img: 'img/leadership/none.png',
+                          img: 'img/leadership/msaad.jpg',
                           linkedin: '',
                         },
                       ],
