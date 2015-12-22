@@ -228,4 +228,36 @@ var context = {
                             content:"The Team has a hierarchical management system, with the CEO at the top, followed by individual team leaders and heads who manage employees in a variety of technical and non-technical departments such as: Electrical, Mechanical, Media, Sponsorship, Logistics, Marketing, etc.",
                           },
                         ],
+                        courses: [
+                          {
+                            title: "How to build your own ROV",
+                            location: "Alexandria, EG",
+                            url:'https://www.facebook.com/events/931753176903593/',
+                            date: "From 6/12/2015 to 18/12/2015",
+                            seats: "15 Seats Max.",
+                            fees: "350 EGP",
+                            pictures: [
+                              {img: 'img/courses/howtorov2/IMAG0036.jpg',},
+                              {img: 'img/courses/howtorov2/IMAG0037.jpg',},
+                              {img: 'img/courses/howtorov2/IMAG0038.jpg',},
+                              {img: 'img/courses/howtorov2/IMAG0039.jpg'},
+                              {img: 'img/courses/howtorov2/IMAG0040.jpg',},
+                              {img: 'img/courses/howtorov2/IMAG0041_BURST002_COVER.jpg',},
+                              {img: 'img/courses/howtorov2/IMAG0042.jpg',},
+                              {img: 'img/courses/howtorov2/IMAG0053.jpg',},
+                            ],
+                          },
+                          {
+                            title: "Basics of ROVs design",
+                            location: "Alexandria, EG",
+                            url: 'https://www.facebook.com/events/103066573378509/',
+                            date: "From 13/8/2015 to 3/9/2015",
+                            seats: "20 Seats Max.",
+                            fees: "225 EGP",
+                            pictures: [
+                              {img: 'img/courses/rovbasics/1.jpg',},
+
+                            ],
+                          },
+                        ],
                       };
