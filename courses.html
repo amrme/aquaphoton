@@ -187,10 +187,13 @@
   <script id="highlights-template" type="text/x-handlebars-template">
      {{#each courses}}
       <div class="col-xs-12 well">
+        <p class="text-center">
+          <i class="fa fa-calendar-check-o"></i>
+        </p>
         <h5 class="text-center main-heading"><a href="{{url}}" target="_blank">{{title}}</a></h5>
         <img src="{{pictures.0.img}}" class="img-responsive img-rounded">
-        <h7 class="date">{{date}}</h7>
-        <h7 class="date location text-center">{{location}}</h7>
+        <h7 class="date"><i class="fa fa-calendar"></i> {{date}}</h7><br>
+        <h7 class="date location text-center"><i class="fa fa-location-arrow"></i> {{location}}</h7>
       </div>
      {{/each}}
   </script>

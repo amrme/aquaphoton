@@ -236,6 +236,7 @@ var context = {
                             date: "From 6/12/2015 to 18/12/2015",
                             seats: "15 Seats Max.",
                             fees: "350 EGP",
+                            state: "completed",
                             pictures: [
                               {img: 'img/courses/howtorov2/IMAG0036.jpg',},
                               {img: 'img/courses/howtorov2/IMAG0037.jpg',},
@@ -254,6 +255,7 @@ var context = {
                             date: "From 13/8/2015 to 3/9/2015",
                             seats: "20 Seats Max.",
                             fees: "225 EGP",
+                            state: "completed",
                             pictures: [
                               {img: 'img/courses/rovbasics/1.jpg',},
 

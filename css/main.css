@@ -552,27 +552,37 @@ footer .footer-body ul li a:hover {
   font-family: sans-serif;
 }
 /* line 567, less/main.less */
+.highlights .fa {
+  font-size: 20px;
+  color: rgba(0, 128, 0, 0.4);
+}
+/* line 571, less/main.less */
 .highlights .main-heading {
   font-family: serif;
   text-transform: uppercase;
 }
-/* line 570, less/main.less */
+/* line 574, less/main.less */
 .highlights .main-heading a {
   color: #037B9D;
 }
-/* line 572, less/main.less */
+/* line 576, less/main.less */
 .highlights .main-heading a:active,
 .highlights .main-heading a:hover,
 .highlights .main-heading a:visited {
   color: #00B0A3;
   text-decoration: none;
 }
-/* line 578, less/main.less */
+/* line 582, less/main.less */
 .highlights .date {
   font-family: sans-serif;
   font-size: 10px;
 }
-/* line 582, less/main.less */
+/* line 585, less/main.less */
+.highlights .date .fa {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 11px;
+}
+/* line 590, less/main.less */
 .highlights .location {
   text-transform: capitalize;
   font-size: 11px;
@@ -580,12 +590,12 @@ footer .footer-body ul li a:hover {
   text-align: center;
 }
 /*Change icons size here*/
-/* line 591, less/main.less */
+/* line 599, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 595, less/main.less */
+/* line 603, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -599,7 +609,7 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 607, less/main.less */
+/* line 615, less/main.less */
 .social-icons .fa:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -608,11 +618,11 @@ footer .footer-body ul li a:hover {
   transform: scale(1.2);
   background-color: rgba(0, 176, 163, 0.5);
 }
-/* line 616, less/main.less */
+/* line 624, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 619, less/main.less */
+/* line 627, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
