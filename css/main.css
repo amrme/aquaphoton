@@ -478,12 +478,14 @@ footer .footer-body ul li a:hover {
   padding-bottom: 3%;
 }
 /* line 500, less/main.less */
-#contact #contactform {
+#contact #contactform,
+#contact #contactformTeam {
   margin-bottom: 5%;
   margin-top: 2%;
 }
 /* line 503, less/main.less */
-#contact #contactform .contactform {
+#contact #contactform .contactform,
+#contact #contactformTeam .contactform {
   width: 100%;
 }
 /* line 507, less/main.less */
@@ -491,7 +493,8 @@ footer .footer-body ul li a:hover {
   font-family: sans-serif;
 }
 /* line 510, less/main.less */
-#contact #map-container {
+#contact #map-container,
+#contact #map-container-team {
   width: 100%;
   height: 300px;
   max-height: 100%;

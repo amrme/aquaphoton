@@ -84,10 +84,18 @@ $(document).ready(function() {
     contactform.setAttribute('action', '//formspree.io/' + 'moataztarek1991' + '@' + 'gmail' + '.' + 'com');
   }
 
+  // team contact info
+  if($("#contactformTeam").length)
+  {
+    var contactform =  document.getElementById('contactformTeam');
+    contactform.setAttribute('action', '//formspree.io/' + 'aquaphoton.academy' + '@' + 'gmail' + '.' + 'com');
+  }
+
   // map
   function init_map() {
     // company's location
    var var_location = new google.maps.LatLng(31.269181, 29.996385);
+   var var_location_team = new google.maps.LatLng(31.211800, 29.931511);
 
        var var_mapoptions = {
         scrollwheel: false,
@@ -96,18 +104,40 @@ $(document).ready(function() {
         zoom: 14
        };
 
+       var var_mapoptions_team = {
+        scrollwheel: false,
+        draggable: false,
+        center: var_location_team,
+        zoom: 14
+       };
+
    var var_marker = new google.maps.Marker({
      position: var_location,
            map: var_map,
      title:"AquaPhoton Co."});
 
+     var var_marker2 = new google.maps.Marker({
+       position: var_location_team,
+             map: var_map,
+       title:"AquaPhoton Academy's Internship Team"});
+
      if($("#map-container").length)
      {
+       console.log("map-container found");
        var var_map = new google.maps.Map(document.getElementById("map-container"),
            var_mapoptions);
            var_marker.setMap(var_map);
      }
+     if($("#map-container-team").length)
+     {
+       console.log("map-container-team found");
+       var var_map = new google.maps.Map(document.getElementById("map-container-team"),
+           var_mapoptions_team);
+           var_marker2.setMap(var_map);
      }
+     }
+
+
 
      google.maps.event.addDomListener(window, 'load', init_map);
 
