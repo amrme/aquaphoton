@@ -262,4 +262,14 @@ var context = {
                             ],
                           },
                         ],
+                        upcomingCourses: [
+                          {
+                            title: "How to build your own ROV",
+                            location: "Alexandria, EG",
+                            url:'d.hml',
+                            date: "Starting 24/1/2016",
+                            seats: "15 Seats Max.",
+                            fees: "350 EGP",
+                          },
+                        ],
                       };

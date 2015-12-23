@@ -595,6 +595,51 @@ footer {
   }
 }
 
+.upcoming {
+  .fa {
+    font-size: 20px;
+    color: fade(red, 60%);
+  }
+  .main-heading {
+    font-family: serif;
+    text-transform: uppercase;
+    a {
+      color: @aqua-primary;
+      &:active, &:hover, &:visited {
+        color: @aqua-secondary;
+        text-decoration: none;
+      }
+    }
+  }
+  .date {
+    font-family: sans-serif;
+    font-size: 13px;
+    .fa {
+        color: fade(black, 50%);
+        font-size: 11px;
+    }
+    .fa-calendar {
+      color: green;
+    }
+  }
+  .location {
+    text-transform: capitalize;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .btn {
+    margin-top: 5px;
+    .btn-flat;
+    text-transform: uppercase;
+    font-size: 14px;
+    .fa {
+      color: fade(white, 50%);;
+      font-size: 13px;
+    }
+  }
+}
+
 /*Change icons size here*/
 .social-icons .fa {
 	font-size: 0.7em;

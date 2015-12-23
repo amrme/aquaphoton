@@ -112,9 +112,12 @@
           <!-- put courses details -->
           <div id="details"></div>
         </div>
-        <div class="col-md-3 hidden-sm hidden-xs">
-          <!-- put courses schedules -->
-          <div id="schedule"></div>
+        <div class="col-md-3 col-sm-8 col-xs-12">
+          <!-- upcoming events -->
+          <div class="col-sm-12 col-md-10  upcoming">
+            <h4 class="text-center main-heading wow bounce">Upcoming</h6>
+            <div id="upcoming"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -198,6 +201,26 @@
      {{/each}}
   </script>
 
+  <!-- Upcoming template -->
+  <script id="upcoming-template" type="text/x-handlebars-template">
+     {{#each upcomingCourses}}
+      <div class="col-xs-12 well">
+        <p class="text-center">
+          <i class="fa fa-calendar-check-o"></i>
+        </p>
+        <h5 class="text-center main-heading">{{title}}</h5>
+        <img src="{{pictures.0.img}}" class="img-responsive img-rounded">
+        <h7 class="date"><i class="fa fa-calendar"></i> {{date}}</h7><br>
+        <h7 class="date location text-center"><i class="fa fa-location-arrow"></i> {{location}}</h7>
+        {{#if url}}
+          <p class="text-center">
+            <a class="btn btn-success btn-sm"><i class="fa fa-ticket"></i> Reserve</a>
+          </p>
+        {{/if}}
+      </div>
+     {{/each}}
+  </script>
+
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/components-bootstrap/js/bootstrap.min.js"></script>
   <script src="bower_components/handlebars/handlebars.min.js"></script>
@@ -208,8 +231,15 @@
     var highlightsTemplate = Handlebars.compile(source)
     var hl = highlightsTemplate(context);
 
+    source   = $('#upcoming-template').html();
+    var template = Handlebars.compile(source)
+    var upc = template(context);
+
     // append highlights
     $('#highlights').html(hl);
+
+    // append upcoming
+    $('#upcoming').html(upc);
   </script>
 
 </body>
