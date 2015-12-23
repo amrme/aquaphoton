@@ -237,15 +237,9 @@ var context = {
                             seats: "15 Seats Max.",
                             fees: "350 EGP",
                             state: "completed",
+                            description: 'Building ROVs, will provide you with valuable engineering and designing skills, while learning basic physics concepts, problem solving, teamwork, and technical procedures.<br>AquaPhoton Academy is pleased to begin its second phase of <b>How to build your own ROV.</b>',
                             pictures: [
                               {img: 'img/courses/howtorov2/IMAG0036.jpg',},
-                              {img: 'img/courses/howtorov2/IMAG0037.jpg',},
-                              {img: 'img/courses/howtorov2/IMAG0038.jpg',},
-                              {img: 'img/courses/howtorov2/IMAG0039.jpg'},
-                              {img: 'img/courses/howtorov2/IMAG0040.jpg',},
-                              {img: 'img/courses/howtorov2/IMAG0041_BURST002_COVER.jpg',},
-                              {img: 'img/courses/howtorov2/IMAG0042.jpg',},
-                              {img: 'img/courses/howtorov2/IMAG0053.jpg',},
                             ],
                           },
                           {
@@ -256,6 +250,7 @@ var context = {
                             seats: "20 Seats Max.",
                             fees: "225 EGP",
                             state: "completed",
+                            description: 'Today you will learn about Remotely Operated Vehicles <b>ROVs</b>. ROVs are unmanned vehicles, which are operated by a person aboard a vessel or on land. Ocean and marine engineers have been building ROVs since the 1950s for a variety of science, military, and salvage missions.',
                             pictures: [
                               {img: 'img/courses/rovbasics/1.jpg',},
 
@@ -268,8 +263,6 @@ var context = {
                             location: "Alexandria, EG",
                             url:'d.hml',
                             date: "Starting 24/1/2016",
-                            seats: "15 Seats Max.",
-                            fees: "350 EGP",
                           },
                         ],
                       };

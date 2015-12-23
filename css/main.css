@@ -647,18 +647,66 @@ footer .footer-body ul li a:hover {
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
 }
+/* line 643, less/main.less */
+.details {
+  margin-bottom: 100px;
+}
 /* line 644, less/main.less */
 .details .main-heading {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-transform: uppercase;
 }
+/* line 648, less/main.less */
+.details img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/* line 652, less/main.less */
+.details .post-body {
+  background-color: rgba(3, 123, 157, 0.04);
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+/* line 660, less/main.less */
+.details .post-body .date {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+/* line 663, less/main.less */
+.details .post-body .date .fa {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 11px;
+}
+/* line 668, less/main.less */
+.details .post-body .location {
+  text-transform: capitalize;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 674, less/main.less */
+.details .post-body .about {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+/* line 679, less/main.less */
+.details .btn {
+  font-family: monospace;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
 /*Change icons size here*/
-/* line 651, less/main.less */
+/* line 689, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 655, less/main.less */
+/* line 693, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -672,7 +720,7 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 667, less/main.less */
+/* line 705, less/main.less */
 .social-icons .fa:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -681,11 +729,11 @@ footer .footer-body ul li a:hover {
   transform: scale(1.2);
   background-color: rgba(0, 176, 163, 0.5);
 }
-/* line 676, less/main.less */
+/* line 714, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 679, less/main.less */
+/* line 717, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }

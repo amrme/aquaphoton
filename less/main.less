@@ -645,6 +645,44 @@ footer {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-transform: uppercase;
   }
+  img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .post-body {
+    background-color: fade(@aqua-primary, 4%);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    .date {
+      font-family: sans-serif;
+      font-size: 10px;
+      .fa {
+          color: fade(black, 50%);
+          font-size: 11px;
+      }
+    }
+    .location {
+      text-transform: capitalize;
+      font-size: 11px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .about {
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+  }
+  .btn {
+    font-family: monospace;
+    font-size: 14px;
+    text-transform: uppercase;
+    .btn-flat;
+  }
+  margin-bottom: 100px;
 }
 
 /*Change icons size here*/

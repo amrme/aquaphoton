@@ -43,7 +43,7 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: ['js/main.js', 'js/context.js', 'less/main.less', 'less/mixins.less', 'css/bootstrap.css', 'bower_components/components-bootstrap/less/bootstrap.less'],
-        tasks: ['uglify', 'cssmin', 'less'],
+        tasks: ['uglify', 'less', 'cssmin'],
         options: {
           spawn: false,
         },
@@ -52,8 +52,8 @@ module.exports = function(grunt) {
   });
 
   // Load the plugin that provides the "uglify" task.
-  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
