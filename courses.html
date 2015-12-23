@@ -108,16 +108,16 @@
             <div id="highlights"></div>
           </div>
         </div>
-        <div class="col-md-6 col-xs-12">
-          <!-- put courses details -->
-          <div id="details"></div>
-        </div>
-        <div class="col-md-3 col-sm-8 col-xs-12">
+        <div class="col-md-3 col-sm-8 col-xs-12 pull-right">
           <!-- upcoming events -->
           <div class="col-sm-12 col-md-10  upcoming">
             <h4 class="text-center main-heading wow bounce">Upcoming</h6>
             <div id="upcoming"></div>
           </div>
+        </div>
+        <div class="col-md-6 col-xs-12 pull-left">
+          <!-- put courses details -->
+          <div id="details"></div>
         </div>
       </div>
     </div>
@@ -201,6 +201,19 @@
      {{/each}}
   </script>
 
+  <!-- details template -->
+  <script id="details-template" type="text/x-handlebars-template">
+     {{#each courses}}
+      <div class="col-xs-12 details">
+        <h3 class="text-center main-heading">{{title}}</h3>
+        <!-- <h5 class="text-center main-heading"><a href="{{url}}" target="_blank">{{title}}</a></h5> -->
+        <img src="{{pictures.0.img}}" class="img-responsive img-rounded">
+        <h7 class="date"><i class="fa fa-calendar"></i> {{date}}</h7><br>
+        <h7 class="date location text-center"><i class="fa fa-location-arrow"></i> {{location}}</h7>
+      </div>
+     {{/each}}
+  </script>
+
   <!-- Upcoming template -->
   <script id="upcoming-template" type="text/x-handlebars-template">
      {{#each upcomingCourses}}
@@ -231,12 +244,19 @@
     var highlightsTemplate = Handlebars.compile(source)
     var hl = highlightsTemplate(context);
 
+    source   = $('#details-template').html();
+    highlightsTemplate = Handlebars.compile(source)
+    var dl = highlightsTemplate(context);
+
     source   = $('#upcoming-template').html();
     var template = Handlebars.compile(source)
     var upc = template(context);
 
     // append highlights
     $('#highlights').html(hl);
+
+    // append details
+    $('#details').html(dl);
 
     // append upcoming
     $('#upcoming').html(upc);

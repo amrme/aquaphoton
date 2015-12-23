@@ -647,13 +647,18 @@ footer .footer-body ul li a:hover {
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
 }
-/*Change icons size here*/
 /* line 644, less/main.less */
+.details .main-heading {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+/*Change icons size here*/
+/* line 651, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 648, less/main.less */
+/* line 655, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -667,7 +672,7 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 660, less/main.less */
+/* line 667, less/main.less */
 .social-icons .fa:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -676,11 +681,11 @@ footer .footer-body ul li a:hover {
   transform: scale(1.2);
   background-color: rgba(0, 176, 163, 0.5);
 }
-/* line 669, less/main.less */
+/* line 676, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 672, less/main.less */
+/* line 679, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
