@@ -111,7 +111,6 @@
         <div class="col-md-3 col-sm-8 col-xs-12 pull-right">
           <!-- upcoming events -->
           <div class="col-sm-12 col-md-10  upcoming">
-            <h4 class="text-center main-heading wow bounce">Upcoming</h6>
             <div id="upcoming"></div>
           </div>
         </div>
@@ -221,6 +220,8 @@
 
   <!-- Upcoming template -->
   <script id="upcoming-template" type="text/x-handlebars-template">
+    {{#if upcomingCourses}}
+    <h4 class="text-center main-heading wow bounce">Upcoming</h6>
      {{#each upcomingCourses}}
       <div class="col-xs-12 well">
         <p class="text-center animated infinite pulse">
@@ -237,6 +238,7 @@
         {{/if}}
       </div>
      {{/each}}
+     {{/if}}
   </script>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
