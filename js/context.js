@@ -201,7 +201,85 @@ var context = {
                         {
                           title: "Admiral III",
                           img: "img/products/admiral3.jpg",
-                          description: "Admiral III features",
+                          description: [
+                            {
+                              title: 'Mechanical Specs',
+                              point: [
+                                {
+                                  spec: 'Weight in water: 5.7 KG.',
+                                },
+                                {
+                                  spec: 'The float is made of extruded polystyrene foam, providing 7.5 KG of buoyancy.',
+                                },
+                                {
+                                  spec: 'Static sealing: Face seal, O-Rings',
+                                },
+                                {
+                                  spec: 'Frame: It was made of Nylon sheets - TECAMID PA6 GF30 polyamide',
+                                },
+                                {
+                                  spec: 'Manipulator: 3 degrees of freedom manipulator, An integration of 3 beveled gears, Gripping motion using power screw',
+                                },
+                                {
+                                  spec: 'Dynamic sealing: Custom made by Aquaphoton company',
+                                },
+                              ],
+                            },
+                            {
+                              title: 'Electrical Specs',
+                              point: [
+                                {
+                                  spec: 'Thrusters: Custom made by Aquaphoton company, They were made of TECAMID PA6 GF30 polyamide.',
+                                },
+                                {
+                                  spec: 'Laser measurements: Two-point laser sources to determine the dimensions of any object seen by the ROV.',
+                                },
+                                {
+                                  spec: 'Vision system: USB cameras.',
+                                },
+                                {
+                                  spec: 'Communication system: USB / TCP.',
+                                },
+                                {
+                                  spec: 'Sensors: Pressure sensor, 9DOF IMU.',
+                                },
+
+                              ],
+                            },
+
+                          ],
+                          images: [
+                            {
+                              img: 'img/products/admiral3-0.png',
+                            },
+                            {
+                              img: 'img/products/admiral3-1.png',
+                            },
+                            {
+                              img: "img/products/admiral3.jpg",
+                            },
+                            {
+                              img: "img/products/admiral3-0.jpg",
+                            },
+                            {
+                              img: "img/products/admiral3-1.jpg",
+                            },
+                            {
+                              img: "img/products/admiral3-2.jpg",
+                            },
+                          ],
+                          relatedItem: [
+                            {
+                              img: "img/products/admiral2.jpg",
+                              name: "Admiral II",
+                              url: "at1.html",
+                            },
+                            {
+                              img: "img/products/admiral1.jpg",
+                              name: "Admiral I",
+                              url: "at2.html",
+                            },
+                          ],
                         },
                         {
                           title: "Admiral II",
