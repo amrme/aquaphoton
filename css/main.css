@@ -724,38 +724,42 @@ footer .footer-body ul li a:hover {
 /*Change icons size here*/
 /* line 708, less/main.less */
 .social-icons .fa {
-  font-size: 0.7em;
+  font-size: 0.7em !important;
 }
 /*Change icons circle size and color here*/
 /* line 712, less/main.less */
 .social-icons .fa {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  color: #FFF;
-  color: rgba(255, 255, 255, 0.8);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+  color: #FFF !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  -ms-transition: all 0.3s ease-in-out !important;
+  -o-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
 }
 /* line 724, less/main.less */
 .social-icons .fa:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-  background-color: rgba(0, 176, 163, 0.5);
+  -webkit-transform: scale(1.2) !important;
+  -moz-transform: scale(1.2) !important;
+  -ms-transform: scale(1.2) !important;
+  -o-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+  background-color: rgba(0, 176, 163, 0.5) !important;
 }
 /* line 733, less/main.less */
 .social-icons.icon-circle .fa {
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
 /* line 736, less/main.less */
 .social-icons .fa-linkedin {
-  background-color: #0085AE;
+  background-color: #0085AE !important;
+}
+/* line 739, less/main.less */
+.social-icons .fa-facebook {
+  background-color: #3C599F !important;
 }
 /*# sourceMappingURL=css/main.css.map */
