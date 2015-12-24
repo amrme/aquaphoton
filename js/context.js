@@ -560,14 +560,14 @@ var context = {
   }, ],
   academyAwards: [{
     title: '2014 - 2015',
-    content: "<ul><li>Best Presentation in ROV Egypt 2013 Regional Competition in AASTMT</li><br><li> Best project in EED 2015 (Egyptian Engineering Day organized by IEEE Egypt section) in the Robotics and automation track presented by RAS Egypt chapter.</li><br><li> 2<sup>nd</sup> place in (Universities Youth Week) in the mechatronics field in the presence of Egypt.</li><br></ul>",
+    content: '<ul><li>Best Presentation in ROV Egypt 2013 Regional Competition in AASTMT</li><br><li> Best project in EED 2015 (Egyptian Engineering Day organized by IEEE Egypt section) in the Robotics and automation track presented by RAS Egypt chapter.</li><br><li> 2<sup>nd</sup> place in (Universities Youth Week) in the mechatronics field in the presence of Egypt.</li><br></ul>',
   }, {
     title: '2013 - 2014',
-    content: "AquaPhoton Academy's undergraduate team has been taking part in the annual MATE competition since 2012. In 2014, The team ranked 1st in Egypt’s Regional Competition and 6th in the International MATE ROV competition which was held in Michigan, USA.<br><br>AquaPhoton Academy's undergrad team won other mechatronics and robotics competitions in Egypt, such as EED, IEEE Project Fair, and others.",
+    content: "<ul><li>1<sup>st</sup> place in ROV Egypt 2014 local competition in BUE</li><br><li>1<sup>st</sup> place in missions in ROV Egypt 2014 regional competition in AASTMT with the highest score in the competition since started</li><br><li>1<sup>st</sup> place overall in ROV Egypt 2014 regional competition in AASTMT and qualified to participate in MATE ROV international competition 2014 in Michigan, USA.</li><br><li>The best ROV design in ROV Egypt 2014 regional competition by the recommendation of engineers working in the ROV field and the competition judges.</li><br><li>2<sup>nd</sup> place in (Inventors, creators, and scientific researchers forum) organized by Ministry of Youth Affairs, May 2014</li><br><li>6<sup>th</sup> place in MATE international ROV competition from 31 teams in Alpena, MI, USA, June 2014 </li><br><li>Best project (Gold Award) in EED 2014 (Egyptian Engineering Day) in the mechatronics field</li><br></ul>",
   }, {
     title: "2012 - 2013",
-    content: "The Team has a hierarchical management system, with the CEO at the top, followed by individual team leaders and heads who manage employees in a variety of technical and non-technical departments such as: Electrical, Mechanical, Media, Sponsorship, Logistics, Marketing, etc.",
-  }, ],
+    content:"<ul><li>1<sup>st</sup> place in ROV Egypt 2013 local competition in BUE</li><br><li>2<sup>nd</sup> place in missions in ROV Egypt 2013 regional competition in  AASTMT</li><br><li>Best poster display in ROV Egypt 2013 regional competition in AASTMT</li><br><li>3<sup>rd</sup> place overall in ROV Egypt 2013 regional competition in AASTMT</li><br><li>1<sup>st</sup> place in IEEE Project Fair 2013</li><br><li>2<sup>nd</sup> place in Alexandria University Project Fair 2013</li><br></ul>",
+    }, ],
   courses: [{
     title: "How to build your own ROV",
     location: "Alexandria, EG",
