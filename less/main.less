@@ -579,6 +579,25 @@ footer {
       }
     }
   }
+  .highlight-img {
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+    position: relative;
+    z-index: 90;
+  }
+  .caption {
+    position: absolute;
+    top: 50%;
+    // left: 50%-10px;
+    left: 30%;
+    z-index: 99;
+    color: fade(white, 80%);
+    font-size: 1.5em;
+    font-family: fantasy;
+    .fa {
+      color: fade(white, 80%);
+    }
+  }
   .date {
     font-family: sans-serif;
     font-size: 10px;

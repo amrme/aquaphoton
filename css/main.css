@@ -577,91 +577,112 @@ footer .footer-body ul li a:hover {
   text-decoration: none;
 }
 /* line 582, less/main.less */
+.highlights .highlight-img {
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+  position: relative;
+  z-index: 90;
+}
+/* line 588, less/main.less */
+.highlights .caption {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  z-index: 99;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5em;
+  font-family: fantasy;
+}
+/* line 597, less/main.less */
+.highlights .caption .fa {
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 601, less/main.less */
 .highlights .date {
   font-family: sans-serif;
   font-size: 10px;
 }
-/* line 585, less/main.less */
+/* line 604, less/main.less */
 .highlights .date .fa {
   color: rgba(0, 0, 0, 0.5);
   font-size: 11px;
 }
-/* line 590, less/main.less */
+/* line 609, less/main.less */
 .highlights .location {
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
   text-align: center;
 }
-/* line 599, less/main.less */
+/* line 618, less/main.less */
 .upcoming .fa {
   font-size: 20px;
   color: rgba(255, 0, 0, 0.6);
 }
-/* line 603, less/main.less */
+/* line 622, less/main.less */
 .upcoming .main-heading {
   font-family: serif;
   text-transform: uppercase;
 }
-/* line 606, less/main.less */
+/* line 625, less/main.less */
 .upcoming .main-heading a {
   color: #037B9D;
 }
-/* line 608, less/main.less */
+/* line 627, less/main.less */
 .upcoming .main-heading a:active,
 .upcoming .main-heading a:hover,
 .upcoming .main-heading a:visited {
   color: #00B0A3;
   text-decoration: none;
 }
-/* line 614, less/main.less */
+/* line 633, less/main.less */
 .upcoming .date {
   font-family: sans-serif;
   font-size: 13px;
 }
-/* line 617, less/main.less */
+/* line 636, less/main.less */
 .upcoming .date .fa {
   color: rgba(0, 0, 0, 0.5);
   font-size: 11px;
 }
-/* line 621, less/main.less */
+/* line 640, less/main.less */
 .upcoming .date .fa-calendar {
   color: green;
 }
-/* line 625, less/main.less */
+/* line 644, less/main.less */
 .upcoming .location {
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
   text-align: center;
 }
-/* line 631, less/main.less */
+/* line 650, less/main.less */
 .upcoming .btn {
   margin-top: 5px;
   border-radius: 0;
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 636, less/main.less */
+/* line 655, less/main.less */
 .upcoming .btn .fa {
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
 }
-/* line 643, less/main.less */
+/* line 662, less/main.less */
 .details {
   margin-bottom: 100px;
 }
-/* line 644, less/main.less */
+/* line 663, less/main.less */
 .details .main-heading {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-transform: uppercase;
 }
-/* line 648, less/main.less */
+/* line 667, less/main.less */
 .details img {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-/* line 652, less/main.less */
+/* line 671, less/main.less */
 .details .post-body {
   background-color: rgba(3, 123, 157, 0.04);
   border-bottom-left-radius: 5%;
@@ -671,29 +692,29 @@ footer .footer-body ul li a:hover {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-/* line 660, less/main.less */
+/* line 679, less/main.less */
 .details .post-body .date {
   font-family: sans-serif;
   font-size: 10px;
 }
-/* line 663, less/main.less */
+/* line 682, less/main.less */
 .details .post-body .date .fa {
   color: rgba(0, 0, 0, 0.5);
   font-size: 11px;
 }
-/* line 668, less/main.less */
+/* line 687, less/main.less */
 .details .post-body .location {
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
   text-align: center;
 }
-/* line 674, less/main.less */
+/* line 693, less/main.less */
 .details .post-body .about {
   font-family: sans-serif;
   font-size: 14px;
 }
-/* line 679, less/main.less */
+/* line 698, less/main.less */
 .details .btn {
   font-family: monospace;
   font-size: 14px;
@@ -701,12 +722,12 @@ footer .footer-body ul li a:hover {
   border-radius: 0;
 }
 /*Change icons size here*/
-/* line 689, less/main.less */
+/* line 708, less/main.less */
 .social-icons .fa {
   font-size: 0.7em;
 }
 /*Change icons circle size and color here*/
-/* line 693, less/main.less */
+/* line 712, less/main.less */
 .social-icons .fa {
   width: 30px;
   height: 30px;
@@ -720,7 +741,7 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 705, less/main.less */
+/* line 724, less/main.less */
 .social-icons .fa:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -729,11 +750,11 @@ footer .footer-body ul li a:hover {
   transform: scale(1.2);
   background-color: rgba(0, 176, 163, 0.5);
 }
-/* line 714, less/main.less */
+/* line 733, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50%;
 }
-/* line 717, less/main.less */
+/* line 736, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE;
 }
