@@ -283,8 +283,78 @@ var context = {
                         },
                         {
                           title: "Admiral II",
-                          img: "img/products/admiral2.jpg",
-                          description: "Admiral I features",
+                          img: 'img/products/admiral2-1.png',
+                          description: [
+                            {
+                              title: 'Mechanical Specs',
+                              point: [
+                                {
+                                  spec: 'Total Weight: 48 kg',
+                                },
+                                {
+                                  spec: 'Dimensions: 70cm X 50cm X 40cm',
+                                },
+                                {
+                                  spec: 'The hull: Was designed to be easily assembled, maintain minimum drag force and be in perfect shape.',
+                                },
+                                {
+                                  spec: 'Manipulator: 1 degree of freedom manipulator with an efficient tilting mechanism, The gripper material and gripper motor casing are made of nylon sheets TECAMID polyamide, The gripper mechanism consists of a worm and 2 worm gears to transfer the motion from the rotating shaft to the two end effectors.',
+                                },
+                                {
+                                  spec: 'Frame: It was made of Nylon sheets - TECAMID PA6 GF30 polyamide.',
+                                },
+                                {
+                                  spec: 'Buoyancy: Extruded polystyrene foam with density of 35 Kg/m³ and a compressive strength of 300 KPa.',
+                                },
+                              ],
+                            },
+                            {
+                              title: 'Electrical Specs',
+                              point: [
+                                {
+                                  spec: 'Thrusters: Six powerful thrusters to give it the ability to move in all directions, They were made of TECAMID PA6 GF30 polyamide, The horizontal thrusters differ from the vertical thruster in shape and rated power.',
+                                },
+                                {
+                                  spec: "Electric Canister: Tube of stainless steel due to its high surface finish and its ability to withstand impact loads and high pressures, It's machined using the center lathe due to its low cost.",
+                                },
+                                {
+                                  spec: 'Vision system: Two powerful light spots installed on the tilting mechanism for a better vision underwater, 3 wide view cameras.',
+                                },
+
+                              ],
+                            },
+
+                          ],
+                          images: [
+                            {
+                              img: 'img/products/admiral2-0.png',
+                            },
+                            {
+                              img: 'img/products/admiral2-1.png',
+                            },
+                            {
+                              img: 'img/products/admiral2-2.png',
+                            },
+
+                            {
+                              img: "img/products/admiral2.jpg",
+                            },
+                            {
+                              img: "img/products/admiral2-1.jpg",
+                            },
+                          ],
+                          relatedItem: [
+                            {
+                              img: "img/products/admiral3.jpg",
+                              name: "Admiral III",
+                              url: "at0.html",
+                            },
+                            {
+                              img: "img/products/admiral1.jpg",
+                              name: "Admiral I",
+                              url: "at2.html",
+                            },
+                          ],
                         },
                         {
                           title: "Admiral I",
