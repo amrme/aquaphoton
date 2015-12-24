@@ -94,7 +94,7 @@ var context = {
       img: "img/products/aquatint.jpg",
       name: "Aquatint Pro",
       price: '$12,500',
-  
+
     }, ],
   }, ],
   leaders: [{
@@ -600,4 +600,18 @@ var context = {
     location: "Alexandria, EG",
     date: "Starting Soon",
   }, ],
+  camps: [{
+    title: "How to build your own ROV",
+    location: "Alexandria, EG",
+    url: 'https://www.facebook.com/events/931753176903593/',
+    date: "From 6/12/2015 to 18/12/2015",
+    seats: "15 Seats Max.",
+    fees: "350 EGP",
+    state: "completed",
+    description: 'Building ROVs, will provide you with valuable engineering and designing skills, while learning basic physics concepts, problem solving, teamwork, and technical procedures.<br>AquaPhoton Academy is pleased to begin its second phase of <b>How to build your own ROV.</b>',
+    pictures: [{
+      img: 'img/courses/howtorov2/IMAG0036.jpg',
+    }, ],
+  },  ],
+  upcomingCamps: [],
 };
