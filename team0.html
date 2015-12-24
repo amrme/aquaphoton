@@ -68,8 +68,25 @@
   <!-- trigger collapse -->
   <div id="first-section" style="padding-bottom:150px;"></div>
 
-  <div id="zero">
+  <div id="leader">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center section-title">Key Executives and  Board Members</h2>
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-10">
+          <hr>
+          <div id="leader">
+            <!-- added on template -->
+          </div>
+        </div>
+        <div class="col-sm-1">
+        </div>
+      </div>
+    </div>
   </div>
+
+    <div style="padding-bottom:500px;"></div>
 
   <footer>
     <div class="container">
@@ -135,7 +152,21 @@
     </div>
   </footer>
 
-
+  <!-- team template -->
+  <script id="leadership-template" type="text/x-handlebars-template">
+     {{#each members}}
+       <div class="col-md-3 col-sm-4 col-xs-12 leader-div">
+         <img src="{{img}}" class="img-responsive leader-image wow zoomIn" />
+         <h3 class="text-center leader-name wow lightSpeedIn">{{name}} <br> <small>{{title}}</small><br>
+           {{#if linkedin}}
+           <div class="social-icons icon-circle">
+             <a href="{{linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
+           </div>
+           {{/if}}
+         </h3>
+       </div>
+     {{/each}}
+  </script>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/components-bootstrap/js/bootstrap.min.js"></script>
@@ -146,6 +177,37 @@
 
   <!-- append html templates -->
   <script type="text/javascript">
+
+  // generate random numbers for members in array
+  function random_member(arrOfMembers) {
+    // generate array of random numbers
+    var randomMember = [];
+    for(var i = 0; i < arrOfMembers.length; i++) {
+      var tmpMember = Math.floor(Math.random() * arrOfMembers.length);
+    // if non-rep
+     while(randomMember.indexOf(tmpMember) != -1)
+     {
+       tmpMember = Math.floor(Math.random() * arrOfMembers.length);
+     }
+     randomMember.push(tmpMember);
+    }
+    return randomMember;
+  }
+
+    var source = $('#leadership-template').html();
+    var template = Handlebars.compile(source);
+    var numArr = random_member(context.team16.members);
+    newTeam16 = [];
+
+    for(var i = 0; i < context.team16.members.length; i++)
+    {
+      newTeam16.push(context.team16.members[numArr[i]]);
+    }
+    context.team16.members = newTeam16;
+
+    var leadership  = template(context.team16);
+    // console.log(random_member(context.team16.members));d
+    $('#leader').html(leadership);
 
   </script>
 

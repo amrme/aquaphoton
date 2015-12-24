@@ -176,21 +176,4 @@ $(document).ready(function() {
       }).fadeIn("slow");
       console.log(this.src);
     });
-
-    // generate random numbers for members in array
-    function random_member(arrOfMembers) {
-      // generate array of random numbers
-      var randomMember = [];
-      for(var i = 0; i < arrOfMembers.length; i++) {
-        var tmpMember = Math.floor(Math.random() * arrOfMembers.length);
-      // if non-rep
-       while(randomMember.indexOf(tmpMember) != -1)
-       {
-         tmpMember = Math.floor(Math.random() * arrOfMembers.length);
-       }
-       randomMember.push(tmpMember);
-      }
-      return randomMember;
-    }
-
 });
