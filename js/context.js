@@ -200,7 +200,7 @@ var context = {
                       academyrovs: [
                         {
                           title: "Admiral III",
-                          img: "img/products/admiral3.jpg",
+                          img:  'img/products/admiral3-0.png',
                           description: [
                             {
                               title: 'Mechanical Specs',
@@ -358,44 +358,59 @@ var context = {
                         },
                         {
                           title: "Admiral I",
-                          img: 'img/products/admiral1.jpg',
+                          img: 'img/products/admiral1.png',
                           description: [
                             {
                               title: 'Mechanical Specs',
                               point: [
                                 {
-                                  spec: 'Total Weight: 48 kg',
+                                  spec: 'Material Type of box: the box made of aluminum to resist water and prevent rusting',
                                 },
                                 {
-                                  spec: 'Dimensions: 70cm X 50cm X 40cm',
+                                  spec: 'Material Type of box cover: the box cover is made of artinol known by its high stiffness that is used to give the required pressure on the gasket when fastened',
                                 },
                                 {
-                                  spec: 'The hull: Was designed to be easily assembled, maintain minimum drag force and be in perfect shape.',
+                                  spec: 'Material Type of box cover window: the box cover window is made of transparent plastic (acrylic) to give the ability to see the electric circuits inside',
                                 },
                                 {
-                                  spec: 'Manipulator: 1 degree of freedom manipulator with an efficient tilting mechanism, The gripper material and gripper motor casing are made of nylon sheets TECAMID polyamide, The gripper mechanism consists of a worm and 2 worm gears to transfer the motion from the rotating shaft to the two end effectors.',
+                                  spec: 'Glands: two glands are used made of aluminum to give a smooth connection between the electric circuits and tether that will prevent any water leakage',
                                 },
                                 {
-                                  spec: 'Frame: It was made of Nylon sheets - TECAMID PA6 GF30 polyamide.',
+                                  spec: 'Gasket: 5mm thickness black gasket is used between the box flange and the box cover to prevent any water leakage',
                                 },
                                 {
-                                  spec: 'Buoyancy: Extruded polystyrene foam with density of 35 Kg/m³ and a compressive strength of 300 KPa.',
+                                  spec: 'Silicon 999: is used with gasket to give extra safety for electric circuits',
                                 },
+                                {
+                                  spec: 'Weight Calculations<ul><li><ul>Electric circuits box<li>W = 4.275 kg</li><li>LCG = 14.5 cm</li><li>KG = 41 cm</li></ul></li><li><ul>Thrusters<li>W = 4*1.5 kg (every single thruster weighs 1.5 kg)</li><li>LCG = 5.8 cm (for the two aft thrusters)</li><li>KG = 9 cm</li></ul></li><li><ul>Arm fixation<li>W = 2*0.6 kg</li><li>LCG = 70 cm</li><li>KG = 33 cm</li></ul></li><li><ul>Vertical thruster<li>W = 2.4 kg</li><li>LCG = 36 cm</li><li>KG = 30 cm</li></ul></li><li><ul>ROV’s main structure<li>W = 7.6 kg</li><li>LCG = 30 cm</li><li>KG = 33 cm</li></ul></li></ul>',
+                              },
+
                               ],
                             },
                             {
                               title: 'Electrical Specs',
                               point: [
                                 {
-                                  spec: 'Thrusters: Six powerful thrusters to give it the ability to move in all directions, They were made of TECAMID PA6 GF30 polyamide, The horizontal thrusters differ from the vertical thruster in shape and rated power.',
+                                  spec: 'Controller: PC Keyboard',
                                 },
                                 {
-                                  spec: "Electric Canister: Tube of stainless steel due to its high surface finish and its ability to withstand impact loads and high pressures, It's machined using the center lathe due to its low cost.",
+                                  spec: 'MCU: PIC Microcontroller',
                                 },
                                 {
-                                  spec: 'Vision system: Two powerful light spots installed on the tilting mechanism for a better vision underwater, 3 wide view cameras.',
+                                  spec: 'Programming was done in MikroC',
                                 },
-
+                                {
+                                  spec: 'Hardware was designed in Proteus',
+                                },
+                                {
+                                  spec: 'Video Recording Unit<ul><li>4 Channel A/V to USB converter</li><li>Maximum 50 fps</li><li>One channel real time</li><li>4 channel unreal time</li></ul>',
+                                },
+                                {
+                                  spec: 'Tether<ul><li>16 meter cable</li><li>12 terminals each 1.5mm diameter</li><li>Terminals have color code</li><li>All terminals are grouped in a single black PVC cover</li></ul>',
+                                },
+                                {
+                                  spec: 'Distribution of terminals<ul><li>3 terminals for 48V</li><li>4 terminals for GND</li><li>2 terminals for communication signals</li><li>1 terminal 12V from ROV to the control outside the ROV</li><li>2 terminals for the vertical thruster</li></ul>'
+                                },
                               ],
                             },
 
@@ -404,7 +419,18 @@ var context = {
                             {
                               img: 'img/products/admiral1.jpg',
                             },
-
+                            {
+                              img: 'img/products/admiral1-0.jpg',
+                            },
+                            {
+                              img: 'img/products/admiral1.png',
+                            },
+                            {
+                              img: 'img/products/admiral1-0.png',
+                            },
+                            {
+                              img: 'img/products/admiral1-1.png',
+                            },
                           ],
                           relatedItem: [
                             {
