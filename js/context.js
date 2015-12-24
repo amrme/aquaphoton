@@ -598,6 +598,6 @@ var context = {
   upcomingCourses: [{
     title: "How to build your own ROV",
     location: "Alexandria, EG",
-    date: "Starting 24/1/2016",
+    date: "Starting Soon",
   }, ],
 };
