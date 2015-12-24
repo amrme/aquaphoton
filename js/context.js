@@ -94,7 +94,7 @@ var context = {
       img: "img/products/aquatint.jpg",
       name: "Aquatint Pro",
       price: '$12,500',
-      url: "0.html",
+  
     }, ],
   }, ],
   leaders: [{
