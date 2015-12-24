@@ -145,7 +145,7 @@ var context = {
                         {
                           name:'Mohamed Farouk',
                           title: 'Co-Founder & CFO',
-                          img: 'img/leadership/none.png',
+                          img: 'img/leadership/farouk.jpg',
                           linkedin: '',
                         },
                         {
@@ -182,22 +182,100 @@ var context = {
                       team16: {
                         members: [
                           {
-                          name:'Moataz Tarek',
-                          title: 'Co-Founder & CEO',
-                          img: 'img/leadership/moataz.jpg',
-                          linkedin: 'https://eg.linkedin.com/in/moataz-sadek-457119a1',
+                          name: 'Abdelhamid Kassem',
+                          title: 'CEO',
+                          img: 'img/members/abdelhamid.jpg',
+                          linkedin: 'https://eg.linkedin.com/in/abdelhamidkassem',
                         },
                         {
-                          name:'Mohamed Mosaad',
-                          title: 'Co-Founder & Mechanical Engineer',
-                          img: 'img/leadership/mosaad.jpg',
-                          linkedin: 'https://eg.linkedin.com/in/mohamed-mosaad-el-kasaby-1733a482',
+                          name:'Ahmed Al-Tawil',
+                          title: 'CTO [Head of Electrical Team]',
+                          img: 'img/members/tawil.jpg',
                         },
                         {
-                          name:'Mohamed Hassan',
-                          title: 'Co-Founder & Electrical Engineer',
-                          img: 'img/leadership/msaad.jpg',
-                          linkedin: '',
+                          name:'Mostafa Abdelhamid',
+                          title: 'CTO [Head of Mechanical Team]',
+                          img: 'img/members/mostafa.jpg',
+                        },
+                        {
+                          name:'Ahmed Youssef',
+                          title: 'Electrical Team member & Head of Media Department',
+                          img: 'img/members/youssef.jpg',
+                        },
+                        {
+                          name:'Abdel Rahman Shabaan',
+                          title: 'Mechanical Team Memeber',
+                          img: 'img/members/boudy.jpg',
+                        },
+                        {
+                          name:'Mohamed Khaled',
+                          title: 'Electrical Team Member',
+                          img: 'img/members/tahona.jpg',
+                        },
+                        {
+                          name:'Ahmed ElSayed',
+                          title: 'Electrical Team Member',
+                          img: 'img/members/sayed.jpg',
+                        },
+                        {
+                          name:'Amr Sekilly',
+                          title: 'Electrical Team Member',
+                          img: 'img/members/sekilly.jpg',
+                        },
+                        {
+                          name:'Karim Tarek',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/karim.jpg',
+                        },
+                        {
+                          name:'Ahmed Abdelmeged',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/mego.jpg',
+                        },
+                        {
+                          name:'Samer Abaza',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/samer.jpg',
+                        },
+                        {
+                          name:'Ameer Mamdouh',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/ameer.jpg',
+                        },
+                        {
+                          name:'Mostafa Kahla',
+                          title: 'Electrical Team Member',
+                          img: 'img/members/kahla.jpg',
+                        },
+                        {
+                          name:'Hassen Mohamed',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/hassen.jpg',
+                        },
+                        {
+                          name:'Fouad Elsafwany',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/foad.jpg',
+                        },
+                        {
+                          name:'Amr Rafaat',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/raafat.jpg',
+                        },
+                        {
+                          name:'Omar Kassem',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/okassem.jpg',
+                        },
+                        {
+                          name:'Omar Nagib',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/nagib.jpg',
+                        },
+                        {
+                          name:'Ahmed Shimy',
+                          title: 'Mechanical Team Member',
+                          img: 'img/members/shimy.jpg',
                         },
                   ]
                     },
