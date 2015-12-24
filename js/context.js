@@ -322,6 +322,53 @@ var context = {
     },
    ]
   },
+  team13: {
+    members: [{
+      name: 'Abd Elrahman Samir',
+      title: 'Mechanical Team Member',
+      img: 'img/leadership/none.png',
+    }, {
+      name: 'Omar Ibn Elkhatab',
+      title: 'Electrical Team Member',
+      img: 'img/leadership/omar.jpg',
+    }, {
+      name: 'Mostafa Hafez',
+      title: 'CTO [Head of Mechanical Team]',
+      img: 'img/members/hafez.jpg',
+    }, {
+      name: 'Mohamed Zaytoon',
+      title: 'Electrical Team Member',
+      img: 'img/leadership/none.png',
+    }, {
+      name: 'Ahmed Saeed',
+      title: 'Pilot & Mechanical Team Member',
+      img: 'img/leadership/ahmedSaeed.jpg',
+    }, {
+      name: 'Mohamed Mosaad',
+      title: 'Mechanical Team Member',
+      img: 'img/leadership/mosaad.jpg',
+    }, {
+      name: 'Mohamed Farouk',
+      title: 'Mechanical Team Member',
+      img: 'img/leadership/farouk.jpg',
+    },
+    {
+      name: 'Mostafa Abdelaal',
+      title: 'Mechanical Team Member',
+      img: 'img/leadership/none.png',
+    },
+    {
+      name: 'Moataz Tarek',
+      title: 'CEO',
+      img: 'img/leadership/moataz.jpg',
+    },
+    {
+      name: 'Mohamed Saad',
+      title: 'CTO [Head of Electrical Team]',
+      img: 'img/leadership/msaad.jpg',
+    },
+   ]
+  },
   teams: [{
     title: "2016 Team",
     img: "img/teams/team16.jpg",
