@@ -53,7 +53,7 @@ $(document).ready(function() {
   if ($('#first-section').length) {
     $(document).scroll(function() {
       currentScroll = $(this).scrollTop();
-      if (currentScroll + 10 > $('#first-section').offset().top) {
+      if (currentScroll + 500 > $('#first-section').offset().top) {
         $('.navbar-fixed-top').addClass('top-nav-collapse');
       } else {
         $('.navbar-fixed-top').removeClass('top-nav-collapse');
