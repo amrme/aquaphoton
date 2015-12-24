@@ -185,7 +185,6 @@ var context = {
                           name: 'Abdelhamid Kassem',
                           title: 'CEO',
                           img: 'img/members/abdelhamid.jpg',
-                          linkedin: 'https://eg.linkedin.com/in/abdelhamidkassem',
                         },
                         {
                           name:'Ahmed Al-Tawil',
@@ -279,6 +278,85 @@ var context = {
                         },
                   ]
                     },
+                    team15: {
+                      members: [
+                        {
+                        name: 'Abdelhamid Kassem',
+                        title: 'CEO',
+                        img: 'img/members/abdelhamid.jpg',
+                      },
+                      {
+                        name:'Ahmed Al-Tawil',
+                        title: 'CTO [Head of Electrical Team]',
+                        img: 'img/members/tawil.jpg',
+                      },
+                      {
+                        name:'Mostafa Abdelhamid',
+                        title: 'Mechanical Team Member',
+                        img: 'img/members/mostafa.jpg',
+                      },
+                      {
+                        name:'Abdel Rahman Shabaan',
+                        title: 'Mechanical Team Memeber',
+                        img: 'img/members/boudy.jpg',
+                      },
+                      {
+                        name:'Mohamed Khaled',
+                        title: 'Electrical Team Member',
+                        img: 'img/members/tahona.jpg',
+                      },
+                      {
+                        name:'Karim Tarek',
+                        title: 'Mechanical Team Member',
+                        img: 'img/members/karim.jpg',
+                      },
+                      {
+                        name:'Ahmed Abdelmeged',
+                        title: 'Mechanical Team Member',
+                        img: 'img/members/mego.jpg',
+                      },
+                      {
+                        name:'Ameer Mamdouh',
+                        title: 'Mechanical Team Member',
+                        img: 'img/members/ameer.jpg',
+                      },
+                      {
+                        name:'Mostafa Kahla',
+                        title: 'Electrical Team Member',
+                        img: 'img/members/kahla.jpg',
+                      },
+                      {
+                        name:'Hassen Mohamed',
+                        title: 'Mechanical Team Member',
+                        img: 'img/members/hassen.jpg',
+                      },
+                      {
+                        name:'Ahmed Shimy',
+                        title: 'Mechanical Team Member',
+                        img: 'img/members/shimy.jpg',
+                      },
+                      {
+                        name:'Karim Genena',
+                        title: 'Electrical Team Member',
+                        img: 'img/members/genena.jpg',
+                      },
+                      {
+                        name:'Ahmed Mohamed Mekawy',
+                        title: 'CTO [Head of Mechanical Team]',
+                        img: 'img/members/mekawy.jpg',
+                      },
+                      {
+                        name:'Ahmed El-Engbawy',
+                        title: 'Electrical Team Member',
+                        img: 'img/leadership/none.png',
+                      },
+                      {
+                        name:'Adham Shebl',
+                        title: 'Mechanical Team Member',
+                        img: 'img/leadership/none.png',
+                      },
+                ]
+                  },
                       teams: [
                         {
                           title: "2016 Team",

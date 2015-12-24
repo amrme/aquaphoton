@@ -73,7 +73,7 @@
       <div class="col-xs-12">
         <ol class="breadcrumb">
           <li><a href="team.html#teams">Teams</a></li>
-          <li class="active">2016's Team</li>
+          <li class="active">2015's Team</li>
         </ol>
       </div>
     </div>
@@ -204,17 +204,17 @@
 
     var source = $('#leadership-template').html();
     var template = Handlebars.compile(source);
-    var numArr = random_member(context.team16.members);
-    newTeam16 = [];
+    var numArr = random_member(context.team15.members);
+    newTeam15 = [];
 
-    for(var i = 0; i < context.team16.members.length; i++)
+    for(var i = 0; i < context.team15.members.length; i++)
     {
-      newTeam16.push(context.team16.members[numArr[i]]);
+      newTeam15.push(context.team15.members[numArr[i]]);
     }
-    context.team16.members = newTeam16;
+    context.team15.members = newTeam15;
 
-    var leadership  = template(context.team16);
-    // console.log(random_member(context.team16.members));d
+    var leadership  = template(context.team15);
+
     $('#leader').html(leadership);
 
   </script>
