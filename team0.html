@@ -1,4 +1,4 @@
-<!-- Team page admiral II -->
+<!-- Team page admiral III -->
 
 <!DOCTYPE html>
 
@@ -56,8 +56,8 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="team.html#about" data-scroll="about"><i class="fa fa-info-circle"></i> About</a></li>
-          <li><a href="team.html" data-scroll="teams"><i class="fa fa-users"></i> Team</a></li>
-          <li class="active"><a href="team.html#rovs" data-scroll="rovs"><i class="fa fa-wrench"></i> ROVs</a></li>
+          <li class="active"><a href="team.html" data-scroll="teams"><i class="fa fa-users"></i> Team</a></li>
+          <li><a href="team.html#rovs" data-scroll="rovs"><i class="fa fa-wrench"></i> ROVs</a></li>
           <li><a href="team.html#awards" data-scroll="awards"><i class="fa fa-trophy"></i> Awards</a></li>
           <li><a href="team.html#contact" data-scroll="contact"><i class="fa fa-envelope-o"></i> Contact</a></li>
         </ul>
@@ -135,92 +135,7 @@
     </div>
   </footer>
 
-    <!-- rov page's template -->
-    <script id="rov-template" type="text/x-handlebars-template">
-          <!-- breadcrumb -->
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12">
-                <ol class="breadcrumb">
-                  <li><a href="team.html#rovs">ROVs</a></li>
-                  <li class="active">{{title}}</li>
-                </ol>
-              </div>
-            </div>
-          </div> <!-- /container -->
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12">
-                <h2 class="text-center product-title">{{title}} <small class="label label-success">{{price}}</small></h2>
-                <hr>
-              </div> <!-- /col-xs-12 -->
-            </div>
-          </div> <!-- /container -->
-          <div class="container">
-            <!-- list of images -->
-            <div class="row">
-              <div class="col-md-12">
-                <div class="alert alert-success alert-dismissible text-center" style="font-size:16px;" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true" style="font-size:25px;">&times;</span></button>Click on any image to view it!</div>
-                {{#each images}}
-                  <div class="col-sm-2 col-xs-3">
-                    <img src="{{img}}" class="img-responsive product-thumbnail-small">
-                  </div> <!-- / image thumbnail -->
-                {{/each}}
-              </div> <!-- / list of images -->
-            </div>
-            <hr>
-            </div> <!-- /container -->
-            <div class="container">
-              <!--  large image -->
-              <div class="row">
-                <div class="col-md-8 col-md-push-4">
-                  <img src="{{img}}" class="img-responsive" id="large-product-img">
-                </div> <!-- / large image -->
-                <div class="col-md-4 col-md-pull-8">
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <h4 class="text-center">Related ROVs</h4>
-                    </div>
-                  </div>
-                  <!-- loop over all related products -->
-                  {{#each relatedItem}}
-                    <div class="row well well-sm">
-                      <!-- img of the item -->
-                      <div class="col-xs-4 pull-left">
-                        <a href="{{url}}"><img src="{{img}}" class="img-responsive"></a>
-                      </div>
-                      <!-- Item's name -->
-                      <div class="col-xs-8 pull-right">
-                        <h3><a href="{{url}}">{{name}}</a><br><small class="badge">{{price}}</small></h3>
-                      </div>
-                    </div>
-                  {{/each}}
-                </div> <!-- / related products -->
-              </div>
-            </div> <!-- /container -->
-            <!-- product description -->
-            <div class="container">
-              <div class="row description">
-                <div class="col-sm-1">
-                </div>
-                <div class="col-sm-10">
-                  <!-- put description here -->
-                  {{#each description}}
-                    <div class="panel panel-info">
-                      <div class="panel-heading">{{title}}</div>
-                      <div class="panel-body">
-                        {{#each point}}
-                          <li>{{spec}}</li>
-                        {{/each}}
-                      </div>
-                    </div>
-                  {{/each}}
-                </div>
-                <div class="col-sm-1">
-                </div>
-              </div> <!-- /row -->
-            </div> <!-- /container --->
-    </script>
+
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/components-bootstrap/js/bootstrap.min.js"></script>
@@ -232,10 +147,6 @@
   <!-- append html templates -->
   <script type="text/javascript">
 
-    source = $('#rov-template').html();
-    var rovTemplate = Handlebars.compile(source);
-    var product    = rovTemplate(context.academyrovs[1]);
-    $('#zero').html(product);
   </script>
 
 </body>
