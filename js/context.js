@@ -148,7 +148,7 @@ var context = {
       img: 'img/members/mostafa.jpg',
     }, {
       name: 'Ahmed Youssef',
-      title: 'Electrical Team member & Head of Media Department',
+      title: 'Electrical Team member',
       img: 'img/members/youssef.jpg',
     }, {
       name: 'Abdel Rahman Shabaan',
