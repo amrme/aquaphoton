@@ -228,13 +228,13 @@ var context = {
           spec: 'Manual Hand reel with slip ring (for tether management)'
         },
         {
-          spec: 'Video overlay system for control unit : o Date and time'
+          spec: 'Video overlay system for control unit: Date and time'
         },
         {
           spec: 'Compass heading'
         },
         {
-          spec: 'Depth'
+          spec: 'Depth Sensor'
         },
         {
           spec: 'Camera tilt position'
