@@ -92,45 +92,47 @@ html {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5%;
 }
-/* line 76, less/main.less */
+/* line 78, less/main.less */
 .navbar-custom .nav li a:hover {
   color: rgba(0, 0, 0, 0.8);
   outline: none;
   background-color: transparent;
   text-decoration: underline;
 }
-/* line 82, less/main.less */
+/* line 84, less/main.less */
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
-/* line 88, less/main.less */
+/* line 90, less/main.less */
 .navbar-custom .nav li.active {
   outline: none;
 }
-/* line 90, less/main.less */
+/* line 92, less/main.less */
 .navbar-custom .nav li.active a {
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 92, less/main.less */
+/* line 94, less/main.less */
 .navbar-custom .nav li.active a:hover {
   color: black;
 }
-/* line 97, less/main.less */
+/* line 99, less/main.less */
 .navbar-custom .nav li.active ul a {
   background-color: transparent;
 }
 @media (min-width: 768px) {
-  /* line 104, less/main.less */
+  /* line 106, less/main.less */
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
     background: transparent;
   }
-  /* line 110, less/main.less */
+  /* line 112, less/main.less */
   .navbar-custom .navbar-brand .brand-logo {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -139,30 +141,30 @@ html {
     transition: all 0.3s ease-in-out;
     max-height: 100px;
   }
-  /* line 123, less/main.less */
+  /* line 125, less/main.less */
   .navbar-custom li {
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  /* line 126, less/main.less */
+  /* line 128, less/main.less */
   .navbar-custom li a {
     font-size: 1.5vw;
   }
-  /* line 137, less/main.less */
+  /* line 139, less/main.less */
   .navbar-custom.top-nav-collapse {
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
-  /* line 142, less/main.less */
+  /* line 144, less/main.less */
   .navbar-custom.top-nav-collapse .brand-logo {
     display: inline;
     margin-top: -15px;
     margin-left: 20px;
     max-height: 50px;
   }
-  /* line 148, less/main.less */
+  /* line 150, less/main.less */
   .navbar-custom.top-nav-collapse a {
     color: black;
     font-weight: normal;
@@ -170,7 +172,7 @@ html {
   }
 }
 /* toggle navbar button on hover */
-/* line 158, less/main.less */
+/* line 160, less/main.less */
 .dropdown-menu .sub-menu {
   left: 100%;
   position: absolute;
@@ -178,21 +180,21 @@ html {
   visibility: hidden;
   margin-top: -1px;
 }
-/* line 166, less/main.less */
+/* line 168, less/main.less */
 .dropdown-menu li:hover .sub-menu {
   visibility: visible;
 }
-/* line 170, less/main.less */
+/* line 172, less/main.less */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-/* line 174, less/main.less */
+/* line 176, less/main.less */
 .nav-tabs .dropdown-menu,
 .nav-pills .dropdown-menu,
 .navbar .dropdown-menu {
   margin-top: 0;
 }
-/* line 178, less/main.less */
+/* line 180, less/main.less */
 .navbar .sub-menu:before {
   border-bottom: 7px solid transparent;
   border-left: none;
@@ -201,7 +203,7 @@ html {
   left: -7px;
   top: 10px;
 }
-/* line 186, less/main.less */
+/* line 188, less/main.less */
 .navbar .sub-menu:after {
   border-top: 6px solid transparent;
   border-left: none;
@@ -211,7 +213,7 @@ html {
   top: 11px;
   left: -6px;
 }
-/* line 197, less/main.less */
+/* line 199, less/main.less */
 .intro {
   display: table;
   height: 100%;
@@ -224,40 +226,40 @@ html {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 210, less/main.less */
+/* line 212, less/main.less */
 .intro .header-logo {
   transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   -webkit-transform: scale(0.5, 0.5);
 }
-/* line 215, less/main.less */
+/* line 217, less/main.less */
 .intro .main-heading {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 10vw;
   color: #037B9D;
   line-height: 80%;
 }
-/* line 220, less/main.less */
+/* line 222, less/main.less */
 .intro .main-heading small {
   color: #00B0A3;
   letter-spacing: 0.1vw;
 }
 @media (min-width: 768px) {
-  /* line 224, less/main.less */
+  /* line 226, less/main.less */
   .intro .main-heading {
     font-size: 5vw;
   }
 }
-/* line 228, less/main.less */
+/* line 230, less/main.less */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 231, less/main.less */
+/* line 233, less/main.less */
 .intro .intro-body .carousel-inner {
   position: relative;
 }
-/* line 233, less/main.less */
+/* line 235, less/main.less */
 .intro .intro-body .carousel-inner img {
   width: 100%;
   -moz-filter: brightness(0.2);
@@ -270,18 +272,18 @@ html {
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 }
 @media only screen and (max-width: 959px) {
-  /* line 239, less/main.less */
+  /* line 241, less/main.less */
   .intro .intro-body .carousel-inner img {
     height: 700px;
   }
 }
-/* line 256, less/main.less */
+/* line 258, less/main.less */
 .intro .intro-body .brand-content {
   position: absolute;
   top: 70px;
 }
 @media (min-width: 768px) {
-  /* line 263, less/main.less */
+  /* line 265, less/main.less */
   .intro .header-logo {
     transform: scale(0.3, 0.3);
     -ms-transform: scale(0.3, 0.3);
@@ -290,39 +292,39 @@ html {
     margin-bottom: -15%;
   }
 }
-/* line 274, less/main.less */
+/* line 276, less/main.less */
 .section-title {
   margin-top: 15%;
   font-family: 'Pathway Gothic One', sans-serif;
 }
-/* line 283, less/main.less */
+/* line 285, less/main.less */
 #about .panel .panel-heading .panel-title a {
   font-size: 1.3em;
 }
-/* line 285, less/main.less */
+/* line 287, less/main.less */
 #about .panel .panel-heading .panel-title a:active,
 #about .panel .panel-heading .panel-title a:focus,
 #about .panel .panel-heading .panel-title a:visited {
   text-decoration: none;
 }
-/* line 291, less/main.less */
+/* line 293, less/main.less */
 #about .panel .panel-body {
   font-family: sans-serif;
   font-size: 1.3em;
 }
-/* line 300, less/main.less */
+/* line 302, less/main.less */
 #service .product-thumbnail .imgWrap {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 303, less/main.less */
+/* line 305, less/main.less */
 #service .product-thumbnail .imgWrap .service-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 307, less/main.less */
+/* line 309, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription {
   position: absolute;
   top: 0;
@@ -339,7 +341,7 @@ html {
   opacity: 0;
   -webkit-transition: visibility opacity 0.2s;
 }
-/* line 320, less/main.less */
+/* line 322, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service {
   position: absolute;
   top: 30%;
@@ -348,40 +350,40 @@ html {
   left: 0;
   overflow: hidden;
 }
-/* line 328, less/main.less */
+/* line 330, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content .img-title {
   font-size: 150%;
 }
-/* line 332, less/main.less */
+/* line 334, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content p a {
   font-size: 20px;
 }
-/* line 340, less/main.less */
+/* line 342, less/main.less */
 #service .product-thumbnail .imgWrap:hover .imgDescription {
   visibility: visible;
   transition: all 0.2s ease-in-out;
   opacity: 1;
   z-index: 99;
 }
-/* line 353, less/main.less */
+/* line 355, less/main.less */
 .modal-content .modal-body p {
   margin-top: 5%;
   margin-left: 3%;
   margin-right: 3%;
   font-size: 20px;
 }
-/* line 362, less/main.less */
+/* line 364, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 368, less/main.less */
+/* line 370, less/main.less */
 #leader .leader-div {
   overflow: hidden;
 }
-/* line 370, less/main.less */
+/* line 372, less/main.less */
 #leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
@@ -389,22 +391,22 @@ html {
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 374, less/main.less */
+/* line 376, less/main.less */
 #leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 378, less/main.less */
+/* line 380, less/main.less */
 #leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 50px;
 }
-/* line 381, less/main.less */
+/* line 383, less/main.less */
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
 /* stye academy section */
-/* line 389, less/main.less */
+/* line 391, less/main.less */
 #academy {
   display: table;
   height: 70%;
@@ -415,15 +417,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 399, less/main.less */
+/* line 401, less/main.less */
 #academy .floating-section {
   color: white;
 }
-/* line 402, less/main.less */
+/* line 404, less/main.less */
 #academy .floating-section .section-head {
   margin-top: 10%;
 }
-/* line 404, less/main.less */
+/* line 406, less/main.less */
 #academy .floating-section .section-head .heading {
   background-color: rgba(0, 0, 0, 0.4);
   padding-left: 10px;
@@ -431,7 +433,7 @@ html {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 408, less/main.less */
+/* line 410, less/main.less */
 #academy .floating-section .section-body {
   background-color: rgba(0, 0, 0, 0.5);
   padding-left: 10px;
@@ -441,89 +443,89 @@ html {
   font-size: 22px;
 }
 /* stye the team's section */
-/* line 417, less/main.less */
+/* line 419, less/main.less */
 .academy-section {
   margin-bottom: 10%;
   overflow: hidden;
 }
-/* line 419, less/main.less */
+/* line 421, less/main.less */
 .academy-section img {
   border-radius: 5%;
 }
-/* line 421, less/main.less */
+/* line 423, less/main.less */
 .academy-section img:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.1);
 }
-/* line 424, less/main.less */
+/* line 426, less/main.less */
 .academy-section img:active {
   transition: all 0.2s ease-in-out;
   transform: scale(1);
 }
-/* line 429, less/main.less */
+/* line 431, less/main.less */
 .academy-section .section-head {
   margin-top: 3%;
 }
-/* line 435, less/main.less */
+/* line 437, less/main.less */
 .academy-section .section-body {
   font-size: 20px;
 }
 /* stye the courses */
 /* footer styles */
-/* line 496, less/main.less */
+/* line 498, less/main.less */
 footer {
   padding-top: 20px;
   padding-bottom: 50px;
   background: rgba(3, 123, 157, 0.3);
 }
-/* line 500, less/main.less */
+/* line 502, less/main.less */
 footer .footer-body {
   color: black;
   font-family: sans-serif;
 }
-/* line 503, less/main.less */
+/* line 505, less/main.less */
 footer .footer-body .footer-logo {
   max-height: 100px;
   margin-bottom: 10px;
 }
-/* line 507, less/main.less */
+/* line 509, less/main.less */
 footer .footer-body ul {
   font-size: 15px;
   line-height: 30px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
-/* line 513, less/main.less */
+/* line 515, less/main.less */
 footer .footer-body ul li a {
   font-weight: normal;
   color: grey;
 }
-/* line 516, less/main.less */
+/* line 518, less/main.less */
 footer .footer-body ul li a:hover {
   color: #037B9D;
 }
 /* contact section style */
-/* line 526, less/main.less */
+/* line 528, less/main.less */
 #contact {
   padding-top: 6%;
   padding-bottom: 3%;
 }
-/* line 529, less/main.less */
+/* line 531, less/main.less */
 #contact #contactform,
 #contact #contactformTeam {
   margin-bottom: 5%;
   margin-top: 2%;
 }
-/* line 532, less/main.less */
+/* line 534, less/main.less */
 #contact #contactform .contactform,
 #contact #contactformTeam .contactform {
   width: 100%;
 }
-/* line 536, less/main.less */
+/* line 538, less/main.less */
 #contact .address {
   font-family: sans-serif;
 }
-/* line 539, less/main.less */
+/* line 541, less/main.less */
 #contact #map-container,
 #contact #map-container-team {
   width: 100%;
@@ -532,85 +534,85 @@ footer .footer-body ul li a:hover {
   margin-bottom: 15px;
   border: 2px solid #fff;
 }
-/* line 549, less/main.less */
+/* line 551, less/main.less */
 #awards .award-year {
   color: black;
   font-size: 1.3em;
 }
-/* line 552, less/main.less */
+/* line 554, less/main.less */
 #awards .award-year:active,
 #awards .award-year:focus,
 #awards .award-year:visited {
   text-decoration: none;
 }
-/* line 561, less/main.less */
+/* line 563, less/main.less */
 #zero .breadcrumb li {
   font-size: 1.3em;
 }
-/* line 565, less/main.less */
+/* line 567, less/main.less */
 #zero .product-title {
   color: black;
   font-size: 2em;
   font-family: sans-serif;
   margin-bottom: 40px;
 }
-/* line 569, less/main.less */
+/* line 571, less/main.less */
 #zero .product-title small {
   color: white;
   font-size: 0.6em;
 }
-/* line 575, less/main.less */
+/* line 577, less/main.less */
 #zero .product-thumbnail-small {
   max-height: 70px;
 }
-/* line 578, less/main.less */
+/* line 580, less/main.less */
 #zero .product-thumbnail-small:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.5);
 }
-/* line 582, less/main.less */
+/* line 584, less/main.less */
 #zero .description {
   margin-top: 50px;
 }
-/* line 584, less/main.less */
+/* line 586, less/main.less */
 #zero .description .panel-heading {
   font-size: 1.5em;
   font-family: fantasy;
 }
-/* line 588, less/main.less */
+/* line 590, less/main.less */
 #zero .description .panel-body {
   font-size: 1.2em;
   font-family: sans-serif;
 }
-/* line 596, less/main.less */
+/* line 598, less/main.less */
 .highlights .fa {
   font-size: 20px;
   color: rgba(0, 128, 0, 0.4);
 }
-/* line 600, less/main.less */
+/* line 602, less/main.less */
 .highlights .main-heading {
   font-family: serif;
   text-transform: uppercase;
 }
-/* line 603, less/main.less */
+/* line 605, less/main.less */
 .highlights .main-heading a {
   color: #037B9D;
 }
-/* line 605, less/main.less */
+/* line 607, less/main.less */
 .highlights .main-heading a:active,
 .highlights .main-heading a:hover,
 .highlights .main-heading a:visited {
   color: #00B0A3;
   text-decoration: none;
 }
-/* line 611, less/main.less */
+/* line 613, less/main.less */
 .highlights .highlight-img {
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
   position: relative;
   z-index: 90;
 }
-/* line 617, less/main.less */
+/* line 619, less/main.less */
 .highlights .caption {
   position: absolute;
   top: 50%;
@@ -620,96 +622,96 @@ footer .footer-body ul li a:hover {
   font-size: 1.5em;
   font-family: fantasy;
 }
-/* line 626, less/main.less */
+/* line 628, less/main.less */
 .highlights .caption .fa {
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 630, less/main.less */
+/* line 632, less/main.less */
 .highlights .date {
   font-family: sans-serif;
   font-size: 10px;
 }
-/* line 633, less/main.less */
+/* line 635, less/main.less */
 .highlights .date .fa {
   color: rgba(0, 0, 0, 0.5);
   font-size: 11px;
 }
-/* line 638, less/main.less */
+/* line 640, less/main.less */
 .highlights .location {
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
   text-align: center;
 }
-/* line 647, less/main.less */
+/* line 649, less/main.less */
 .upcoming .fa {
   font-size: 20px;
   color: rgba(255, 0, 0, 0.6);
 }
-/* line 651, less/main.less */
+/* line 653, less/main.less */
 .upcoming .main-heading {
   font-family: serif;
   text-transform: uppercase;
 }
-/* line 654, less/main.less */
+/* line 656, less/main.less */
 .upcoming .main-heading a {
   color: #037B9D;
 }
-/* line 656, less/main.less */
+/* line 658, less/main.less */
 .upcoming .main-heading a:active,
 .upcoming .main-heading a:hover,
 .upcoming .main-heading a:visited {
   color: #00B0A3;
   text-decoration: none;
 }
-/* line 662, less/main.less */
+/* line 664, less/main.less */
 .upcoming .date {
   font-family: sans-serif;
   font-size: 13px;
 }
-/* line 665, less/main.less */
+/* line 667, less/main.less */
 .upcoming .date .fa {
   color: rgba(0, 0, 0, 0.5);
   font-size: 11px;
 }
-/* line 669, less/main.less */
+/* line 671, less/main.less */
 .upcoming .date .fa-calendar {
   color: green;
 }
-/* line 673, less/main.less */
+/* line 675, less/main.less */
 .upcoming .location {
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
   text-align: center;
 }
-/* line 679, less/main.less */
+/* line 681, less/main.less */
 .upcoming .btn {
   margin-top: 5px;
   border-radius: 0;
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 684, less/main.less */
+/* line 686, less/main.less */
 .upcoming .btn .fa {
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
 }
-/* line 691, less/main.less */
+/* line 693, less/main.less */
 .details {
   margin-bottom: 100px;
 }
-/* line 692, less/main.less */
+/* line 694, less/main.less */
 .details .main-heading {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-transform: uppercase;
 }
-/* line 696, less/main.less */
+/* line 698, less/main.less */
 .details img {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-/* line 700, less/main.less */
+/* line 702, less/main.less */
 .details .post-body {
   background-color: rgba(3, 123, 157, 0.04);
   border-bottom-left-radius: 5%;
@@ -719,29 +721,29 @@ footer .footer-body ul li a:hover {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-/* line 708, less/main.less */
+/* line 710, less/main.less */
 .details .post-body .date {
   font-family: sans-serif;
   font-size: 10px;
 }
-/* line 711, less/main.less */
+/* line 713, less/main.less */
 .details .post-body .date .fa {
   color: rgba(0, 0, 0, 0.5);
   font-size: 11px;
 }
-/* line 716, less/main.less */
+/* line 718, less/main.less */
 .details .post-body .location {
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
   text-align: center;
 }
-/* line 722, less/main.less */
+/* line 724, less/main.less */
 .details .post-body .about {
   font-family: sans-serif;
   font-size: 14px;
 }
-/* line 727, less/main.less */
+/* line 729, less/main.less */
 .details .btn {
   font-family: monospace;
   font-size: 14px;
@@ -749,12 +751,12 @@ footer .footer-body ul li a:hover {
   border-radius: 0;
 }
 /*Change icons size here*/
-/* line 737, less/main.less */
+/* line 739, less/main.less */
 .social-icons .fa {
   font-size: 0.7em !important;
 }
 /*Change icons circle size and color here*/
-/* line 741, less/main.less */
+/* line 743, less/main.less */
 .social-icons .fa {
   width: 30px !important;
   height: 30px !important;
@@ -768,7 +770,7 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out !important;
   transition: all 0.3s ease-in-out !important;
 }
-/* line 753, less/main.less */
+/* line 755, less/main.less */
 .social-icons .fa:hover {
   -webkit-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;
@@ -777,15 +779,15 @@ footer .footer-body ul li a:hover {
   transform: scale(1.2) !important;
   background-color: rgba(0, 176, 163, 0.5) !important;
 }
-/* line 762, less/main.less */
+/* line 764, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50% !important;
 }
-/* line 765, less/main.less */
+/* line 767, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE !important;
 }
-/* line 768, less/main.less */
+/* line 770, less/main.less */
 .social-icons .fa-facebook {
   background-color: #3C599F !important;
 }
