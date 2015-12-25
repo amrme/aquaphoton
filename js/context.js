@@ -410,7 +410,7 @@ var context = {
   }, {
     name: 'Mostafa Abd Elaal',
     title: 'Co-Founder & R&D Director',
-    img: 'img/leadership/none.png',
+    img: 'img/leadership/mostafa.jpg',
     linkedin: '',
   }, {
     name: 'Mohamed Mosaad',
@@ -596,9 +596,9 @@ var context = {
       img: 'img/leadership/farouk.jpg',
     },
     {
-      name: 'Mostafa Abdelaal',
+      name: 'Mostafa Abd Elaal',
       title: 'Mechanical Team Member',
-      img: 'img/leadership/none.png',
+      img: 'img/leadership/mostafa.jpg',
     },
     {
       name: 'Moataz Tarek',
@@ -643,9 +643,9 @@ var context = {
       img: 'img/leadership/farouk.jpg',
     },
     {
-      name: 'Mostafa Abdelaal',
+      name: 'Mostafa Abd Elaal',
       title: 'Mechanical Team Member',
-      img: 'img/leadership/none.png',
+      img: 'img/leadership/mostafa.jpg',
     },
     {
       name: 'Moataz Tarek',
