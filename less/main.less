@@ -237,16 +237,19 @@ html {
         }
         .carousel-inner {
           position:relative;
+
           img {
-            min-width:100%;
+
             -moz-filter:brightness(0.2);
             -webkit-filter:brightness(0.2);
             filter: brightness(0.2);
             // mobile first
-            min-height: 580px;
+            height: 780px;
+            -object-fit: contain;
             // desktopb and tablets
           @media(min-width:768px) {
             height: 800px;
+            width:100%;
           }
           }
         }
