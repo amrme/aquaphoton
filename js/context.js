@@ -10,7 +10,7 @@ var context = {
     content: "Looking forward to being a leading company in the ROV and marine technology in MENA region by providing and developing products, services and training for all technologies related to underwater and marine technologies.",
   }, {
     title: 'Mission',
-    content: "Prove efficiency for our ROV technology in implementing inspection tasks underwater with high performance and offer our services to the growing offshore industry in Egypt. And also preparing a new generation of engineers capable of coping up with the advancements happening in the underwater marine technologies.",
+    content: "Prove efficiency for our ROV technology in implementing inspection tasks underwater with high performance and offer our services to the growing offshore industry in Egypt.  Also preparing a new generation of engineers capable of coping up with the advancements happening in the underwater marine technologies.",
   }, ],
   aboutTeam: [{
     title: 'Mission',
@@ -408,6 +408,12 @@ var context = {
     img: 'img/leadership/omar.jpg',
     linkedin: 'https://eg.linkedin.com/in/omarzahra',
   },
+  {
+    name: 'Mohamed Hassan',
+    title: 'Co-Founder & CTO',
+    img: 'img/leadership/msaad.jpg',
+    linkedin: '',
+  }, 
    {
     name: 'Mostafa Abd Elaal',
     title: 'Co-Founder & R&D Director',
@@ -418,11 +424,6 @@ var context = {
     title: 'Co-Founder & Mechanical Engineer',
     img: 'img/leadership/mosaad.jpg',
     linkedin: 'https://eg.linkedin.com/in/mohamed-mosaad-el-kasaby-1733a482',
-  }, {
-    name: 'Mohamed Hassan',
-    title: 'Co-Founder & Electrical Engineer',
-    img: 'img/leadership/msaad.jpg',
-    linkedin: '',
   }, ],
   team16: {
     members: [{
