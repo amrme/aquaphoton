@@ -413,7 +413,7 @@ var context = {
     title: 'Co-Founder & CTO',
     img: 'img/leadership/msaad.jpg',
     linkedin: '',
-  }, 
+  },
    {
     name: 'Mostafa Abd Elaal',
     title: 'Co-Founder & R&D Director',
@@ -571,7 +571,7 @@ var context = {
     members: [{
       name: 'Abd Elrahman Samir',
       title: 'CEO',
-      img: 'img/leadership/none.png',
+      img: 'img/members/abdelrahmanSamir.jpg',
     }, {
       name: 'Omar Ibn Elkhatab',
       title: 'CTO [Head of Electrical Team]',
@@ -618,7 +618,7 @@ var context = {
     members: [{
       name: 'Abd Elrahman Samir',
       title: 'Mechanical Team Member',
-      img: 'img/leadership/none.png',
+      img: 'img/members/abdelrahmanSamir.jpg',
     }, {
       name: 'Omar Ibn Elkhatab',
       title: 'Electrical Team Member',
