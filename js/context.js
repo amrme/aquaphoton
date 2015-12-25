@@ -407,7 +407,8 @@ var context = {
     title: 'Co-Founder & CTO',
     img: 'img/leadership/omar.jpg',
     linkedin: 'https://eg.linkedin.com/in/omarzahra',
-  }, {
+  },
+   {
     name: 'Mostafa Abd Elaal',
     title: 'Co-Founder & R&D Director',
     img: 'img/leadership/mostafa.jpg',
