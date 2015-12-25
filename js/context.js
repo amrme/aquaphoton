@@ -61,7 +61,128 @@ var context = {
     title: 'Aquatint Pro',
     price: '$12,500',
     img: 'img/products/aquatint.jpg',
-    description: '',
+    manual: 'assets/manuals/company/aquatintPro.pdf',
+    relatedItem: [{
+      img: "img/products/upgradedAdmiral2.jpg",
+      name: "Admiral II",
+      price: '$4,000',
+      url: '1.html',
+    }, ],
+    description: [
+      {
+        title: "General specifications",
+        point: [
+          {
+            spec:'100m (330 ft.) depth rating. with 150m tether.'
+          },
+          {
+            spec: 'Four powerful brushless DC thrusters'
+          },
+          {
+            spec: 'Extensive mechanical design for increased stability.',
+          },
+          {
+            spec: 'Multiple camera options including rear and side cameras.',
+          },
+          {
+            spec: 'Single phase 220 VAC with maximum power consumption of 1200 W'
+          },
+          {
+            spec: 'Dimensions: L*W*H = 400 * 300 * 300 mm',
+          },
+          {
+            spec: 'Weight in air: Weight without NDT sensors = 18 Kg, Weight with NDT sensors = 21 5 Kg',
+          },
+        ],
+      },
+      {
+        title: 'Thrusters',
+        point: [
+          {
+            spec: 'Our ROV is equipped with four thrusters in order to operate in water with high current speeds up to 2 knots E. to rnaneuver in 5 degrees of freedom.'
+          },
+          {
+            spec: 'Two non-vectored horizontal thrusters are placed to produce a thrust force of 13.5 kg.f in the horizontal direction. while two vectored vertical thrusters are placed to give 8.5 kg.f in the vertical direction 8. to lift up to 5 kg payload.',
+          },
+          {
+            spec: 'The thrusters are made of hard anodized aluminum to deal with harshest environments E. decrease rate of corrosion.'
+          }
+        ],
+      },
+      {
+        title: 'Buoyancy kit',
+        point: [
+          {
+            spec: 'Our buoyancy lut is made of Syntactic Foam, syntactic foams are engineered to provide the lowest possible density for any given depth.'
+          },
+          {
+            spec: 'Produced from the most advanced resin and hollow glass microspheres available, they offer high compressivestrength and stiffness, high buoyancy per volume and extremely low water absorption.'
+          }
+        ]
+      },
+      {
+        title: 'Cameras/Lighting',
+        point: [
+          {
+            spec: 'IP Camera: four megapixels high definition',
+          },
+          {
+            spec: 'Camera Tilt: 180 degrees'
+          },
+          {
+            spec: 'Angles of View: 186° (horizontal), 106.(vertical) '
+          },
+          {
+            spec: 'Sensitivity: 0.01 lux'
+          },
+          {
+            spec: 'Format: ONVIF, PSIA. CGI, ISAPI'
+          },
+          {
+            spec: 'Lighting: 2000 Lumen LED'
+          }
+        ]
+      },
+      {
+        title: 'Control System',
+        point: [
+          {
+            spec: 'The interface between AQUATINT PRO and the operator is the Operator Control Unit fOCU). Through the OCU, the operator can feed power and control signals to the ROV. Equipped with main switch and emergency buttqn, safety of both the operator and the ROV can be insured. Cameras signals are fed to the OCU so that clear vision on rugged rnonitors gives the operator a clear vision of the underwater environment and stable operation. Not only cameras, but also-sensors data overlay enables the operator to have more awareness of the ROV status.'
+          },
+          {
+            spec: 'Power requirements: 1200 watts, 220VAC, Video overlay: Depth, heading, lights, camera angle, time, date and user programmable characters.'
+          }
+        ]
+      },
+      {
+        title: 'Tether',
+        point: [
+          {
+            spec: 'Diameter: 14 mm'
+          },
+          {
+            spec: 'Length: 500 ft.'
+          },
+          {
+            spec: 'Buoyancy: Neutrally Buoyant in fresh water, bright green'
+          },
+          {
+            spec: '300 volt rated conductors'
+          }
+        ]
+      },
+      {
+        title: 'Manipulator',
+        point: [
+          {
+            spec: 'The manipulator ann can be easily attached to the ROV to lift objects underwater. From the control unit, you can open and close the jaws to a three inches distance to retrieve items in confined or hazardous locations.'
+          },
+          {
+            spec: 'The ROV camera focuses in on the manipulator arm to provide a close view of the operation. When not needed, the manipulator arm can be easily removed in seconds.'
+          }
+        ]
+      },
+    ],
   }, {
     title: 'Admiral II',
     price: '$4,000',
@@ -263,7 +384,7 @@ var context = {
       img: "img/products/aquatint.jpg",
       name: "Aquatint Pro",
       price: '$12,500',
-
+      url: '0.html',
     }, ],
   }, ],
   leaders: [{
