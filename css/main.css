@@ -256,11 +256,6 @@ html {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 234, less/main.less */
-.intro .intro-body .carousel-indicators {
-  position: absolute;
-  top: 85%;
-}
 /* line 238, less/main.less */
 .intro .intro-body .carousel-inner {
   position: relative;
