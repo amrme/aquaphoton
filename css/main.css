@@ -92,7 +92,7 @@ html {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.4);
   border-radius: 5%;
 }
 /* line 78, less/main.less */
@@ -101,38 +101,39 @@ html {
   outline: none;
   background-color: transparent;
   text-decoration: underline;
+  background: white;
 }
-/* line 84, less/main.less */
+/* line 85, less/main.less */
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
-/* line 90, less/main.less */
+/* line 91, less/main.less */
 .navbar-custom .nav li.active {
   outline: none;
 }
-/* line 92, less/main.less */
+/* line 93, less/main.less */
 .navbar-custom .nav li.active a {
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 94, less/main.less */
+/* line 95, less/main.less */
 .navbar-custom .nav li.active a:hover {
   color: black;
 }
-/* line 99, less/main.less */
+/* line 100, less/main.less */
 .navbar-custom .nav li.active ul a {
   background-color: transparent;
 }
 @media (min-width: 768px) {
-  /* line 106, less/main.less */
+  /* line 107, less/main.less */
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
     background: transparent;
   }
-  /* line 112, less/main.less */
+  /* line 113, less/main.less */
   .navbar-custom .navbar-brand .brand-logo {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -141,30 +142,30 @@ html {
     transition: all 0.3s ease-in-out;
     max-height: 100px;
   }
-  /* line 125, less/main.less */
+  /* line 126, less/main.less */
   .navbar-custom li {
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  /* line 128, less/main.less */
+  /* line 129, less/main.less */
   .navbar-custom li a {
     font-size: 1.5vw;
   }
-  /* line 139, less/main.less */
+  /* line 140, less/main.less */
   .navbar-custom.top-nav-collapse {
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
-  /* line 144, less/main.less */
+  /* line 145, less/main.less */
   .navbar-custom.top-nav-collapse .brand-logo {
     display: inline;
     margin-top: -15px;
     margin-left: 20px;
     max-height: 50px;
   }
-  /* line 150, less/main.less */
+  /* line 151, less/main.less */
   .navbar-custom.top-nav-collapse a {
     color: black;
     font-weight: normal;
@@ -172,7 +173,7 @@ html {
   }
 }
 /* toggle navbar button on hover */
-/* line 160, less/main.less */
+/* line 161, less/main.less */
 .dropdown-menu .sub-menu {
   left: 100%;
   position: absolute;
@@ -180,21 +181,21 @@ html {
   visibility: hidden;
   margin-top: -1px;
 }
-/* line 168, less/main.less */
+/* line 169, less/main.less */
 .dropdown-menu li:hover .sub-menu {
   visibility: visible;
 }
-/* line 172, less/main.less */
+/* line 173, less/main.less */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-/* line 176, less/main.less */
+/* line 177, less/main.less */
 .nav-tabs .dropdown-menu,
 .nav-pills .dropdown-menu,
 .navbar .dropdown-menu {
   margin-top: 0;
 }
-/* line 180, less/main.less */
+/* line 181, less/main.less */
 .navbar .sub-menu:before {
   border-bottom: 7px solid transparent;
   border-left: none;
@@ -203,7 +204,7 @@ html {
   left: -7px;
   top: 10px;
 }
-/* line 188, less/main.less */
+/* line 189, less/main.less */
 .navbar .sub-menu:after {
   border-top: 6px solid transparent;
   border-left: none;
@@ -213,7 +214,7 @@ html {
   top: 11px;
   left: -6px;
 }
-/* line 199, less/main.less */
+/* line 200, less/main.less */
 .intro {
   display: table;
   height: 100%;
@@ -226,40 +227,40 @@ html {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 212, less/main.less */
+/* line 213, less/main.less */
 .intro .header-logo {
   transform: scale(0.5, 0.5);
   -ms-transform: scale(0.5, 0.5);
   -webkit-transform: scale(0.5, 0.5);
 }
-/* line 217, less/main.less */
+/* line 218, less/main.less */
 .intro .main-heading {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 10vw;
   color: #037B9D;
   line-height: 80%;
 }
-/* line 222, less/main.less */
+/* line 223, less/main.less */
 .intro .main-heading small {
   color: #00B0A3;
   letter-spacing: 0.1vw;
 }
 @media (min-width: 768px) {
-  /* line 226, less/main.less */
+  /* line 227, less/main.less */
   .intro .main-heading {
     font-size: 5vw;
   }
 }
-/* line 230, less/main.less */
+/* line 231, less/main.less */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 233, less/main.less */
+/* line 234, less/main.less */
 .intro .intro-body .carousel-inner {
   position: relative;
 }
-/* line 235, less/main.less */
+/* line 236, less/main.less */
 .intro .intro-body .carousel-inner img {
   width: 100%;
   -moz-filter: brightness(0.2);
@@ -272,19 +273,19 @@ html {
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 }
 @media only screen and (max-width: 959px) {
-  /* line 241, less/main.less */
+  /* line 242, less/main.less */
   .intro .intro-body .carousel-inner img {
     height: 700px;
   }
 }
-/* line 258, less/main.less */
+/* line 259, less/main.less */
 .intro .intro-body .brand-content {
   position: absolute;
   top: 70px;
   left: 5%;
 }
 @media (min-width: 768px) {
-  /* line 266, less/main.less */
+  /* line 267, less/main.less */
   .intro .header-logo {
     transform: scale(0.3, 0.3);
     -ms-transform: scale(0.3, 0.3);
@@ -293,39 +294,39 @@ html {
     margin-bottom: -15%;
   }
 }
-/* line 277, less/main.less */
+/* line 278, less/main.less */
 .section-title {
   margin-top: 15%;
   font-family: 'Pathway Gothic One', sans-serif;
 }
-/* line 286, less/main.less */
+/* line 287, less/main.less */
 #about .panel .panel-heading .panel-title a {
   font-size: 1.3em;
 }
-/* line 288, less/main.less */
+/* line 289, less/main.less */
 #about .panel .panel-heading .panel-title a:active,
 #about .panel .panel-heading .panel-title a:focus,
 #about .panel .panel-heading .panel-title a:visited {
   text-decoration: none;
 }
-/* line 294, less/main.less */
+/* line 295, less/main.less */
 #about .panel .panel-body {
   font-family: sans-serif;
   font-size: 1.3em;
 }
-/* line 303, less/main.less */
+/* line 304, less/main.less */
 #service .product-thumbnail .imgWrap {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 306, less/main.less */
+/* line 307, less/main.less */
 #service .product-thumbnail .imgWrap .service-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 310, less/main.less */
+/* line 311, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription {
   position: absolute;
   top: 0;
@@ -342,7 +343,7 @@ html {
   opacity: 0;
   -webkit-transition: visibility opacity 0.2s;
 }
-/* line 323, less/main.less */
+/* line 324, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service {
   position: absolute;
   top: 30%;
@@ -351,40 +352,40 @@ html {
   left: 0;
   overflow: hidden;
 }
-/* line 331, less/main.less */
+/* line 332, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content .img-title {
   font-size: 150%;
 }
-/* line 335, less/main.less */
+/* line 336, less/main.less */
 #service .product-thumbnail .imgWrap .imgDescription .about-service .inner-img-content p a {
   font-size: 20px;
 }
-/* line 343, less/main.less */
+/* line 344, less/main.less */
 #service .product-thumbnail .imgWrap:hover .imgDescription {
   visibility: visible;
   transition: all 0.2s ease-in-out;
   opacity: 1;
   z-index: 99;
 }
-/* line 356, less/main.less */
+/* line 357, less/main.less */
 .modal-content .modal-body p {
   margin-top: 5%;
   margin-left: 3%;
   margin-right: 3%;
   font-size: 20px;
 }
-/* line 365, less/main.less */
+/* line 366, less/main.less */
 .product-image {
   max-height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 371, less/main.less */
+/* line 372, less/main.less */
 #leader .leader-div {
   overflow: hidden;
 }
-/* line 373, less/main.less */
+/* line 374, less/main.less */
 #leader .leader-div .leader-image {
   max-height: 200px;
   display: block;
@@ -392,22 +393,22 @@ html {
   margin-right: auto;
   border-radius: 5%;
 }
-/* line 377, less/main.less */
+/* line 378, less/main.less */
 #leader .leader-div .leader-image:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
-/* line 381, less/main.less */
+/* line 382, less/main.less */
 #leader .leader-div .leader-name {
   font-family: 'Pathway Gothic One', sans-serif;
   margin-bottom: 50px;
 }
-/* line 384, less/main.less */
+/* line 385, less/main.less */
 #leader .leader-div .leader-name small {
   color: rgba(3, 123, 157, 0.8);
 }
 /* stye academy section */
-/* line 392, less/main.less */
+/* line 393, less/main.less */
 #academy {
   display: table;
   height: 70%;
@@ -418,15 +419,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 402, less/main.less */
+/* line 403, less/main.less */
 #academy .floating-section {
   color: white;
 }
-/* line 405, less/main.less */
+/* line 406, less/main.less */
 #academy .floating-section .section-head {
   margin-top: 10%;
 }
-/* line 407, less/main.less */
+/* line 408, less/main.less */
 #academy .floating-section .section-head .heading {
   background-color: rgba(0, 0, 0, 0.4);
   padding-left: 10px;
@@ -434,7 +435,7 @@ html {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 411, less/main.less */
+/* line 412, less/main.less */
 #academy .floating-section .section-body {
   background-color: rgba(0, 0, 0, 0.5);
   padding-left: 10px;
@@ -444,89 +445,89 @@ html {
   font-size: 22px;
 }
 /* stye the team's section */
-/* line 420, less/main.less */
+/* line 421, less/main.less */
 .academy-section {
   margin-bottom: 10%;
   overflow: hidden;
 }
-/* line 422, less/main.less */
+/* line 423, less/main.less */
 .academy-section img {
   border-radius: 5%;
 }
-/* line 424, less/main.less */
+/* line 425, less/main.less */
 .academy-section img:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.1);
 }
-/* line 427, less/main.less */
+/* line 428, less/main.less */
 .academy-section img:active {
   transition: all 0.2s ease-in-out;
   transform: scale(1);
 }
-/* line 432, less/main.less */
+/* line 433, less/main.less */
 .academy-section .section-head {
   margin-top: 3%;
 }
-/* line 438, less/main.less */
+/* line 439, less/main.less */
 .academy-section .section-body {
   font-size: 20px;
 }
 /* stye the courses */
 /* footer styles */
-/* line 499, less/main.less */
+/* line 500, less/main.less */
 footer {
   padding-top: 20px;
   padding-bottom: 50px;
   background: rgba(3, 123, 157, 0.3);
 }
-/* line 503, less/main.less */
+/* line 504, less/main.less */
 footer .footer-body {
   color: black;
   font-family: sans-serif;
 }
-/* line 506, less/main.less */
+/* line 507, less/main.less */
 footer .footer-body .footer-logo {
   max-height: 100px;
   margin-bottom: 10px;
 }
-/* line 510, less/main.less */
+/* line 511, less/main.less */
 footer .footer-body ul {
   font-size: 15px;
   line-height: 30px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
-/* line 516, less/main.less */
+/* line 517, less/main.less */
 footer .footer-body ul li a {
   font-weight: normal;
   color: grey;
 }
-/* line 519, less/main.less */
+/* line 520, less/main.less */
 footer .footer-body ul li a:hover {
   color: #037B9D;
 }
 /* contact section style */
-/* line 529, less/main.less */
+/* line 530, less/main.less */
 #contact {
   padding-top: 6%;
   padding-bottom: 3%;
 }
-/* line 532, less/main.less */
+/* line 533, less/main.less */
 #contact #contactform,
 #contact #contactformTeam {
   margin-bottom: 5%;
   margin-top: 2%;
 }
-/* line 535, less/main.less */
+/* line 536, less/main.less */
 #contact #contactform .contactform,
 #contact #contactformTeam .contactform {
   width: 100%;
 }
-/* line 539, less/main.less */
+/* line 540, less/main.less */
 #contact .address {
   font-family: sans-serif;
 }
-/* line 542, less/main.less */
+/* line 543, less/main.less */
 #contact #map-container,
 #contact #map-container-team {
   width: 100%;
@@ -535,85 +536,85 @@ footer .footer-body ul li a:hover {
   margin-bottom: 15px;
   border: 2px solid #fff;
 }
-/* line 552, less/main.less */
+/* line 553, less/main.less */
 #awards .award-year {
   color: black;
   font-size: 1.3em;
 }
-/* line 555, less/main.less */
+/* line 556, less/main.less */
 #awards .award-year:active,
 #awards .award-year:focus,
 #awards .award-year:visited {
   text-decoration: none;
 }
-/* line 564, less/main.less */
+/* line 565, less/main.less */
 #zero .breadcrumb li {
   font-size: 1.3em;
 }
-/* line 568, less/main.less */
+/* line 569, less/main.less */
 #zero .product-title {
   color: black;
   font-size: 2em;
   font-family: sans-serif;
   margin-bottom: 40px;
 }
-/* line 572, less/main.less */
+/* line 573, less/main.less */
 #zero .product-title small {
   color: white;
   font-size: 0.6em;
 }
-/* line 578, less/main.less */
+/* line 579, less/main.less */
 #zero .product-thumbnail-small {
   max-height: 70px;
 }
-/* line 581, less/main.less */
+/* line 582, less/main.less */
 #zero .product-thumbnail-small:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.5);
 }
-/* line 585, less/main.less */
+/* line 586, less/main.less */
 #zero .description {
   margin-top: 50px;
 }
-/* line 587, less/main.less */
+/* line 588, less/main.less */
 #zero .description .panel-heading {
   font-size: 1.5em;
   font-family: fantasy;
 }
-/* line 591, less/main.less */
+/* line 592, less/main.less */
 #zero .description .panel-body {
   font-size: 1.2em;
   font-family: sans-serif;
 }
-/* line 599, less/main.less */
+/* line 600, less/main.less */
 .highlights .fa {
   font-size: 20px;
   color: rgba(0, 128, 0, 0.4);
 }
-/* line 603, less/main.less */
+/* line 604, less/main.less */
 .highlights .main-heading {
   font-family: serif;
   text-transform: uppercase;
 }
-/* line 606, less/main.less */
+/* line 607, less/main.less */
 .highlights .main-heading a {
   color: #037B9D;
 }
-/* line 608, less/main.less */
+/* line 609, less/main.less */
 .highlights .main-heading a:active,
 .highlights .main-heading a:hover,
 .highlights .main-heading a:visited {
   color: #00B0A3;
   text-decoration: none;
 }
-/* line 614, less/main.less */
+/* line 615, less/main.less */
 .highlights .highlight-img {
   -webkit-filter: grayscale(70%);
   filter: grayscale(70%);
   position: relative;
   z-index: 90;
 }
-/* line 620, less/main.less */
+/* line 621, less/main.less */
 .highlights .caption {
   position: absolute;
   top: 50%;
@@ -623,96 +624,96 @@ footer .footer-body ul li a:hover {
   font-size: 1.5em;
   font-family: fantasy;
 }
-/* line 629, less/main.less */
+/* line 630, less/main.less */
 .highlights .caption .fa {
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 633, less/main.less */
+/* line 634, less/main.less */
 .highlights .date {
   font-family: sans-serif;
   font-size: 10px;
 }
-/* line 636, less/main.less */
+/* line 637, less/main.less */
 .highlights .date .fa {
   color: rgba(0, 0, 0, 0.5);
   font-size: 11px;
 }
-/* line 641, less/main.less */
+/* line 642, less/main.less */
 .highlights .location {
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
   text-align: center;
 }
-/* line 650, less/main.less */
+/* line 651, less/main.less */
 .upcoming .fa {
   font-size: 20px;
   color: rgba(255, 0, 0, 0.6);
 }
-/* line 654, less/main.less */
+/* line 655, less/main.less */
 .upcoming .main-heading {
   font-family: serif;
   text-transform: uppercase;
 }
-/* line 657, less/main.less */
+/* line 658, less/main.less */
 .upcoming .main-heading a {
   color: #037B9D;
 }
-/* line 659, less/main.less */
+/* line 660, less/main.less */
 .upcoming .main-heading a:active,
 .upcoming .main-heading a:hover,
 .upcoming .main-heading a:visited {
   color: #00B0A3;
   text-decoration: none;
 }
-/* line 665, less/main.less */
+/* line 666, less/main.less */
 .upcoming .date {
   font-family: sans-serif;
   font-size: 13px;
 }
-/* line 668, less/main.less */
+/* line 669, less/main.less */
 .upcoming .date .fa {
   color: rgba(0, 0, 0, 0.5);
   font-size: 11px;
 }
-/* line 672, less/main.less */
+/* line 673, less/main.less */
 .upcoming .date .fa-calendar {
   color: green;
 }
-/* line 676, less/main.less */
+/* line 677, less/main.less */
 .upcoming .location {
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
   text-align: center;
 }
-/* line 682, less/main.less */
+/* line 683, less/main.less */
 .upcoming .btn {
   margin-top: 5px;
   border-radius: 0;
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 687, less/main.less */
+/* line 688, less/main.less */
 .upcoming .btn .fa {
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
 }
-/* line 694, less/main.less */
+/* line 695, less/main.less */
 .details {
   margin-bottom: 100px;
 }
-/* line 695, less/main.less */
+/* line 696, less/main.less */
 .details .main-heading {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-transform: uppercase;
 }
-/* line 699, less/main.less */
+/* line 700, less/main.less */
 .details img {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-/* line 703, less/main.less */
+/* line 704, less/main.less */
 .details .post-body {
   background-color: rgba(3, 123, 157, 0.04);
   border-bottom-left-radius: 5%;
@@ -722,29 +723,29 @@ footer .footer-body ul li a:hover {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-/* line 711, less/main.less */
+/* line 712, less/main.less */
 .details .post-body .date {
   font-family: sans-serif;
   font-size: 10px;
 }
-/* line 714, less/main.less */
+/* line 715, less/main.less */
 .details .post-body .date .fa {
   color: rgba(0, 0, 0, 0.5);
   font-size: 11px;
 }
-/* line 719, less/main.less */
+/* line 720, less/main.less */
 .details .post-body .location {
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
   text-align: center;
 }
-/* line 725, less/main.less */
+/* line 726, less/main.less */
 .details .post-body .about {
   font-family: sans-serif;
   font-size: 14px;
 }
-/* line 730, less/main.less */
+/* line 731, less/main.less */
 .details .btn {
   font-family: monospace;
   font-size: 14px;
@@ -752,12 +753,12 @@ footer .footer-body ul li a:hover {
   border-radius: 0;
 }
 /*Change icons size here*/
-/* line 740, less/main.less */
+/* line 741, less/main.less */
 .social-icons .fa {
   font-size: 0.7em !important;
 }
 /*Change icons circle size and color here*/
-/* line 744, less/main.less */
+/* line 745, less/main.less */
 .social-icons .fa {
   width: 30px !important;
   height: 30px !important;
@@ -771,7 +772,7 @@ footer .footer-body ul li a:hover {
   -o-transition: all 0.3s ease-in-out !important;
   transition: all 0.3s ease-in-out !important;
 }
-/* line 756, less/main.less */
+/* line 757, less/main.less */
 .social-icons .fa:hover {
   -webkit-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;
@@ -780,15 +781,15 @@ footer .footer-body ul li a:hover {
   transform: scale(1.2) !important;
   background-color: rgba(0, 176, 163, 0.5) !important;
 }
-/* line 765, less/main.less */
+/* line 766, less/main.less */
 .social-icons.icon-circle .fa {
   border-radius: 50% !important;
 }
-/* line 768, less/main.less */
+/* line 769, less/main.less */
 .social-icons .fa-linkedin {
   background-color: #0085AE !important;
 }
-/* line 771, less/main.less */
+/* line 772, less/main.less */
 .social-icons .fa-facebook {
   background-color: #3C599F !important;
 }
