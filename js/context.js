@@ -65,31 +65,199 @@ var context = {
   }, {
     title: 'Admiral II',
     price: '$4,000',
-    img: 'img/products/admiral2.jpg',
+    img: 'img/products/upgradedAdmiral20.JPG',
     description: [{
-      title: 'General specifications',
+      title: 'Vehicle specifications',
       point: [{
-        spec: '100m (330 ft.) depth rating, with 150m tether.',
+        spec: '20 m (65 ft.) depth rating',
       }, {
-        spec: '4 powerful brushless DC thrusters.',
-      }, ],
+        spec: 'Chasis: High impact black polyamide',
+      },
+      {
+        spec: 'Length: 700 mm',
+      },
+      {
+        spec: 'Width: 520 mm',
+      },
+      {
+        spec: 'Height: 400 mm',
+      },
+      {
+        spec: 'Weight in air: 50 Kg',
+      },
+      {
+        spec: 'Total system Weight: 70 Kg',
+      },
+      {
+        spec: 'Payload: 7 Kg, 15 kg with additional ballast.',
+      },
+      {
+        spec: 'Cruising speed: up to 2 knots.',
+      },
+      {
+        spec: 'Total power consumption: 900 W',
+      },
+      {
+        spec: 'Grabber: Three jaw, interlocking at any position.',
+      },
+     ],
     }, {
-      title: 'General specifications',
+      title: 'Thrusters/Performance',
       point: [{
-        spec: '100m (330 ft.) depth rating, with 150m tether.',
+        spec: 'The Admiral 2 is equipped with six thrusters configuration, arranged in special manner to give 8 DOF (degrees of freedom) motion.',
       }, {
-        spec: '4 powerful brushless DC thrusters.',
-      }, ],
-    }, ],
-    images: [{
-      img: 'img/products/admiral2.jpg',
-    }, {
-      img: 'img/products/admiral2-3.png',
-    }, {
-      img: 'img/products/admiral2-1.jpg',
-    }, {
-      img: 'img/products/admiral2-4.png',
-    }, ],
+        spec: 'Configuration: 4 Vectored Horizontal (each 1.4 kgf forward thrust & 1.2 kgf in reverse direc­tion) , 2 vertical thrusters (each 1.6 kgf forward thrust & 1.4 in reverse direction)',
+      },
+      {
+        spec: 'Vector Angle: Manually variable to get the required cruising speed in any direction.',
+      },
+      {
+        spec: 'Motor Type: Brushed DC direct drive',
+      },
+      {
+        spec: 'Prop Diameter: 90 mm for vertical thrusters & 70 mm for horizontal thrusters',
+      },
+    ],
+    },
+    {
+      title: 'Forward Camera & Lights',
+      point: [{
+        spec: 'Format NTSC default'
+      },
+      {
+        spec: 'Resolution	420 TV lines'
+      },
+      {
+        spec: 'Effective pixels: (322,752) 492 * 656'
+      },
+      {
+        spec: 'Current consumption < 150 mA'
+      },
+      {
+        spec: 'Horizontal angle: 160/110'
+      },
+      {
+        spec: 'Lens angle: 170/120',
+      },
+      {
+        spec: 'Sensitivity: 0.5 lux/F1.2',
+      },
+      {
+        spec: 'Lights : 2xLED, variable intensity, tilt with camera'
+      },
+      {
+        spec: 'Tilt Range : 180 Degree',
+      },
+    ],
+    },
+    {
+      title: 'Control system',
+      point: [
+        {
+          spec: 'Configuration: Rugged case with weath­erproof monitor'
+        },
+        {
+          spec: 'Monitor: Color LCD 17"',
+        },
+        {
+          spec: 'Flight simulator Joystick'
+        },
+        {
+          spec: 'Video recording : DV recorder mounted in controller (4 GB)',
+        },
+        {
+          spec: 'Power Requirement: 900 watts, 240-100VAC'
+        },
+      ],
+    },
+    {
+      title: 'Spares',
+      point: [
+        {
+          spec: 'Thruster : 1.4 * ikgf thruster'
+        },
+        {
+          spec: 'Tools: Complete servicing tool box'
+        },
+        {
+          spec: 'Manuals : Operations, service and repair manual, hard copy and CD-ROM'
+        },
+        {
+          spec: 'Warranty : 12 month (1 year) AQUA-PHOTON Limited Warranty — not including propeller, tether or chassis damage.'
+        },
+      ],
+    },
+    {
+      title: 'Admiral 2 additional (optional) features',
+      point: [
+        {
+          spec: '2 or 3 function manipulator.',
+        },
+        {
+          spec: 'Additional camera: Sensitivity : 0.5 lux, Resolution : 380 TV Lines, Focus	: Fixed'
+        },
+        {
+          spec: 'Image scaling system : Laser scaling'
+        },
+        {
+          spec: 'Sonar: Scanning sonar, multi-beam sonar, profiling sonar'
+        },
+        {
+          spec: 'Tracking: USBL positioning system'
+        },
+        {
+          spec: 'Sensors : Heading: Compass Accuracy 03± o Depth: Depth Sensor Accuracy %2± of FSD'
+        },
+        {
+          spec: 'Pitch:	Gyro 0.5 "Vs'
+        },
+        {
+          spec: 'Temperature sensor.'
+        },
+        {
+          spec: 'CP Probe.'
+        },
+        {
+          spec: 'Alarms: Temperature, Leak, Thruster stall'
+        },
+        {
+          spec: '1500 lumen aux. LED light modules'
+        },
+        {
+          spec: 'Manual Hand reel with slip ring (for tether management)'
+        },
+        {
+          spec: 'Video overlay system for control unit : o Date and time'
+        },
+        {
+          spec: 'Compass heading'
+        },
+        {
+          spec: 'Depth'
+        },
+        {
+          spec: 'Camera tilt position'
+        },
+        {
+          spec: 'Vehicle pitch'
+        },
+      ],
+    },
+  ],
+    images: [
+      {
+        img: 'img/products/upgradedAdmiral20.JPG',
+    },
+    {
+      img: 'img/products/upgradedAdmiral2.JPG',
+    },
+    {
+      img: 'img/products/upgradedAdmiral21.JPG',
+    },
+    {
+      img: 'img/products/upgradedAdmiral22.JPG',
+    },
+   ],
     relatedItem: [{
       img: "img/products/aquatint.jpg",
       name: "Aquatint Pro",
