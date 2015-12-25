@@ -63,7 +63,7 @@ var context = {
     img: 'img/products/aquatint.jpg',
     manual: 'assets/manuals/company/aquatintPro.pdf',
     relatedItem: [{
-      img: "img/products/upgradedAdmiral2.jpg",
+      img: "img/products/upgradedAdmiral20.JPG",
       name: "Admiral II",
       price: '$4,000',
       url: '1.html',
