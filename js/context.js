@@ -898,7 +898,19 @@ var context = {
     date: "Starting Soon",
   },
  ],
-  camps: [{
+  camps: [
+    {
+      title: "The 2nd Robotics Camp",
+      location: "NTI - Smart Village, Cairo, Egypt",
+      url: 'https://www.facebook.com/events/1049429841743612/',
+      date: "September 19, 2015 - September 21, 2015",
+      state: "completed",
+      description: 'There was workshops in three different tracks; at the end of each workshop attendees were able to build their own prototype, every attendee had the right to attend only one track, so they had to choose their preferable one from the following tracks: Unmanned Ground Vehicles (UGV),	Unmanned Aerial Vehicles (UAV), Remotely Operated underwater Vehicles (ROV) ',
+      pictures: [{
+        img: 'img/camps/egRoboticsSept/2.jpg',
+      }],
+    },
+    {
     title: "Robotics Camp at Zewail City by EG Robotics",
     location: "Zewail City, Sheikh Zayed district, 6th of October City, Giza, Egypt, 12588",
     url: 'https://www.facebook.com/events/954821534585450/',
