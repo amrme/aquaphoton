@@ -1,10 +1,10 @@
 var context = {
   about: [{
     title: 'Brief',
-    content: 'AquaPhoton is an Egyptian startup for underwater marine services and technologies that was founded in 2014 by graduate students from the faculty of Engineering, Alexandria University.',
+    content: 'AquaPhoton is an Egyptian startup for underwater marine services and technologies that was founded in 2014 by graduate students from the <a href="http://eng.au.alexu.edu.eg" target="_blank">faculty of Engineering, Alexandria University</a>.',
   }, {
     title: 'History',
-    content: "The co-founders started their path as participants in the International MATE ROV competition. After the graduation they decided to share their passion with fresh aspiring engineers, that's when they decided to co-found AquaPhoton Academy, to help college undergraduates get involved in the underwater marine technology.",
+    content: "The co-founders started their path as participants in the International <a href='http://www.marinetech.org/rov-competition-2/' target='_blank'>MATE ROV competition</a>. After the graduation they decided to share their passion with fresh aspiring engineers, that's when they decided to co-found AquaPhoton Academy, to help college undergraduates get involved in the underwater marine technology.",
   }, {
     title: 'Vision',
     content: "Looking forward to being a leading company in the ROV and marine technology in MENA region by providing and developing products, services and training for all technologies related to underwater and marine technologies.",
