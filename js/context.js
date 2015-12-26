@@ -891,7 +891,13 @@ var context = {
     title: "How to build your own ROV",
     location: "Alexandria, EG",
     date: "Starting Soon",
-  }, ],
+  },
+  {
+    title: "How to build your own ROV",
+    location: "Cairo, EG",
+    date: "Starting Soon",
+  },
+ ],
   camps: [{
     title: "Robotics Camp at Zewail City by EG Robotics",
     location: "Zewail City, Sheikh Zayed district, 6th of October City, Giza, Egypt, 12588",
