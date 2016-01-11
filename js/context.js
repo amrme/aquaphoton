@@ -921,5 +921,12 @@ var context = {
       img: 'img/camps/egRoboticsSept/1.jpg',
     }, ],
   },  ],
-  upcomingCamps: [],
+  upcomingCamps: [
+    {
+      title: "EG Robotics Camp (Mid Year)",
+      location: "NTI - Smart Village, Cairo, Egypt",
+      date: "February 8 - February 10",
+      url: "https://www.facebook.com/events/999100633496805/"
+    },
+  ],
 };
