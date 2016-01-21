@@ -186,7 +186,7 @@ var context = {
   }, {
     title: 'Admiral II',
     price: '$4,000',
-    img: 'img/products/upgradedAdmiral20.JPG',
+    img: 'img/products/upgradedAdmiral20 thumb.png',
     manual: 'assets/manuals/company/admiral2.pdf',
     description: [{
       title: 'Vehicle specifications',
