@@ -428,7 +428,7 @@ var context = {
   team16: {
     members: [{
       name: 'Abdelhamid Kassem',
-      title: 'CEO',
+      title: 'ex-CEO (studying abroad)',
       img: 'img/members/abdelhamid.jpg',
     }, {
       name: 'Ahmed Al-Tawil',
@@ -480,7 +480,7 @@ var context = {
       img: 'img/members/kahla.jpg',
     }, {
       name: 'Hassen Mohamed',
-      title: 'Mechanical Team Member',
+      title: 'CEO',
       img: 'img/members/hassen.jpg',
     }, {
       name: 'Fouad Elsafwany',
