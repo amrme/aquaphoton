@@ -40,11 +40,6 @@
 
 <body>
 
-  <!-- Preloader -->
-  <div id="preloader">
-    <div id="status">&nbsp;</div>
-  </div>
-
   <nav class="navbar navbar-custom">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -165,7 +160,7 @@
      {{#each members}}
        <div class="col-md-3 col-sm-4 col-xs-12 leader-div">
          <img src="{{img}}" class="img-responsive leader-image wow zoomIn" />
-         <h3 class="text-center leader-name wow lightSpeedIn">{{name}} <br> <small>{{title}}</small><br>
+         <h3 class="text-center leader-name wow lightSpeedIn">{{name}} <br> <small>{{{title}}}</small><br>
            {{#if linkedin}}
            <div class="social-icons icon-circle">
              <a href="{{linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>

@@ -460,7 +460,7 @@ var context = {
       img: 'img/members/sekilly.jpg',
     }, {
       name: 'Karim Tarek',
-      title: 'Mechanical Team Member',
+      title: 'Our Pilot <img src="img/pilot.png" style="margin-bottom:0px; padding-bottom:0px;">',
       img: 'img/members/karim.jpg',
     }, {
       name: 'Ahmed Abdelmeged',
