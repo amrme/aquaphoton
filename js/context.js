@@ -432,11 +432,11 @@ var context = {
       img: 'img/members/abdelhamid.jpg',
     }, {
       name: 'Ahmed Al-Tawil',
-      title: 'CTO [Head of Electrical Team]',
+      title: '<span class="label label-warning" style="font-size: 1.1em;">CTO</span> (Head of Electrical Team)',
       img: 'img/members/tawil.jpg',
     }, {
       name: 'Mostafa Abdelhamid',
-      title: 'CTO [Head of Mechanical Team]',
+      title: '<span class="label label-warning" style="font-size: 1.1em;">CTO</span> (Head of Mechanical Team)',
       img: 'img/members/mostafa.jpg',
     }, {
       name: 'Ahmed Youssef',
@@ -451,16 +451,16 @@ var context = {
       title: 'Electrical Team Member',
       img: 'img/members/tahona.jpg',
     }, {
-      name: 'Ahmed ElSayed',
+      name: 'Ahmed Elsayed',
       title: 'Electrical Team Member',
       img: 'img/members/sayed.jpg',
     }, {
-      name: 'Amr Sekilly',
+      name: 'Amr Mohamed',
       title: 'Electrical Team Member',
       img: 'img/members/sekilly.jpg',
     }, {
       name: 'Karim Tarek',
-      title: 'Our Pilot <img src="img/pilot.png" style="margin-bottom:0px; padding-bottom:0px;">',
+      title: '<span class="label label-primary" style="font-size: 1.1em;">Pilot <img src="img/pilot.png" style="margin-bottom:0px; padding-bottom:0px;"></span>',
       img: 'img/members/karim.jpg',
     }, {
       name: 'Ahmed Abdelmeged',
@@ -480,7 +480,7 @@ var context = {
       img: 'img/members/kahla.jpg',
     }, {
       name: 'Hassen Mohamed',
-      title: 'CEO',
+      title: '<span class="label label-danger" style="font-size: 1.1em;">CEO</span>',
       img: 'img/members/hassen.jpg',
     }, {
       name: 'Fouad Elsafwany',
